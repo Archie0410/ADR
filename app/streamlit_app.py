@@ -1,108 +1,134 @@
 import streamlit as st
-import pandas as pd
-import joblib
-import plotly.graph_objects as go
+import requests
 import shap
+import joblib
+import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
-
-
-model = joblib.load("models/xgb_model.pkl")
-encoders = joblib.load("models/encoders.pkl")
+import plotly.graph_objects as go
+from io import StringIO
 
 st.set_page_config(page_title="ADR Severity Predictor", page_icon="💊", layout="wide")
 st.title("💊 ADR Severity Risk Predictor")
+st.markdown("Enter patient data to get a real-time prediction of ADR (Adverse Drug Reaction) severity.")
 
-col1, col2 = st.columns([1, 1])
+model = joblib.load("models/xgb_model.pkl")
+explainer = shap.Explainer(model)
+encoders = joblib.load("models/encoders.pkl")
 
 
-with col1:
-    st.header("📝 Patient Details")
+with st.form("prediction_form"):
+    col1, col2 = st.columns(2)
 
-    age = st.number_input("Age", min_value=0, max_value=120, value=60)
-    gender = st.selectbox("Gender", encoders["gender"].classes_)
-    drug = st.selectbox("Drug", encoders["drug"].classes_)
-    genomics = st.selectbox("Genomic Marker", encoders["genomics"].classes_)
-    past_diseases = st.selectbox("Past Disease History", encoders["past_diseases"].classes_)
-    reason_for_drug = st.selectbox("Reason for Drug", encoders["reason_for_drug"].classes_)
-    drug_quantity = st.number_input("Number of Drugs Prescribed", min_value=1, max_value=20, value=2)
-    allergies = st.selectbox("Allergies", encoders["allergies"].classes_)
-    addiction = st.selectbox("Addiction", encoders["addiction"].classes_)
-    ayurvedic = st.selectbox("Ayurvedic Medicine Use", encoders["ayurvedic_medicine"].classes_)
-    hereditary = st.selectbox("Hereditary Disease", encoders["hereditary_disease"].classes_)
-    drug_duration = st.slider("Drug Duration (days)", 1, 180, 30)
-    age_group = st.selectbox("Age Group", encoders["age_group"].classes_)
+    with col1:
+        age = st.number_input("Age", min_value=0, max_value=120, value=60)
+        gender = st.selectbox("Gender", encoders["gender"].classes_)
+        drug = st.selectbox("Drug", encoders["drug"].classes_)
+        genomics = st.selectbox("Genomic Marker", encoders["genomics"].classes_)
+        past_diseases = st.selectbox("Past Disease History", encoders["past_diseases"].classes_)
+        reason_for_drug = st.selectbox("Reason for Drug", encoders["reason_for_drug"].classes_)
+        drug_quantity = st.number_input("Number of Drugs Prescribed", min_value=1, max_value=10, value=2)
 
-    polypharmacy_flag = 1 if drug_quantity > 3 else 0
+    with col2:
+        allergies = st.selectbox("Allergies", encoders["allergies"].classes_)
+        addiction = st.selectbox("Addiction", encoders["addiction"].classes_)
+        ayurvedic_medicine = st.selectbox("Ayurvedic Medicine Use", encoders["ayurvedic_medicine"].classes_)
+        hereditary_disease = st.selectbox("Hereditary Disease", encoders["hereditary_disease"].classes_)
+        drug_duration = st.number_input("Drug Duration (days)", min_value=1, max_value=365, value=30)
+        age_group = st.selectbox("Age Group", encoders["age_group"].classes_)
+        threshold = st.slider("Confidence Threshold", 0.0, 1.0, 0.5)
 
-    def encode(col, val):
-        return encoders[col].transform([val])[0]
+    submitted = st.form_submit_button("🧠 Predict ADR Severity")
 
-    input_data = {
+
+def check_drug_gene_rules(drug, genomics, past_diseases):
+    warnings = []
+    if drug.lower() == "aspirin" and genomics.lower() == "geneb":
+        warnings.append("⚠ Aspirin with GeneB increases ADR risk.")
+    if drug.lower() == "amoxicillin" and "kidney" in past_diseases.lower():
+        warnings.append("⚠ Amoxicillin not recommended for Kidney Disease.")
+    return warnings
+
+if submitted:
+    input_payload = {
         "age": age,
-        "gender": encode("gender", gender),
-        "drug": encode("drug", drug),
-        "genomics": encode("genomics", genomics),
-        "past_diseases": encode("past_diseases", past_diseases),
-        "reason_for_drug": encode("reason_for_drug", reason_for_drug),
+        "gender": gender,
+        "drug": drug,
+        "genomics": genomics,
+        "past_diseases": past_diseases,
+        "reason_for_drug": reason_for_drug,
         "drug_quantity": drug_quantity,
-        "allergies": encode("allergies", allergies),
-        "addiction": encode("addiction", addiction),
-        "ayurvedic_medicine": encode("ayurvedic_medicine", ayurvedic),
-        "hereditary_disease": encode("hereditary_disease", hereditary),
+        "allergies": allergies,
+        "addiction": addiction,
+        "ayurvedic_medicine": ayurvedic_medicine,
+        "hereditary_disease": hereditary_disease,
         "drug_duration": drug_duration,
-        "age_group": encode("age_group", age_group),
-        "polypharmacy_flag": polypharmacy_flag
+        "age_group": age_group
     }
 
-    input_df = pd.DataFrame([input_data])
-    expected_order = [
-        "age", "gender", "drug", "genomics", "past_diseases", "reason_for_drug",
-        "drug_quantity", "allergies", "addiction", "ayurvedic_medicine",
-        "hereditary_disease", "drug_duration", "age_group", "polypharmacy_flag"
-    ]
-    input_df = input_df[expected_order]
+    with st.spinner("Sending data to inference API..."):
+        try:
+            response = requests.post("http://localhost:8000/predict", json=input_payload)
+            if response.status_code == 200:
+                result = response.json()
+                prob = result['confidence']
 
-with col2:
-    st.header("🔍 Prediction Result")
+                colA, colB = st.columns([1, 1.2])
 
-    if st.button("🧠 Predict ADR Severity"):
-        prediction_encoded = model.predict(input_df)[0]
-        prediction_label = encoders["adr_severity"].inverse_transform([prediction_encoded])[0]
-        prob_high = model.predict_proba(input_df)[0][1]
+                with colA:
+                    if prob >= threshold:
+                        st.success(f"🔬 Predicted ADR Severity: **{result['adr_severity']}** (Confidence: {prob * 100:.1f}%)")
+                    else:
+                        st.info(f"Below confidence threshold ({threshold}), result: {result['adr_severity']}")
 
-        if prediction_label == "High":
-            st.error(f"⚠ **High ADR Risk** (Confidence: `{prob_high:.2f}`)")
-        else:
-            st.success(f"✅ **Low ADR Risk** (Confidence: `{1 - prob_high:.2f}`)")
+                    st.markdown("### 🔍 Feature Impact (SHAP Explanation)")
+                    try:
+                        def encode_input_for_shap(input_dict, encoders):
+                            data = input_dict.copy()
+                            encoded = {}
+                            for k, v in data.items():
+                                if k in encoders:
+                                    encoded[k] = encoders[k].transform([v])[0]
+                                else:
+                                    encoded[k] = v
+                            # Add polypharmacy_flag for SHAP input shape
+                            encoded["polypharmacy_flag"] = 1 if encoded["drug_quantity"] > 3 else 0
+                            ordered_cols = [
+                                "age", "gender", "drug", "genomics", "past_diseases", "reason_for_drug",
+                                "drug_quantity", "allergies", "addiction", "ayurvedic_medicine",
+                                "hereditary_disease", "drug_duration", "age_group", "polypharmacy_flag"
+                            ]
+                            return pd.DataFrame([encoded])[ordered_cols]
 
-       
-        fig = go.Figure(go.Indicator(
-            mode="gauge+number",
-            value=prob_high * 100,
-            title={"text": "ADR Risk (%)"},
-            gauge={
-                "axis": {"range": [0, 100]},
-                "bar": {"color": "red" if prob_high >= 0.5 else "green"},
-                "steps": [
-                    {"range": [0, 50], "color": "#d4edda"},
-                    {"range": [50, 100], "color": "#f8d7da"},
-                ],
-            }
-        ))
-        st.plotly_chart(fig, use_container_width=True)
+                        shap_input_df = encode_input_for_shap(input_payload, encoders)
+                        shap_values = explainer(shap_input_df)
+                        fig, ax = plt.subplots()
+                        shap.plots.bar(shap_values[0], show=False)
+                        st.pyplot(fig)
+                    except Exception as e:
+                        st.warning(f"SHAP Explanation unavailable: {e}")
 
-      
-        st.subheader("📊 SHAP Feature Contribution")
+                    warnings = check_drug_gene_rules(drug, genomics, past_diseases)
+                    for warn in warnings:
+                        st.error(warn)
 
-        explainer = shap.TreeExplainer(model)
-        shap_values = explainer.shap_values(input_df)
-
-        excluded_features = ["polypharmacy_flag", "age_group"]
-        included_features = [col for col in input_df.columns if col not in excluded_features]
-
-        shap_values_df = pd.DataFrame(shap_values, columns=input_df.columns)
-        shap_values_filtered = shap_values_df[included_features]
-
-        fig_shap, ax = plt.subplots()
-        shap.summary_plot(shap_values_filtered.values, input_df[included_features], plot_type="bar", show=False)
-        st.pyplot(fig_shap)
+                with colB:
+                    st.markdown("### 📊 ADR Risk Meter")
+                    fig = go.Figure(go.Indicator(
+                        mode="gauge+number",
+                        value=prob * 100,
+                        title={"text": "ADR Risk (%)"},
+                        gauge={
+                            "axis": {"range": [0, 100]},
+                            "bar": {"color": "crimson" if prob > 0.5 else "green"},
+                            "steps": [
+                                {"range": [0, 50], "color": "#d4edda"},
+                                {"range": [50, 100], "color": "#f8d7da"}
+                            ]
+                        }
+                    ))
+                    st.plotly_chart(fig, use_container_width=True)
+            else:
+                st.error(f"API Error: {response.status_code} - {response.text}")
+        except Exception as e:
+            st.error(f"Connection error: {e}")
