@@ -1,0 +1,1001 @@
+age,gender,drug,genomics,past_diseases,adr_label
+67,Female,Omeprazole,GeneD,Cancer,1
+61,Male,Atorvastatin,GeneD,Kidney Disease,1
+83,Male,Paracetamol,GeneD,Hypertension,0
+21,Male,Aspirin,GeneE,Liver Disease,0
+73,Male,Aspirin,GeneB,Cancer,0
+28,Male,Paracetamol,GeneA,Liver Disease,0
+75,Female,Omeprazole,GeneA,None,1
+18,Male,Aspirin,GeneE,Liver Disease,0
+86,Male,Paracetamol,GeneD,COPD,0
+21,Female,Amoxicillin,GeneC,Liver Disease,1
+78,Male,Aspirin,GeneC,Liver Disease,1
+74,Female,Ibuprofen,GeneC,Hypertension,0
+50,Female,Ibuprofen,GeneE,Liver Disease,1
+46,Male,Ibuprofen,GeneE,Diabetes,0
+80,Female,Paracetamol,GeneB,Asthma,0
+45,Female,Omeprazole,GeneD,Cancer,1
+19,Male,Paracetamol,GeneA,Cancer,0
+35,Female,Amoxicillin,GeneB,Liver Disease,1
+82,Female,Paracetamol,GeneC,Hypertension,0
+60,Male,Paracetamol,GeneC,Liver Disease,0
+27,Male,Ibuprofen,GeneB,Cancer,0
+60,Male,Ibuprofen,GeneA,Heart Disease,0
+54,Female,Ibuprofen,GeneD,COPD,1
+46,Female,Atorvastatin,GeneA,Diabetes,0
+25,Female,Atorvastatin,GeneE,None,0
+66,Male,Atorvastatin,GeneD,Hypertension,1
+83,Female,Ibuprofen,GeneA,Kidney Disease,0
+42,Male,Amoxicillin,GeneE,Liver Disease,0
+81,Male,Amoxicillin,GeneB,Cancer,1
+37,Female,Ibuprofen,GeneE,Heart Disease,0
+62,Female,Omeprazole,GeneC,Heart Disease,1
+23,Female,Metformin,GeneB,Cancer,0
+84,Female,Omeprazole,GeneE,Asthma,0
+64,Male,Amoxicillin,GeneB,Kidney Disease,0
+29,Male,Paracetamol,GeneA,Kidney Disease,0
+32,Female,Metformin,GeneE,Heart Disease,0
+68,Male,Ibuprofen,GeneB,Heart Disease,0
+24,Female,Aspirin,GeneD,None,0
+36,Female,Paracetamol,GeneE,COPD,0
+31,Male,Metformin,GeneB,None,0
+55,Female,Metformin,GeneD,Liver Disease,1
+89,Female,Aspirin,GeneE,Asthma,0
+66,Male,Metformin,GeneC,Kidney Disease,0
+29,Male,Amoxicillin,GeneA,Heart Disease,0
+86,Female,Omeprazole,GeneA,Hypertension,0
+76,Male,Amoxicillin,GeneD,None,1
+49,Male,Metformin,GeneC,Kidney Disease,1
+40,Male,Ibuprofen,GeneE,Liver Disease,0
+54,Female,Ibuprofen,GeneC,Heart Disease,1
+31,Female,Paracetamol,GeneC,COPD,1
+40,Male,Atorvastatin,GeneB,Hypertension,0
+79,Female,Atorvastatin,GeneA,Asthma,1
+77,Female,Paracetamol,GeneA,None,0
+32,Male,Paracetamol,GeneD,Heart Disease,0
+48,Male,Omeprazole,GeneA,Liver Disease,0
+54,Female,Metformin,GeneB,None,0
+27,Male,Omeprazole,GeneA,Asthma,0
+33,Female,Paracetamol,GeneC,COPD,1
+24,Male,Amoxicillin,GeneB,Liver Disease,0
+77,Male,Paracetamol,GeneE,Diabetes,1
+49,Male,Metformin,GeneC,Heart Disease,1
+35,Male,Aspirin,GeneA,Liver Disease,0
+24,Female,Aspirin,GeneB,Kidney Disease,0
+81,Female,Amoxicillin,GeneA,Hypertension,1
+83,Male,Ibuprofen,GeneC,Asthma,1
+75,Male,Paracetamol,GeneA,Cancer,0
+18,Female,Paracetamol,GeneC,Hypertension,1
+19,Male,Amoxicillin,GeneE,Heart Disease,1
+29,Male,Metformin,GeneE,COPD,0
+62,Female,Ibuprofen,GeneC,Kidney Disease,0
+74,Female,Amoxicillin,GeneD,Liver Disease,1
+27,Male,Ibuprofen,GeneE,Hypertension,0
+78,Male,Atorvastatin,GeneC,Cancer,1
+75,Female,Atorvastatin,GeneC,Cancer,0
+87,Female,Amoxicillin,GeneA,Asthma,0
+68,Male,Metformin,GeneB,Kidney Disease,1
+73,Male,Amoxicillin,GeneC,Cancer,0
+63,Female,Metformin,GeneE,Diabetes,0
+29,Female,Amoxicillin,GeneA,Cancer,0
+35,Male,Atorvastatin,GeneC,Liver Disease,1
+84,Female,Ibuprofen,GeneB,Asthma,1
+31,Male,Amoxicillin,GeneB,Cancer,0
+71,Male,Paracetamol,GeneB,Asthma,0
+85,Female,Omeprazole,GeneB,COPD,0
+69,Male,Paracetamol,GeneC,Liver Disease,0
+22,Female,Paracetamol,GeneD,Cancer,0
+60,Female,Paracetamol,GeneE,COPD,0
+65,Male,Paracetamol,GeneB,Hypertension,0
+24,Female,Aspirin,GeneD,Cancer,0
+34,Female,Ibuprofen,GeneB,None,0
+56,Female,Aspirin,GeneB,Hypertension,0
+69,Male,Paracetamol,GeneD,Hypertension,1
+73,Male,Aspirin,GeneC,None,1
+85,Female,Ibuprofen,GeneD,COPD,1
+53,Male,Amoxicillin,GeneD,Kidney Disease,0
+81,Male,Amoxicillin,GeneB,Cancer,0
+71,Female,Aspirin,GeneE,COPD,0
+18,Female,Metformin,GeneB,Diabetes,0
+78,Male,Omeprazole,GeneA,Liver Disease,0
+52,Male,Ibuprofen,GeneB,Liver Disease,0
+85,Female,Omeprazole,GeneC,Diabetes,0
+19,Male,Paracetamol,GeneB,Hypertension,0
+19,Female,Metformin,GeneA,Diabetes,0
+50,Female,Metformin,GeneB,None,0
+75,Male,Aspirin,GeneA,Heart Disease,0
+25,Female,Ibuprofen,GeneB,Diabetes,0
+20,Female,Aspirin,GeneD,Diabetes,0
+73,Male,Amoxicillin,GeneE,Diabetes,0
+70,Male,Metformin,GeneE,Kidney Disease,0
+33,Female,Aspirin,GeneB,Asthma,0
+50,Female,Atorvastatin,GeneE,None,0
+86,Male,Paracetamol,GeneB,Diabetes,0
+66,Female,Ibuprofen,GeneC,Diabetes,0
+19,Female,Paracetamol,GeneC,Cancer,0
+63,Female,Atorvastatin,GeneE,Heart Disease,1
+73,Female,Omeprazole,GeneC,Heart Disease,1
+80,Female,Aspirin,GeneA,Kidney Disease,1
+45,Male,Metformin,GeneC,COPD,1
+27,Male,Aspirin,GeneA,COPD,0
+25,Female,Atorvastatin,GeneE,Hypertension,0
+74,Female,Ibuprofen,GeneB,Liver Disease,1
+72,Female,Aspirin,GeneB,Heart Disease,0
+57,Female,Omeprazole,GeneD,Kidney Disease,1
+64,Female,Atorvastatin,GeneD,Liver Disease,1
+36,Female,Metformin,GeneA,Kidney Disease,1
+49,Male,Aspirin,GeneA,Hypertension,0
+43,Female,Metformin,GeneA,Diabetes,0
+86,Male,Metformin,GeneA,Asthma,0
+53,Male,Omeprazole,GeneE,Cancer,0
+54,Female,Metformin,GeneA,Heart Disease,0
+36,Female,Ibuprofen,GeneD,COPD,0
+80,Male,Amoxicillin,GeneC,Cancer,1
+38,Female,Amoxicillin,GeneD,Asthma,1
+84,Male,Ibuprofen,GeneA,Liver Disease,0
+70,Male,Atorvastatin,GeneE,Asthma,1
+57,Female,Atorvastatin,GeneC,Kidney Disease,1
+89,Male,Omeprazole,GeneD,None,0
+69,Male,Amoxicillin,GeneC,Hypertension,1
+82,Female,Amoxicillin,GeneD,None,0
+65,Female,Paracetamol,GeneE,Cancer,0
+75,Male,Ibuprofen,GeneE,Heart Disease,1
+88,Female,Atorvastatin,GeneB,Asthma,0
+87,Male,Ibuprofen,GeneA,Kidney Disease,1
+81,Male,Omeprazole,GeneD,Cancer,0
+71,Female,Metformin,GeneE,COPD,0
+19,Female,Atorvastatin,GeneC,Asthma,0
+49,Male,Amoxicillin,GeneE,Asthma,0
+35,Male,Paracetamol,GeneC,Hypertension,0
+47,Female,Amoxicillin,GeneA,Diabetes,1
+28,Male,Omeprazole,GeneC,Hypertension,0
+84,Male,Aspirin,GeneB,Cancer,1
+29,Male,Aspirin,GeneC,Kidney Disease,1
+23,Female,Aspirin,GeneB,Kidney Disease,1
+74,Female,Paracetamol,GeneA,COPD,1
+32,Female,Omeprazole,GeneD,COPD,1
+45,Male,Paracetamol,GeneB,Liver Disease,0
+83,Male,Amoxicillin,GeneE,None,0
+20,Male,Paracetamol,GeneE,Cancer,0
+75,Male,Paracetamol,GeneE,Diabetes,0
+59,Female,Amoxicillin,GeneA,Heart Disease,0
+37,Female,Paracetamol,GeneB,Diabetes,0
+83,Female,Paracetamol,GeneA,Liver Disease,1
+25,Female,Amoxicillin,GeneB,Heart Disease,1
+58,Male,Ibuprofen,GeneC,Heart Disease,0
+53,Male,Paracetamol,GeneE,Cancer,0
+85,Female,Amoxicillin,GeneD,Heart Disease,1
+79,Female,Omeprazole,GeneA,Asthma,0
+70,Male,Amoxicillin,GeneB,Cancer,1
+72,Female,Amoxicillin,GeneD,Kidney Disease,1
+81,Female,Atorvastatin,GeneE,Diabetes,0
+86,Male,Omeprazole,GeneD,Cancer,1
+33,Male,Ibuprofen,GeneB,Asthma,0
+86,Female,Omeprazole,GeneA,Kidney Disease,1
+49,Male,Aspirin,GeneC,Asthma,0
+87,Female,Atorvastatin,GeneB,COPD,0
+40,Male,Aspirin,GeneA,Asthma,0
+72,Male,Metformin,GeneB,Diabetes,0
+52,Male,Aspirin,GeneE,COPD,0
+85,Male,Amoxicillin,GeneC,Asthma,0
+58,Male,Aspirin,GeneC,COPD,1
+77,Male,Paracetamol,GeneD,COPD,1
+33,Male,Ibuprofen,GeneD,Kidney Disease,0
+69,Female,Amoxicillin,GeneE,Liver Disease,1
+47,Male,Ibuprofen,GeneD,Diabetes,1
+62,Female,Paracetamol,GeneC,Kidney Disease,1
+76,Female,Omeprazole,GeneD,Liver Disease,1
+84,Male,Ibuprofen,GeneC,Diabetes,0
+45,Female,Atorvastatin,GeneA,None,0
+40,Male,Metformin,GeneE,Diabetes,0
+69,Female,Metformin,GeneC,Diabetes,1
+54,Male,Ibuprofen,GeneA,Heart Disease,1
+84,Female,Metformin,GeneE,COPD,1
+85,Male,Omeprazole,GeneE,Asthma,1
+78,Male,Aspirin,GeneA,Diabetes,0
+72,Male,Metformin,GeneE,Heart Disease,1
+34,Female,Amoxicillin,GeneA,Cancer,0
+52,Male,Ibuprofen,GeneC,Asthma,0
+75,Female,Amoxicillin,GeneE,Liver Disease,1
+38,Male,Omeprazole,GeneB,Cancer,0
+41,Male,Aspirin,GeneB,COPD,0
+39,Female,Ibuprofen,GeneA,Cancer,0
+60,Female,Metformin,GeneE,Diabetes,0
+32,Male,Amoxicillin,GeneC,Heart Disease,1
+34,Male,Ibuprofen,GeneA,Diabetes,0
+58,Female,Amoxicillin,GeneE,COPD,0
+88,Female,Omeprazole,GeneD,Hypertension,1
+37,Male,Metformin,GeneD,Diabetes,0
+75,Female,Amoxicillin,GeneD,COPD,0
+57,Female,Aspirin,GeneE,COPD,0
+39,Male,Atorvastatin,GeneE,Kidney Disease,0
+21,Female,Amoxicillin,GeneD,Asthma,0
+58,Female,Paracetamol,GeneD,Kidney Disease,1
+89,Male,Atorvastatin,GeneD,Kidney Disease,1
+34,Male,Atorvastatin,GeneB,Cancer,0
+87,Male,Omeprazole,GeneE,Cancer,0
+30,Male,Omeprazole,GeneD,None,1
+26,Female,Atorvastatin,GeneA,Hypertension,0
+84,Female,Omeprazole,GeneA,Heart Disease,1
+72,Male,Aspirin,GeneC,Heart Disease,1
+36,Male,Metformin,GeneA,Cancer,0
+81,Male,Ibuprofen,GeneD,Asthma,0
+51,Male,Metformin,GeneE,Hypertension,0
+38,Male,Ibuprofen,GeneB,None,0
+57,Female,Paracetamol,GeneB,Heart Disease,0
+75,Female,Paracetamol,GeneC,Hypertension,1
+77,Female,Paracetamol,GeneB,Diabetes,0
+53,Female,Paracetamol,GeneB,Heart Disease,0
+51,Female,Paracetamol,GeneB,None,0
+24,Male,Metformin,GeneC,Cancer,0
+43,Female,Paracetamol,GeneC,Hypertension,1
+64,Female,Paracetamol,GeneC,Cancer,0
+66,Male,Aspirin,GeneA,Diabetes,0
+59,Female,Atorvastatin,GeneB,Asthma,0
+54,Female,Omeprazole,GeneD,None,1
+28,Male,Omeprazole,GeneB,Heart Disease,1
+71,Female,Atorvastatin,GeneC,Heart Disease,1
+78,Female,Atorvastatin,GeneC,Liver Disease,1
+41,Female,Amoxicillin,GeneE,Diabetes,0
+46,Male,Metformin,GeneB,Liver Disease,1
+56,Female,Paracetamol,GeneB,Heart Disease,0
+30,Female,Omeprazole,GeneD,Cancer,0
+30,Male,Ibuprofen,GeneD,Asthma,0
+31,Female,Aspirin,GeneB,Hypertension,0
+47,Female,Amoxicillin,GeneB,COPD,0
+22,Female,Paracetamol,GeneC,Liver Disease,1
+47,Male,Ibuprofen,GeneD,Asthma,0
+89,Female,Paracetamol,GeneC,COPD,0
+19,Male,Atorvastatin,GeneD,None,0
+37,Male,Omeprazole,GeneD,Hypertension,0
+69,Male,Paracetamol,GeneE,Liver Disease,0
+38,Female,Ibuprofen,GeneD,None,0
+66,Female,Paracetamol,GeneA,COPD,0
+84,Male,Amoxicillin,GeneA,Cancer,0
+84,Female,Amoxicillin,GeneC,Cancer,1
+59,Female,Paracetamol,GeneD,Cancer,1
+45,Male,Amoxicillin,GeneB,Diabetes,0
+40,Female,Omeprazole,GeneA,Liver Disease,1
+73,Female,Atorvastatin,GeneB,None,0
+69,Female,Aspirin,GeneD,Diabetes,1
+31,Female,Amoxicillin,GeneB,Hypertension,0
+85,Male,Omeprazole,GeneC,Heart Disease,0
+22,Male,Paracetamol,GeneB,Diabetes,0
+23,Female,Amoxicillin,GeneD,Hypertension,0
+75,Male,Amoxicillin,GeneB,Cancer,0
+62,Female,Metformin,GeneA,Liver Disease,1
+32,Male,Ibuprofen,GeneA,None,0
+66,Female,Amoxicillin,GeneA,Kidney Disease,1
+84,Female,Metformin,GeneD,Hypertension,1
+50,Male,Metformin,GeneC,None,0
+83,Female,Metformin,GeneC,Heart Disease,0
+24,Female,Omeprazole,GeneD,Hypertension,0
+67,Male,Aspirin,GeneC,Diabetes,0
+72,Female,Amoxicillin,GeneD,Asthma,1
+37,Female,Omeprazole,GeneD,Cancer,1
+31,Male,Amoxicillin,GeneB,Asthma,0
+33,Female,Aspirin,GeneB,Cancer,0
+39,Female,Aspirin,GeneA,Liver Disease,0
+76,Female,Metformin,GeneB,Kidney Disease,0
+48,Female,Omeprazole,GeneB,Heart Disease,0
+38,Female,Amoxicillin,GeneE,None,0
+80,Male,Metformin,GeneB,Diabetes,0
+39,Male,Omeprazole,GeneE,Kidney Disease,1
+39,Female,Metformin,GeneE,Diabetes,0
+34,Male,Metformin,GeneB,None,0
+65,Male,Paracetamol,GeneB,Heart Disease,1
+22,Female,Omeprazole,GeneD,Kidney Disease,1
+59,Male,Amoxicillin,GeneE,Asthma,0
+29,Female,Metformin,GeneB,Kidney Disease,0
+59,Female,Atorvastatin,GeneE,None,0
+63,Female,Omeprazole,GeneC,None,0
+68,Female,Aspirin,GeneD,Diabetes,0
+69,Male,Atorvastatin,GeneD,Asthma,0
+74,Male,Aspirin,GeneA,Cancer,0
+36,Male,Amoxicillin,GeneD,COPD,1
+60,Female,Metformin,GeneA,Hypertension,0
+22,Female,Amoxicillin,GeneA,COPD,0
+69,Male,Metformin,GeneA,Kidney Disease,0
+51,Male,Paracetamol,GeneA,Heart Disease,0
+38,Female,Amoxicillin,GeneE,Asthma,0
+83,Female,Atorvastatin,GeneB,Heart Disease,1
+74,Male,Omeprazole,GeneE,COPD,1
+20,Male,Aspirin,GeneA,Kidney Disease,1
+48,Male,Atorvastatin,GeneE,None,0
+32,Male,Aspirin,GeneC,COPD,0
+62,Female,Amoxicillin,GeneA,Kidney Disease,0
+40,Female,Aspirin,GeneD,None,1
+32,Female,Paracetamol,GeneE,Asthma,0
+61,Female,Amoxicillin,GeneE,Liver Disease,1
+25,Male,Paracetamol,GeneC,COPD,1
+41,Male,Aspirin,GeneA,Liver Disease,1
+49,Female,Ibuprofen,GeneE,Asthma,0
+28,Male,Aspirin,GeneD,Diabetes,1
+18,Male,Aspirin,GeneD,Heart Disease,0
+51,Female,Aspirin,GeneB,Kidney Disease,0
+87,Male,Omeprazole,GeneD,Asthma,1
+59,Male,Metformin,GeneA,Hypertension,0
+76,Female,Paracetamol,GeneE,Cancer,0
+47,Male,Paracetamol,GeneE,COPD,0
+32,Female,Ibuprofen,GeneA,COPD,0
+89,Female,Omeprazole,GeneC,Cancer,0
+79,Male,Paracetamol,GeneD,Cancer,1
+34,Female,Amoxicillin,GeneD,Kidney Disease,1
+38,Male,Atorvastatin,GeneB,Cancer,0
+57,Female,Paracetamol,GeneA,Cancer,0
+85,Male,Atorvastatin,GeneA,Diabetes,0
+70,Male,Aspirin,GeneA,COPD,1
+25,Male,Ibuprofen,GeneC,None,1
+84,Male,Omeprazole,GeneE,Asthma,1
+23,Female,Aspirin,GeneD,Kidney Disease,1
+67,Female,Paracetamol,GeneB,Asthma,0
+75,Female,Ibuprofen,GeneD,Cancer,1
+51,Female,Paracetamol,GeneA,Cancer,0
+54,Female,Omeprazole,GeneD,COPD,0
+49,Male,Atorvastatin,GeneE,Liver Disease,1
+31,Male,Ibuprofen,GeneB,Diabetes,0
+42,Female,Paracetamol,GeneA,Liver Disease,0
+64,Male,Aspirin,GeneB,Diabetes,0
+20,Male,Ibuprofen,GeneE,Cancer,0
+24,Female,Omeprazole,GeneC,COPD,0
+48,Male,Atorvastatin,GeneE,Asthma,0
+57,Male,Paracetamol,GeneB,None,0
+66,Female,Metformin,GeneC,Cancer,0
+55,Female,Paracetamol,GeneD,COPD,0
+85,Female,Amoxicillin,GeneC,Asthma,1
+25,Male,Atorvastatin,GeneD,Liver Disease,1
+21,Male,Omeprazole,GeneD,Asthma,0
+66,Male,Amoxicillin,GeneD,COPD,1
+70,Female,Paracetamol,GeneB,None,0
+32,Male,Amoxicillin,GeneB,Liver Disease,0
+79,Female,Metformin,GeneC,COPD,0
+35,Female,Amoxicillin,GeneD,None,0
+28,Female,Amoxicillin,GeneD,None,0
+22,Female,Atorvastatin,GeneA,Liver Disease,0
+57,Male,Omeprazole,GeneD,Heart Disease,1
+50,Male,Omeprazole,GeneB,Heart Disease,1
+70,Male,Metformin,GeneE,Liver Disease,0
+80,Female,Metformin,GeneD,Heart Disease,0
+79,Male,Metformin,GeneC,COPD,1
+38,Female,Ibuprofen,GeneE,Heart Disease,0
+46,Male,Metformin,GeneD,Hypertension,0
+25,Male,Omeprazole,GeneB,Liver Disease,0
+33,Female,Aspirin,GeneA,Heart Disease,1
+80,Male,Metformin,GeneB,Hypertension,0
+18,Female,Metformin,GeneC,None,0
+49,Female,Amoxicillin,GeneB,COPD,1
+55,Male,Aspirin,GeneD,Diabetes,0
+56,Male,Aspirin,GeneA,None,0
+33,Male,Metformin,GeneE,None,0
+55,Female,Paracetamol,GeneA,Hypertension,0
+22,Male,Ibuprofen,GeneA,Asthma,0
+72,Male,Ibuprofen,GeneC,COPD,0
+28,Female,Ibuprofen,GeneD,Heart Disease,1
+19,Female,Omeprazole,GeneA,Cancer,0
+81,Male,Paracetamol,GeneC,Hypertension,1
+52,Male,Omeprazole,GeneD,Kidney Disease,0
+37,Female,Aspirin,GeneE,Hypertension,0
+31,Female,Atorvastatin,GeneE,COPD,0
+24,Male,Atorvastatin,GeneD,Liver Disease,1
+53,Female,Atorvastatin,GeneE,Kidney Disease,1
+68,Female,Omeprazole,GeneA,Hypertension,1
+39,Male,Ibuprofen,GeneB,Cancer,0
+26,Female,Atorvastatin,GeneC,Heart Disease,1
+82,Male,Atorvastatin,GeneA,Kidney Disease,0
+56,Female,Metformin,GeneA,Hypertension,0
+76,Male,Omeprazole,GeneB,Liver Disease,1
+75,Male,Atorvastatin,GeneE,Heart Disease,0
+34,Male,Omeprazole,GeneD,Heart Disease,1
+24,Male,Atorvastatin,GeneC,Diabetes,0
+23,Male,Atorvastatin,GeneE,COPD,0
+75,Female,Ibuprofen,GeneA,Hypertension,1
+39,Female,Aspirin,GeneC,COPD,1
+41,Female,Amoxicillin,GeneA,Cancer,1
+26,Female,Metformin,GeneC,Hypertension,0
+18,Female,Atorvastatin,GeneC,Hypertension,0
+20,Female,Amoxicillin,GeneA,Diabetes,1
+19,Female,Aspirin,GeneC,Diabetes,1
+66,Male,Omeprazole,GeneB,Asthma,0
+22,Female,Omeprazole,GeneA,Kidney Disease,1
+41,Female,Paracetamol,GeneB,Hypertension,0
+51,Male,Atorvastatin,GeneC,Kidney Disease,1
+85,Female,Omeprazole,GeneD,Kidney Disease,1
+73,Male,Amoxicillin,GeneE,Hypertension,0
+50,Male,Metformin,GeneB,Hypertension,0
+82,Female,Omeprazole,GeneB,Heart Disease,0
+71,Male,Atorvastatin,GeneD,Asthma,1
+39,Female,Atorvastatin,GeneD,Kidney Disease,1
+19,Female,Metformin,GeneE,COPD,0
+82,Male,Amoxicillin,GeneC,Diabetes,0
+46,Female,Ibuprofen,GeneC,None,0
+68,Male,Amoxicillin,GeneA,Kidney Disease,0
+44,Male,Aspirin,GeneB,Liver Disease,1
+84,Female,Atorvastatin,GeneE,Kidney Disease,0
+33,Male,Atorvastatin,GeneD,Liver Disease,1
+29,Female,Aspirin,GeneE,Liver Disease,0
+18,Male,Paracetamol,GeneE,None,0
+35,Female,Omeprazole,GeneB,COPD,0
+43,Female,Paracetamol,GeneA,Diabetes,0
+72,Female,Metformin,GeneC,Liver Disease,0
+45,Male,Metformin,GeneE,Asthma,0
+31,Female,Amoxicillin,GeneD,Asthma,0
+57,Male,Omeprazole,GeneC,COPD,0
+29,Female,Paracetamol,GeneA,Heart Disease,1
+79,Male,Ibuprofen,GeneC,Asthma,1
+79,Female,Ibuprofen,GeneD,None,0
+37,Female,Ibuprofen,GeneC,Diabetes,0
+32,Female,Metformin,GeneB,None,1
+88,Male,Ibuprofen,GeneC,Cancer,1
+47,Female,Omeprazole,GeneC,Heart Disease,1
+88,Male,Atorvastatin,GeneD,Kidney Disease,1
+89,Female,Atorvastatin,GeneB,Cancer,0
+52,Male,Paracetamol,GeneC,Kidney Disease,0
+45,Male,Omeprazole,GeneC,Heart Disease,0
+55,Female,Omeprazole,GeneC,Hypertension,0
+42,Female,Paracetamol,GeneD,Heart Disease,1
+19,Male,Atorvastatin,GeneB,Kidney Disease,0
+21,Male,Omeprazole,GeneC,Liver Disease,1
+48,Male,Paracetamol,GeneD,Asthma,1
+39,Male,Omeprazole,GeneC,Liver Disease,0
+18,Male,Aspirin,GeneD,Liver Disease,1
+50,Female,Omeprazole,GeneC,None,0
+47,Female,Atorvastatin,GeneE,Liver Disease,0
+88,Male,Metformin,GeneA,COPD,0
+35,Male,Amoxicillin,GeneC,Cancer,1
+64,Female,Atorvastatin,GeneA,Diabetes,0
+58,Female,Omeprazole,GeneA,COPD,0
+59,Male,Atorvastatin,GeneC,Kidney Disease,1
+55,Female,Atorvastatin,GeneE,Kidney Disease,1
+75,Male,Ibuprofen,GeneA,Kidney Disease,1
+88,Female,Atorvastatin,GeneA,None,0
+58,Male,Omeprazole,GeneB,Diabetes,0
+29,Female,Ibuprofen,GeneA,None,0
+82,Male,Metformin,GeneC,None,0
+40,Male,Ibuprofen,GeneA,Kidney Disease,0
+76,Male,Ibuprofen,GeneC,Diabetes,1
+27,Female,Paracetamol,GeneB,Hypertension,0
+42,Male,Paracetamol,GeneB,COPD,0
+39,Female,Atorvastatin,GeneE,COPD,0
+84,Female,Metformin,GeneA,Hypertension,1
+27,Female,Omeprazole,GeneD,Asthma,0
+19,Male,Omeprazole,GeneA,Heart Disease,0
+40,Male,Omeprazole,GeneA,Diabetes,0
+84,Male,Amoxicillin,GeneE,Asthma,0
+32,Male,Atorvastatin,GeneB,Hypertension,0
+52,Male,Metformin,GeneE,Hypertension,0
+30,Male,Omeprazole,GeneE,Heart Disease,0
+69,Male,Atorvastatin,GeneE,Liver Disease,0
+57,Female,Amoxicillin,GeneE,Diabetes,0
+48,Female,Omeprazole,GeneE,Liver Disease,0
+21,Male,Amoxicillin,GeneE,Heart Disease,1
+45,Male,Atorvastatin,GeneA,Diabetes,0
+18,Female,Aspirin,GeneC,Diabetes,0
+73,Male,Metformin,GeneA,Cancer,0
+19,Male,Amoxicillin,GeneD,Asthma,1
+19,Male,Atorvastatin,GeneC,Cancer,0
+53,Male,Ibuprofen,GeneD,COPD,0
+66,Female,Omeprazole,GeneC,Kidney Disease,1
+50,Male,Ibuprofen,GeneD,Asthma,0
+45,Male,Ibuprofen,GeneC,Kidney Disease,1
+28,Female,Paracetamol,GeneD,COPD,1
+66,Female,Omeprazole,GeneB,Kidney Disease,1
+87,Female,Ibuprofen,GeneB,Diabetes,0
+55,Male,Metformin,GeneC,Cancer,1
+32,Female,Paracetamol,GeneE,COPD,1
+52,Male,Amoxicillin,GeneE,Liver Disease,0
+67,Male,Amoxicillin,GeneD,Heart Disease,1
+54,Female,Paracetamol,GeneA,Cancer,0
+78,Male,Atorvastatin,GeneB,None,0
+88,Female,Metformin,GeneD,COPD,0
+21,Female,Metformin,GeneA,Hypertension,0
+46,Female,Paracetamol,GeneD,Asthma,0
+67,Female,Amoxicillin,GeneA,Hypertension,1
+56,Male,Aspirin,GeneD,Cancer,0
+62,Male,Omeprazole,GeneC,None,0
+36,Male,Atorvastatin,GeneE,Cancer,0
+88,Male,Atorvastatin,GeneE,COPD,0
+71,Female,Amoxicillin,GeneB,Cancer,1
+59,Female,Atorvastatin,GeneE,None,1
+57,Female,Atorvastatin,GeneD,Heart Disease,0
+20,Male,Paracetamol,GeneA,Kidney Disease,0
+45,Female,Metformin,GeneB,Diabetes,0
+60,Female,Amoxicillin,GeneA,Asthma,0
+74,Male,Paracetamol,GeneE,Kidney Disease,0
+87,Male,Ibuprofen,GeneC,Heart Disease,1
+58,Male,Metformin,GeneE,Kidney Disease,0
+38,Female,Metformin,GeneE,Heart Disease,0
+87,Female,Amoxicillin,GeneA,Hypertension,1
+57,Female,Amoxicillin,GeneD,Cancer,0
+78,Male,Metformin,GeneB,Diabetes,0
+40,Female,Omeprazole,GeneD,None,0
+82,Female,Atorvastatin,GeneA,Cancer,0
+76,Female,Atorvastatin,GeneA,None,0
+83,Male,Atorvastatin,GeneA,Liver Disease,0
+83,Female,Paracetamol,GeneB,Hypertension,0
+86,Female,Omeprazole,GeneA,Heart Disease,1
+68,Female,Atorvastatin,GeneB,COPD,0
+50,Female,Ibuprofen,GeneA,Liver Disease,1
+35,Male,Paracetamol,GeneC,Kidney Disease,0
+29,Male,Paracetamol,GeneD,Asthma,0
+79,Female,Metformin,GeneD,Kidney Disease,1
+30,Female,Paracetamol,GeneD,Diabetes,1
+73,Female,Atorvastatin,GeneA,Cancer,0
+49,Male,Omeprazole,GeneD,Heart Disease,1
+49,Female,Metformin,GeneB,Heart Disease,0
+55,Female,Atorvastatin,GeneA,Asthma,0
+86,Male,Paracetamol,GeneD,None,0
+18,Female,Metformin,GeneD,Hypertension,0
+46,Male,Ibuprofen,GeneE,Kidney Disease,1
+39,Male,Omeprazole,GeneE,COPD,0
+71,Female,Aspirin,GeneD,Liver Disease,1
+19,Female,Aspirin,GeneC,None,0
+51,Male,Ibuprofen,GeneC,None,0
+33,Female,Paracetamol,GeneB,Diabetes,0
+37,Male,Paracetamol,GeneB,Heart Disease,0
+42,Female,Metformin,GeneE,Cancer,0
+69,Male,Omeprazole,GeneA,Hypertension,0
+33,Female,Ibuprofen,GeneB,COPD,0
+69,Female,Metformin,GeneA,Liver Disease,0
+73,Female,Aspirin,GeneC,Cancer,1
+43,Male,Atorvastatin,GeneD,Diabetes,0
+59,Female,Metformin,GeneE,Hypertension,0
+57,Male,Atorvastatin,GeneC,Cancer,0
+33,Male,Omeprazole,GeneB,Liver Disease,0
+42,Female,Paracetamol,GeneA,Cancer,1
+88,Female,Ibuprofen,GeneB,Asthma,0
+23,Female,Atorvastatin,GeneA,COPD,1
+19,Male,Metformin,GeneB,Heart Disease,0
+76,Female,Omeprazole,GeneC,COPD,0
+35,Female,Metformin,GeneC,Diabetes,0
+22,Male,Omeprazole,GeneD,Diabetes,1
+53,Male,Paracetamol,GeneB,Hypertension,0
+40,Male,Aspirin,GeneD,Hypertension,0
+26,Male,Atorvastatin,GeneC,Asthma,1
+57,Male,Metformin,GeneA,COPD,0
+61,Male,Metformin,GeneB,Liver Disease,0
+42,Female,Metformin,GeneB,Kidney Disease,1
+39,Female,Ibuprofen,GeneC,Kidney Disease,1
+23,Female,Aspirin,GeneB,COPD,0
+57,Male,Amoxicillin,GeneB,Liver Disease,1
+82,Female,Atorvastatin,GeneB,Asthma,0
+84,Male,Atorvastatin,GeneE,Liver Disease,1
+86,Male,Aspirin,GeneC,Hypertension,1
+20,Male,Atorvastatin,GeneD,COPD,0
+79,Female,Atorvastatin,GeneB,Hypertension,0
+44,Female,Metformin,GeneB,Diabetes,0
+52,Male,Atorvastatin,GeneE,COPD,0
+78,Female,Ibuprofen,GeneA,Hypertension,0
+73,Female,Atorvastatin,GeneD,None,0
+89,Male,Paracetamol,GeneD,Hypertension,1
+63,Female,Aspirin,GeneE,Asthma,0
+64,Female,Omeprazole,GeneB,COPD,0
+69,Male,Aspirin,GeneA,Cancer,0
+21,Female,Atorvastatin,GeneB,COPD,0
+61,Male,Amoxicillin,GeneC,Cancer,1
+55,Male,Omeprazole,GeneE,COPD,0
+41,Male,Omeprazole,GeneE,Kidney Disease,0
+79,Male,Paracetamol,GeneB,Diabetes,0
+58,Male,Amoxicillin,GeneD,Liver Disease,1
+81,Male,Amoxicillin,GeneE,Diabetes,1
+48,Female,Amoxicillin,GeneC,Hypertension,0
+32,Male,Amoxicillin,GeneE,Cancer,1
+39,Male,Aspirin,GeneE,Kidney Disease,0
+52,Male,Aspirin,GeneD,Liver Disease,1
+36,Male,Omeprazole,GeneA,Heart Disease,0
+37,Male,Amoxicillin,GeneE,Hypertension,1
+66,Male,Atorvastatin,GeneC,None,0
+88,Male,Ibuprofen,GeneD,Cancer,1
+86,Male,Metformin,GeneE,Cancer,0
+53,Male,Amoxicillin,GeneC,Liver Disease,1
+57,Female,Metformin,GeneA,COPD,0
+33,Female,Atorvastatin,GeneE,Kidney Disease,1
+34,Female,Aspirin,GeneD,Heart Disease,1
+29,Female,Atorvastatin,GeneB,Cancer,0
+30,Male,Metformin,GeneE,Hypertension,0
+82,Male,Aspirin,GeneA,COPD,1
+19,Male,Atorvastatin,GeneC,Cancer,0
+37,Female,Metformin,GeneC,Liver Disease,0
+43,Male,Ibuprofen,GeneE,Cancer,0
+52,Male,Ibuprofen,GeneE,None,0
+50,Male,Omeprazole,GeneB,COPD,0
+67,Male,Aspirin,GeneD,Liver Disease,1
+26,Female,Amoxicillin,GeneC,Asthma,0
+27,Female,Metformin,GeneD,COPD,1
+74,Female,Paracetamol,GeneB,Cancer,0
+46,Female,Paracetamol,GeneC,Asthma,1
+35,Female,Omeprazole,GeneC,Diabetes,1
+75,Female,Atorvastatin,GeneB,Hypertension,0
+66,Male,Omeprazole,GeneA,None,0
+38,Female,Ibuprofen,GeneE,Hypertension,0
+43,Female,Metformin,GeneB,Cancer,0
+22,Female,Aspirin,GeneE,COPD,0
+89,Male,Paracetamol,GeneA,Asthma,1
+63,Male,Metformin,GeneE,Liver Disease,0
+35,Female,Metformin,GeneA,None,0
+81,Female,Ibuprofen,GeneE,Cancer,0
+26,Male,Atorvastatin,GeneE,Heart Disease,1
+44,Female,Omeprazole,GeneB,Liver Disease,0
+52,Male,Ibuprofen,GeneE,Cancer,0
+33,Male,Omeprazole,GeneB,COPD,0
+20,Female,Aspirin,GeneC,Heart Disease,1
+79,Male,Metformin,GeneA,None,0
+25,Female,Amoxicillin,GeneC,Hypertension,0
+85,Female,Ibuprofen,GeneB,Asthma,0
+25,Male,Omeprazole,GeneA,Kidney Disease,0
+68,Female,Aspirin,GeneE,Diabetes,0
+31,Male,Aspirin,GeneB,Kidney Disease,0
+48,Female,Atorvastatin,GeneC,Kidney Disease,1
+59,Female,Atorvastatin,GeneC,Kidney Disease,1
+54,Female,Omeprazole,GeneE,Asthma,0
+68,Male,Ibuprofen,GeneE,Asthma,0
+43,Male,Ibuprofen,GeneA,COPD,0
+84,Female,Amoxicillin,GeneE,Kidney Disease,0
+78,Male,Paracetamol,GeneC,Heart Disease,1
+30,Female,Amoxicillin,GeneC,Diabetes,0
+73,Female,Omeprazole,GeneD,Hypertension,1
+83,Female,Amoxicillin,GeneC,Liver Disease,1
+35,Female,Atorvastatin,GeneB,COPD,0
+40,Female,Amoxicillin,GeneD,Asthma,1
+23,Female,Metformin,GeneD,Hypertension,0
+21,Female,Aspirin,GeneE,Heart Disease,1
+65,Female,Omeprazole,GeneD,Diabetes,1
+28,Male,Metformin,GeneC,None,1
+42,Female,Atorvastatin,GeneB,Hypertension,0
+61,Male,Paracetamol,GeneD,Liver Disease,1
+72,Male,Aspirin,GeneE,Cancer,0
+72,Male,Metformin,GeneB,Diabetes,0
+72,Male,Aspirin,GeneE,Kidney Disease,1
+81,Female,Metformin,GeneC,None,0
+26,Female,Amoxicillin,GeneD,Liver Disease,1
+35,Female,Omeprazole,GeneC,Diabetes,0
+26,Female,Ibuprofen,GeneD,Diabetes,0
+75,Male,Aspirin,GeneD,Heart Disease,1
+37,Female,Aspirin,GeneE,Heart Disease,0
+64,Female,Atorvastatin,GeneD,Hypertension,1
+45,Female,Atorvastatin,GeneB,Asthma,0
+47,Male,Paracetamol,GeneB,Liver Disease,0
+32,Female,Atorvastatin,GeneA,Asthma,0
+27,Female,Atorvastatin,GeneE,Heart Disease,0
+79,Male,Amoxicillin,GeneA,Heart Disease,0
+26,Female,Atorvastatin,GeneA,Diabetes,0
+42,Male,Atorvastatin,GeneE,Hypertension,0
+78,Male,Amoxicillin,GeneA,Hypertension,0
+70,Female,Ibuprofen,GeneE,None,1
+29,Male,Amoxicillin,GeneD,None,0
+39,Female,Aspirin,GeneD,None,1
+32,Male,Omeprazole,GeneE,Liver Disease,0
+52,Female,Metformin,GeneB,Kidney Disease,0
+31,Female,Atorvastatin,GeneD,Liver Disease,1
+89,Male,Atorvastatin,GeneA,Hypertension,0
+44,Female,Atorvastatin,GeneA,Liver Disease,1
+41,Female,Amoxicillin,GeneB,Liver Disease,0
+81,Male,Amoxicillin,GeneB,Cancer,0
+29,Male,Amoxicillin,GeneD,Diabetes,0
+70,Male,Aspirin,GeneE,Cancer,0
+42,Female,Omeprazole,GeneB,COPD,0
+57,Female,Ibuprofen,GeneC,Diabetes,0
+40,Female,Paracetamol,GeneB,None,0
+75,Female,Amoxicillin,GeneD,Heart Disease,1
+76,Male,Aspirin,GeneD,Kidney Disease,1
+65,Female,Atorvastatin,GeneD,COPD,0
+65,Female,Paracetamol,GeneE,Heart Disease,0
+21,Male,Ibuprofen,GeneD,Diabetes,0
+39,Female,Atorvastatin,GeneC,Cancer,1
+25,Male,Omeprazole,GeneC,Cancer,0
+66,Female,Paracetamol,GeneE,Kidney Disease,1
+40,Female,Ibuprofen,GeneD,None,1
+25,Female,Paracetamol,GeneD,Heart Disease,0
+73,Female,Aspirin,GeneE,COPD,1
+89,Female,Omeprazole,GeneC,COPD,0
+54,Male,Amoxicillin,GeneA,Cancer,0
+72,Female,Metformin,GeneB,Cancer,0
+66,Male,Metformin,GeneE,Liver Disease,0
+81,Female,Aspirin,GeneD,Cancer,0
+61,Male,Omeprazole,GeneA,Liver Disease,0
+43,Female,Paracetamol,GeneC,Heart Disease,0
+21,Female,Atorvastatin,GeneD,Heart Disease,1
+35,Female,Atorvastatin,GeneE,None,0
+42,Female,Paracetamol,GeneC,Diabetes,0
+38,Male,Paracetamol,GeneD,Kidney Disease,0
+85,Female,Aspirin,GeneD,Asthma,0
+85,Female,Aspirin,GeneD,Heart Disease,1
+38,Female,Ibuprofen,GeneB,Cancer,1
+72,Female,Metformin,GeneD,Cancer,0
+71,Male,Ibuprofen,GeneB,Hypertension,0
+88,Female,Paracetamol,GeneE,None,0
+72,Female,Paracetamol,GeneE,Cancer,0
+40,Female,Paracetamol,GeneA,Heart Disease,1
+61,Male,Omeprazole,GeneC,Hypertension,0
+81,Female,Paracetamol,GeneC,Asthma,1
+26,Female,Paracetamol,GeneE,Diabetes,0
+36,Female,Aspirin,GeneA,Hypertension,0
+67,Male,Omeprazole,GeneC,Liver Disease,1
+45,Female,Atorvastatin,GeneB,Liver Disease,1
+61,Male,Aspirin,GeneD,None,0
+48,Male,Ibuprofen,GeneB,COPD,0
+84,Male,Metformin,GeneB,Kidney Disease,1
+64,Female,Aspirin,GeneB,COPD,0
+45,Female,Amoxicillin,GeneD,Diabetes,0
+71,Male,Ibuprofen,GeneB,Asthma,0
+51,Female,Atorvastatin,GeneA,COPD,0
+47,Female,Paracetamol,GeneD,Asthma,0
+59,Female,Ibuprofen,GeneD,Liver Disease,0
+56,Female,Omeprazole,GeneE,COPD,0
+80,Female,Ibuprofen,GeneD,Kidney Disease,1
+84,Male,Atorvastatin,GeneD,Diabetes,0
+82,Male,Omeprazole,GeneC,COPD,0
+49,Female,Ibuprofen,GeneD,Hypertension,0
+70,Male,Ibuprofen,GeneA,Asthma,0
+23,Female,Amoxicillin,GeneC,Hypertension,1
+69,Female,Metformin,GeneB,Kidney Disease,0
+46,Female,Atorvastatin,GeneA,COPD,0
+85,Female,Ibuprofen,GeneE,None,0
+89,Male,Aspirin,GeneB,Heart Disease,0
+40,Male,Amoxicillin,GeneE,Liver Disease,0
+26,Female,Amoxicillin,GeneA,Asthma,0
+61,Female,Omeprazole,GeneB,None,1
+66,Male,Paracetamol,GeneA,None,0
+57,Female,Paracetamol,GeneC,Hypertension,0
+30,Female,Omeprazole,GeneD,COPD,0
+84,Male,Aspirin,GeneE,Kidney Disease,0
+18,Female,Atorvastatin,GeneC,Kidney Disease,1
+18,Female,Ibuprofen,GeneC,Kidney Disease,1
+64,Female,Metformin,GeneE,COPD,0
+20,Female,Omeprazole,GeneB,None,0
+20,Female,Omeprazole,GeneA,Kidney Disease,0
+35,Female,Metformin,GeneB,None,0
+24,Female,Paracetamol,GeneA,Heart Disease,0
+71,Female,Metformin,GeneB,Heart Disease,1
+51,Female,Atorvastatin,GeneA,Asthma,1
+35,Female,Amoxicillin,GeneD,COPD,0
+74,Male,Paracetamol,GeneD,Heart Disease,1
+54,Male,Omeprazole,GeneA,Cancer,0
+89,Female,Paracetamol,GeneB,Hypertension,0
+71,Male,Aspirin,GeneD,Heart Disease,1
+44,Male,Metformin,GeneA,COPD,0
+88,Female,Atorvastatin,GeneC,Hypertension,0
+59,Female,Atorvastatin,GeneC,Asthma,0
+72,Female,Omeprazole,GeneB,None,0
+82,Female,Metformin,GeneB,COPD,0
+56,Male,Omeprazole,GeneD,Diabetes,0
+29,Male,Metformin,GeneC,Kidney Disease,0
+83,Female,Paracetamol,GeneB,COPD,1
+65,Female,Atorvastatin,GeneD,Cancer,1
+22,Female,Atorvastatin,GeneD,Kidney Disease,1
+43,Male,Metformin,GeneA,COPD,0
+67,Female,Paracetamol,GeneB,Asthma,1
+77,Male,Omeprazole,GeneD,Liver Disease,0
+60,Female,Ibuprofen,GeneE,Kidney Disease,0
+53,Female,Amoxicillin,GeneD,Asthma,1
+86,Female,Aspirin,GeneE,Cancer,0
+69,Female,Amoxicillin,GeneC,Asthma,1
+62,Female,Amoxicillin,GeneB,Cancer,0
+27,Female,Aspirin,GeneB,Kidney Disease,0
+73,Male,Omeprazole,GeneC,Asthma,0
+54,Female,Omeprazole,GeneE,Liver Disease,0
+80,Male,Aspirin,GeneE,Diabetes,1
+18,Female,Paracetamol,GeneE,Diabetes,0
+80,Male,Omeprazole,GeneC,Kidney Disease,0
+45,Female,Ibuprofen,GeneD,COPD,0
+49,Female,Aspirin,GeneD,Liver Disease,1
+32,Female,Omeprazole,GeneC,Kidney Disease,1
+52,Female,Paracetamol,GeneC,COPD,1
+87,Male,Aspirin,GeneC,Cancer,0
+21,Male,Metformin,GeneE,COPD,0
+25,Female,Omeprazole,GeneA,Hypertension,0
+65,Female,Omeprazole,GeneB,Diabetes,0
+51,Female,Atorvastatin,GeneC,Cancer,0
+79,Female,Aspirin,GeneE,None,0
+64,Male,Aspirin,GeneA,Hypertension,0
+47,Male,Omeprazole,GeneD,Cancer,0
+69,Female,Ibuprofen,GeneE,Liver Disease,1
+32,Female,Amoxicillin,GeneD,Diabetes,0
+34,Female,Atorvastatin,GeneC,Hypertension,0
+63,Female,Paracetamol,GeneC,Kidney Disease,1
+56,Male,Metformin,GeneD,Liver Disease,1
+25,Female,Omeprazole,GeneE,Hypertension,0
+28,Male,Ibuprofen,GeneD,Cancer,1
+52,Male,Omeprazole,GeneD,Diabetes,0
+83,Male,Amoxicillin,GeneA,Asthma,1
+60,Female,Metformin,GeneB,Asthma,0
+51,Male,Ibuprofen,GeneC,COPD,1
+19,Male,Metformin,GeneD,Heart Disease,0
+68,Female,Aspirin,GeneA,Heart Disease,0
+32,Female,Omeprazole,GeneE,Diabetes,0
+31,Female,Amoxicillin,GeneB,Cancer,0
+83,Male,Metformin,GeneD,Heart Disease,1
+62,Female,Amoxicillin,GeneB,Kidney Disease,1
+73,Male,Metformin,GeneB,Hypertension,1
+29,Male,Amoxicillin,GeneB,Cancer,0
+20,Male,Aspirin,GeneA,Diabetes,0
+76,Male,Ibuprofen,GeneB,COPD,0
+87,Female,Amoxicillin,GeneC,Cancer,1
+74,Female,Omeprazole,GeneB,Liver Disease,1
+64,Male,Amoxicillin,GeneA,Diabetes,0
+46,Female,Aspirin,GeneB,Cancer,0
+41,Male,Paracetamol,GeneD,Liver Disease,1
+69,Male,Paracetamol,GeneC,Kidney Disease,0
+74,Female,Atorvastatin,GeneB,Hypertension,0
+53,Female,Omeprazole,GeneA,Kidney Disease,1
+30,Male,Paracetamol,GeneD,None,0
+73,Female,Metformin,GeneA,Hypertension,0
+29,Female,Omeprazole,GeneE,Hypertension,0
+25,Female,Amoxicillin,GeneB,None,0
+51,Female,Ibuprofen,GeneA,Heart Disease,1
+53,Female,Metformin,GeneB,Liver Disease,1
+78,Male,Ibuprofen,GeneB,Liver Disease,1
+18,Male,Amoxicillin,GeneA,None,0
+36,Male,Paracetamol,GeneB,Heart Disease,1
+25,Female,Aspirin,GeneD,Kidney Disease,0
+38,Female,Aspirin,GeneE,Liver Disease,1
+88,Male,Atorvastatin,GeneD,Kidney Disease,1
+28,Male,Atorvastatin,GeneE,Hypertension,0
+70,Male,Atorvastatin,GeneD,COPD,1
+61,Female,Atorvastatin,GeneC,Asthma,0
+54,Female,Paracetamol,GeneE,Heart Disease,0
+86,Male,Amoxicillin,GeneC,COPD,1
+74,Male,Paracetamol,GeneE,Diabetes,1
+39,Male,Omeprazole,GeneA,Kidney Disease,0
+45,Female,Metformin,GeneA,Asthma,0
+37,Female,Omeprazole,GeneD,Hypertension,1
+76,Male,Omeprazole,GeneD,Asthma,1
+67,Female,Omeprazole,GeneE,COPD,0
+48,Female,Atorvastatin,GeneA,Hypertension,1
+47,Male,Amoxicillin,GeneC,Hypertension,1
+60,Female,Metformin,GeneA,COPD,0
+40,Female,Aspirin,GeneB,Cancer,0
+89,Female,Atorvastatin,GeneD,COPD,0
+74,Male,Metformin,GeneC,Diabetes,0
+41,Female,Ibuprofen,GeneD,Cancer,0
+63,Male,Omeprazole,GeneE,Liver Disease,1
+89,Female,Omeprazole,GeneC,COPD,1
+50,Female,Ibuprofen,GeneE,Heart Disease,1
+49,Female,Amoxicillin,GeneD,Cancer,0
+33,Male,Metformin,GeneD,Liver Disease,1
+64,Male,Atorvastatin,GeneC,None,0
+39,Female,Metformin,GeneA,Diabetes,0
+40,Male,Omeprazole,GeneC,Cancer,0
+44,Male,Atorvastatin,GeneB,Liver Disease,1
+87,Female,Aspirin,GeneE,COPD,1
+54,Female,Omeprazole,GeneB,Cancer,0
+58,Female,Atorvastatin,GeneD,Cancer,0
+72,Male,Atorvastatin,GeneD,COPD,1
+60,Male,Ibuprofen,GeneE,Asthma,0
+85,Female,Metformin,GeneE,Heart Disease,0
+49,Female,Atorvastatin,GeneE,Kidney Disease,1
+45,Male,Metformin,GeneC,Hypertension,0
+42,Female,Aspirin,GeneE,Cancer,1
+52,Male,Omeprazole,GeneB,COPD,0
+36,Female,Paracetamol,GeneB,COPD,0
+80,Male,Aspirin,GeneD,Liver Disease,1
+45,Female,Metformin,GeneE,Kidney Disease,0
+69,Female,Aspirin,GeneD,Diabetes,1
+74,Female,Omeprazole,GeneB,None,0
+34,Female,Metformin,GeneB,None,0
+47,Male,Omeprazole,GeneB,Kidney Disease,0
+62,Male,Metformin,GeneC,Diabetes,0
+46,Female,Ibuprofen,GeneA,Hypertension,0
+58,Female,Atorvastatin,GeneB,Cancer,0
+75,Female,Omeprazole,GeneB,Diabetes,1
+75,Female,Ibuprofen,GeneE,Liver Disease,1
+87,Male,Atorvastatin,GeneA,Cancer,0
+49,Male,Metformin,GeneC,Kidney Disease,1
+70,Female,Paracetamol,GeneE,Diabetes,0
+45,Female,Paracetamol,GeneA,None,0
+35,Female,Aspirin,GeneB,Liver Disease,0
+77,Male,Amoxicillin,GeneB,Heart Disease,0
+19,Male,Metformin,GeneA,Asthma,0
+82,Female,Omeprazole,GeneB,COPD,1
+89,Male,Metformin,GeneC,COPD,0
+23,Female,Metformin,GeneA,Asthma,0
+77,Female,Ibuprofen,GeneA,Cancer,0
+60,Male,Ibuprofen,GeneE,None,0
+73,Female,Omeprazole,GeneA,Kidney Disease,1
+65,Female,Paracetamol,GeneE,Diabetes,0
+30,Male,Metformin,GeneE,Hypertension,0
+20,Male,Ibuprofen,GeneD,Hypertension,1
+59,Male,Atorvastatin,GeneC,Cancer,0
+61,Male,Ibuprofen,GeneA,Kidney Disease,1
+62,Male,Atorvastatin,GeneD,Diabetes,0
+45,Female,Omeprazole,GeneB,COPD,0
+74,Female,Ibuprofen,GeneA,Hypertension,0
+52,Female,Aspirin,GeneC,Liver Disease,1
+58,Female,Ibuprofen,GeneB,Kidney Disease,0
+58,Male,Paracetamol,GeneA,None,0
+47,Male,Amoxicillin,GeneE,Asthma,0
+38,Female,Atorvastatin,GeneB,Cancer,0
+41,Male,Omeprazole,GeneA,Diabetes,0
+72,Male,Aspirin,GeneD,Liver Disease,0
+66,Female,Ibuprofen,GeneE,Cancer,1
+88,Male,Atorvastatin,GeneB,COPD,0
+73,Male,Atorvastatin,GeneD,None,0
+27,Female,Amoxicillin,GeneC,Cancer,1
+46,Female,Aspirin,GeneB,Hypertension,0
+70,Male,Aspirin,GeneC,Cancer,1
+69,Male,Ibuprofen,GeneD,Asthma,1
+74,Female,Metformin,GeneC,Diabetes,0
+72,Female,Aspirin,GeneA,Kidney Disease,1
+30,Female,Aspirin,GeneD,Cancer,1
+45,Female,Paracetamol,GeneE,Heart Disease,1
+54,Male,Omeprazole,GeneD,Asthma,0
+75,Female,Amoxicillin,GeneC,Heart Disease,1
+36,Male,Omeprazole,GeneE,Hypertension,0
+21,Male,Amoxicillin,GeneC,Diabetes,0
+45,Male,Omeprazole,GeneB,Diabetes,0
+22,Female,Metformin,GeneE,Liver Disease,0
+50,Female,Paracetamol,GeneE,Cancer,0
+21,Female,Omeprazole,GeneB,COPD,0
+28,Male,Amoxicillin,GeneE,None,0
+89,Male,Amoxicillin,GeneD,None,0
+60,Female,Omeprazole,GeneA,Hypertension,0
+62,Female,Ibuprofen,GeneB,Kidney Disease,0
+52,Female,Omeprazole,GeneD,COPD,0
+43,Female,Ibuprofen,GeneB,Heart Disease,0
+57,Male,Atorvastatin,GeneD,Hypertension,1
+48,Male,Ibuprofen,GeneB,Liver Disease,0
+63,Male,Amoxicillin,GeneC,None,0
+50,Male,Metformin,GeneD,Asthma,1
+72,Male,Amoxicillin,GeneD,Hypertension,0
+47,Female,Paracetamol,GeneB,Cancer,0
+60,Female,Ibuprofen,GeneE,Diabetes,0
+69,Male,Paracetamol,GeneD,Kidney Disease,1
+50,Female,Amoxicillin,GeneA,Heart Disease,0
+48,Female,Aspirin,GeneC,Diabetes,0
+42,Female,Aspirin,GeneD,Cancer,1
+79,Female,Omeprazole,GeneD,Diabetes,1
+64,Female,Amoxicillin,GeneE,COPD,1
+37,Male,Aspirin,GeneB,Diabetes,0
+44,Male,Ibuprofen,GeneC,Hypertension,0
+37,Male,Metformin,GeneB,Diabetes,0
+27,Female,Omeprazole,GeneB,Hypertension,0
+33,Female,Omeprazole,GeneE,Hypertension,0
+24,Male,Aspirin,GeneB,None,0
+72,Male,Aspirin,GeneE,Cancer,1
+68,Male,Amoxicillin,GeneD,COPD,0
+67,Female,Omeprazole,GeneE,Heart Disease,1
+51,Male,Aspirin,GeneB,Heart Disease,0
+32,Male,Paracetamol,GeneD,Liver Disease,0
+28,Male,Aspirin,GeneD,Liver Disease,0
+73,Female,Paracetamol,GeneC,COPD,1
+48,Female,Metformin,GeneA,None,0
+34,Female,Ibuprofen,GeneB,Kidney Disease,0
+33,Female,Ibuprofen,GeneA,COPD,0
+73,Female,Aspirin,GeneA,Kidney Disease,0
+71,Female,Omeprazole,GeneB,Diabetes,0
+51,Female,Metformin,GeneA,Diabetes,0
+43,Male,Omeprazole,GeneA,Asthma,0
+50,Female,Omeprazole,GeneC,Diabetes,1
+61,Male,Amoxicillin,GeneE,Liver Disease,0
+75,Male,Atorvastatin,GeneC,Cancer,1
+46,Male,Ibuprofen,GeneA,Asthma,0
+33,Female,Atorvastatin,GeneE,Kidney Disease,1
+61,Male,Metformin,GeneC,Liver Disease,0
+50,Male,Atorvastatin,GeneB,Heart Disease,0
+73,Female,Metformin,GeneB,Liver Disease,1
+37,Male,Paracetamol,GeneC,Liver Disease,0
+73,Male,Metformin,GeneA,Hypertension,1
+33,Male,Amoxicillin,GeneA,Diabetes,0
+42,Female,Aspirin,GeneC,Cancer,1
+36,Male,Aspirin,GeneA,Hypertension,0
+78,Female,Metformin,GeneC,Heart Disease,1
+65,Male,Metformin,GeneC,Asthma,0
+63,Male,Atorvastatin,GeneB,Kidney Disease,0
+33,Female,Atorvastatin,GeneC,Liver Disease,1
+38,Male,Omeprazole,GeneB,COPD,0
+26,Male,Omeprazole,GeneC,Cancer,0
+81,Male,Aspirin,GeneA,Kidney Disease,1
+58,Male,Aspirin,GeneC,Hypertension,0
+75,Male,Paracetamol,GeneE,Heart Disease,0
+26,Male,Ibuprofen,GeneB,Heart Disease,0
+63,Female,Ibuprofen,GeneD,None,1
+72,Female,Metformin,GeneE,None,1
+38,Male,Ibuprofen,GeneB,Hypertension,0
+77,Female,Ibuprofen,GeneE,Cancer,0
+84,Female,Metformin,GeneD,Diabetes,1
+34,Male,Aspirin,GeneD,None,0
+69,Male,Ibuprofen,GeneB,Diabetes,0
+83,Female,Omeprazole,GeneA,Kidney Disease,0
+87,Female,Paracetamol,GeneB,Heart Disease,1
+22,Male,Omeprazole,GeneA,Asthma,0
+50,Male,Paracetamol,GeneB,Diabetes,0
+85,Male,Amoxicillin,GeneE,Liver Disease,0

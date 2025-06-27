@@ -1,0 +1,1001 @@
+age,gender,drug,genomics,past_diseases,reason_for_drug,drug_quantity,allergies,addiction,ayurvedic_medicine,hereditary_disease,drug_duration,age_group,polypharmacy_flag,adr_severity
+67,Female,Omeprazole,GeneD,Cancer,Pain relief,2,Aspirin,Smoking,No,None,105,Senior,0,High
+61,Male,Atorvastatin,GeneD,Kidney Disease,Pain relief,4,Penicillin,None,No,None,95,Senior,1,High
+83,Male,Paracetamol,GeneD,Hypertension,Infection,1,None,None,No,Cancer,17,Senior,0,Low
+21,Male,Aspirin,GeneE,Liver Disease,Heart health,1,Latex,Smoking,Yes,Diabetes,109,Adult,0,Low
+73,Male,Aspirin,GeneB,Cancer,Infection,2,None,Drugs,No,None,74,Senior,0,Low
+28,Male,Paracetamol,GeneA,Liver Disease,Cholesterol,1,Peanuts,Smoking,No,None,23,Adult,0,Low
+75,Female,Omeprazole,GeneA,None,Infection,2,Peanuts,Smoking,Yes,None,105,Senior,0,High
+18,Male,Aspirin,GeneE,Liver Disease,Stomach issues,4,Penicillin,None,Yes,Cancer,124,Adult,1,Low
+86,Male,Paracetamol,GeneD,COPD,Pain relief,4,Penicillin,Drugs,Yes,Heart Disease,77,Senior,1,Low
+21,Female,Amoxicillin,GeneC,Liver Disease,Pain relief,3,Penicillin,Smoking,Yes,Cancer,90,Adult,0,High
+78,Male,Aspirin,GeneC,Liver Disease,Fever,4,Peanuts,Smoking,Yes,Diabetes,119,Senior,1,High
+74,Female,Ibuprofen,GeneC,Hypertension,Fever,2,None,Alcohol,No,Diabetes,102,Senior,0,Low
+50,Female,Ibuprofen,GeneE,Liver Disease,Cholesterol,4,None,None,No,Diabetes,106,Adult,1,High
+46,Male,Ibuprofen,GeneE,Diabetes,Stomach issues,3,Penicillin,Alcohol,No,Diabetes,154,Adult,0,Low
+80,Female,Paracetamol,GeneB,Asthma,Heart health,1,Latex,Alcohol,Yes,None,133,Senior,0,Low
+45,Female,Omeprazole,GeneD,Cancer,Infection,2,None,Smoking,Yes,None,152,Adult,0,High
+19,Male,Paracetamol,GeneA,Cancer,Cholesterol,1,Peanuts,None,Yes,Cancer,55,Adult,0,Low
+35,Female,Amoxicillin,GeneB,Liver Disease,Fever,3,Aspirin,Drugs,No,Heart Disease,4,Adult,0,High
+82,Female,Paracetamol,GeneC,Hypertension,Infection,3,Aspirin,Smoking,No,Diabetes,90,Senior,0,Low
+60,Male,Paracetamol,GeneC,Liver Disease,Fever,3,Aspirin,Drugs,Yes,Cancer,160,Senior,0,Low
+27,Male,Ibuprofen,GeneB,Cancer,Infection,1,Latex,Drugs,No,None,40,Adult,0,Low
+60,Male,Ibuprofen,GeneA,Heart Disease,Heart health,1,Penicillin,None,Yes,None,132,Senior,0,Low
+54,Female,Ibuprofen,GeneD,COPD,Cholesterol,1,Peanuts,Alcohol,No,Heart Disease,23,Adult,0,High
+46,Female,Atorvastatin,GeneA,Diabetes,Infection,1,Latex,None,No,Heart Disease,163,Adult,0,Low
+25,Female,Atorvastatin,GeneE,None,Stomach issues,3,Peanuts,Drugs,No,Heart Disease,60,Adult,0,Low
+66,Male,Atorvastatin,GeneD,Hypertension,Pain relief,3,Peanuts,Smoking,Yes,Cancer,24,Senior,0,High
+83,Female,Ibuprofen,GeneA,Kidney Disease,Stomach issues,2,Penicillin,Drugs,No,None,91,Senior,0,Low
+42,Male,Amoxicillin,GeneE,Liver Disease,Stomach issues,2,Aspirin,Smoking,No,None,51,Adult,0,Low
+81,Male,Amoxicillin,GeneB,Cancer,Pain relief,1,Penicillin,Smoking,Yes,Heart Disease,61,Senior,0,High
+37,Female,Ibuprofen,GeneE,Heart Disease,Stomach issues,4,Latex,None,No,Diabetes,172,Adult,1,Low
+62,Female,Omeprazole,GeneC,Heart Disease,Infection,4,Latex,Drugs,Yes,Heart Disease,17,Senior,1,High
+23,Female,Metformin,GeneB,Cancer,Infection,3,Latex,Alcohol,Yes,Cancer,177,Adult,0,Low
+84,Female,Omeprazole,GeneE,Asthma,Infection,3,Penicillin,Drugs,Yes,Heart Disease,53,Senior,0,Low
+64,Male,Amoxicillin,GeneB,Kidney Disease,Pain relief,3,Peanuts,Drugs,Yes,Heart Disease,110,Senior,0,Low
+29,Male,Paracetamol,GeneA,Kidney Disease,Stomach issues,2,Peanuts,Alcohol,Yes,Cancer,57,Adult,0,Low
+32,Female,Metformin,GeneE,Heart Disease,Pain relief,2,None,None,No,Heart Disease,66,Adult,0,Low
+68,Male,Ibuprofen,GeneB,Heart Disease,Infection,3,Latex,Drugs,Yes,None,133,Senior,0,Low
+24,Female,Aspirin,GeneD,None,Stomach issues,3,Peanuts,Drugs,Yes,Diabetes,53,Adult,0,Low
+36,Female,Paracetamol,GeneE,COPD,Stomach issues,3,None,Smoking,Yes,Heart Disease,137,Adult,0,Low
+31,Male,Metformin,GeneB,None,Fever,4,Peanuts,Drugs,Yes,Cancer,23,Adult,1,Low
+55,Female,Metformin,GeneD,Liver Disease,Fever,2,Latex,Alcohol,No,Diabetes,75,Adult,0,High
+89,Female,Aspirin,GeneE,Asthma,Heart health,4,Aspirin,Smoking,Yes,Cancer,169,Senior,1,Low
+66,Male,Metformin,GeneC,Kidney Disease,Cholesterol,4,Latex,None,No,Diabetes,20,Senior,1,Low
+29,Male,Amoxicillin,GeneA,Heart Disease,Fever,3,Penicillin,Smoking,Yes,Diabetes,134,Adult,0,Low
+86,Female,Omeprazole,GeneA,Hypertension,Pain relief,3,Peanuts,Alcohol,No,Heart Disease,91,Senior,0,Low
+76,Male,Amoxicillin,GeneD,None,Fever,1,Peanuts,Alcohol,Yes,None,62,Senior,0,High
+49,Male,Metformin,GeneC,Kidney Disease,Heart health,1,Penicillin,Smoking,Yes,Heart Disease,16,Adult,0,High
+40,Male,Ibuprofen,GeneE,Liver Disease,Stomach issues,4,Penicillin,None,No,Cancer,11,Adult,1,Low
+54,Female,Ibuprofen,GeneC,Heart Disease,Heart health,2,Aspirin,Smoking,Yes,Cancer,92,Adult,0,High
+31,Female,Paracetamol,GeneC,COPD,Stomach issues,3,Peanuts,None,No,Diabetes,55,Adult,0,High
+40,Male,Atorvastatin,GeneB,Hypertension,Stomach issues,3,Peanuts,Smoking,Yes,Diabetes,132,Adult,0,Low
+79,Female,Atorvastatin,GeneA,Asthma,Cholesterol,4,Aspirin,Alcohol,No,None,86,Senior,1,High
+77,Female,Paracetamol,GeneA,None,Fever,1,None,Drugs,Yes,Heart Disease,94,Senior,0,Low
+32,Male,Paracetamol,GeneD,Heart Disease,Pain relief,2,Aspirin,Drugs,Yes,Cancer,113,Adult,0,Low
+48,Male,Omeprazole,GeneA,Liver Disease,Pain relief,1,Latex,None,No,Diabetes,174,Adult,0,Low
+54,Female,Metformin,GeneB,None,Infection,1,Peanuts,None,Yes,None,10,Adult,0,Low
+27,Male,Omeprazole,GeneA,Asthma,Stomach issues,1,Penicillin,None,Yes,Cancer,177,Adult,0,Low
+33,Female,Paracetamol,GeneC,COPD,Pain relief,1,Latex,Alcohol,Yes,Diabetes,37,Adult,0,High
+24,Male,Amoxicillin,GeneB,Liver Disease,Cholesterol,3,Peanuts,Smoking,Yes,Cancer,83,Adult,0,Low
+77,Male,Paracetamol,GeneE,Diabetes,Stomach issues,3,Aspirin,Alcohol,Yes,None,166,Senior,0,High
+49,Male,Metformin,GeneC,Heart Disease,Cholesterol,1,Latex,Drugs,Yes,None,52,Adult,0,High
+35,Male,Aspirin,GeneA,Liver Disease,Pain relief,2,Peanuts,None,No,Cancer,106,Adult,0,Low
+24,Female,Aspirin,GeneB,Kidney Disease,Pain relief,4,None,Smoking,No,Heart Disease,134,Adult,1,Low
+81,Female,Amoxicillin,GeneA,Hypertension,Infection,2,None,Drugs,No,Cancer,4,Senior,0,High
+83,Male,Ibuprofen,GeneC,Asthma,Pain relief,2,Penicillin,Drugs,Yes,Diabetes,136,Senior,0,High
+75,Male,Paracetamol,GeneA,Cancer,Stomach issues,2,Peanuts,Drugs,No,Heart Disease,56,Senior,0,Low
+18,Female,Paracetamol,GeneC,Hypertension,Stomach issues,1,None,Alcohol,Yes,Diabetes,108,Adult,0,High
+19,Male,Amoxicillin,GeneE,Heart Disease,Stomach issues,3,Aspirin,None,Yes,Cancer,6,Adult,0,High
+29,Male,Metformin,GeneE,COPD,Infection,2,Peanuts,Drugs,Yes,Heart Disease,56,Adult,0,Low
+62,Female,Ibuprofen,GeneC,Kidney Disease,Infection,1,Aspirin,None,Yes,Diabetes,148,Senior,0,Low
+74,Female,Amoxicillin,GeneD,Liver Disease,Pain relief,2,Aspirin,Alcohol,No,Cancer,46,Senior,0,High
+27,Male,Ibuprofen,GeneE,Hypertension,Heart health,2,None,Drugs,Yes,Cancer,164,Adult,0,Low
+78,Male,Atorvastatin,GeneC,Cancer,Heart health,1,Peanuts,Alcohol,No,Heart Disease,16,Senior,0,High
+75,Female,Atorvastatin,GeneC,Cancer,Infection,3,Latex,Alcohol,Yes,Cancer,97,Senior,0,Low
+87,Female,Amoxicillin,GeneA,Asthma,Pain relief,3,None,None,No,None,50,Senior,0,Low
+68,Male,Metformin,GeneB,Kidney Disease,Heart health,4,None,Drugs,No,Diabetes,17,Senior,1,High
+73,Male,Amoxicillin,GeneC,Cancer,Pain relief,1,Peanuts,Alcohol,No,Diabetes,42,Senior,0,Low
+63,Female,Metformin,GeneE,Diabetes,Pain relief,4,Peanuts,Drugs,No,Cancer,84,Senior,1,Low
+29,Female,Amoxicillin,GeneA,Cancer,Pain relief,4,Aspirin,None,No,Cancer,113,Adult,1,Low
+35,Male,Atorvastatin,GeneC,Liver Disease,Fever,4,Peanuts,Alcohol,No,None,55,Adult,1,High
+84,Female,Ibuprofen,GeneB,Asthma,Stomach issues,3,Aspirin,None,Yes,Heart Disease,26,Senior,0,High
+31,Male,Amoxicillin,GeneB,Cancer,Pain relief,1,None,Drugs,No,Cancer,156,Adult,0,Low
+71,Male,Paracetamol,GeneB,Asthma,Fever,4,Penicillin,Drugs,Yes,Cancer,126,Senior,1,Low
+85,Female,Omeprazole,GeneB,COPD,Infection,1,Latex,None,No,Cancer,43,Senior,0,Low
+69,Male,Paracetamol,GeneC,Liver Disease,Heart health,1,None,Smoking,Yes,Cancer,159,Senior,0,Low
+22,Female,Paracetamol,GeneD,Cancer,Stomach issues,3,Peanuts,Alcohol,No,Diabetes,17,Adult,0,Low
+60,Female,Paracetamol,GeneE,COPD,Heart health,4,Latex,Drugs,No,Cancer,47,Senior,1,Low
+65,Male,Paracetamol,GeneB,Hypertension,Stomach issues,4,Penicillin,Drugs,Yes,Diabetes,67,Senior,1,Low
+24,Female,Aspirin,GeneD,Cancer,Heart health,1,Penicillin,Alcohol,No,Cancer,91,Adult,0,Low
+34,Female,Ibuprofen,GeneB,None,Stomach issues,2,Aspirin,None,No,Heart Disease,73,Adult,0,Low
+56,Female,Aspirin,GeneB,Hypertension,Heart health,3,Latex,None,No,None,11,Adult,0,Low
+69,Male,Paracetamol,GeneD,Hypertension,Heart health,3,Aspirin,None,Yes,Heart Disease,90,Senior,0,High
+73,Male,Aspirin,GeneC,None,Heart health,3,None,Smoking,No,Cancer,131,Senior,0,High
+85,Female,Ibuprofen,GeneD,COPD,Heart health,3,Latex,Smoking,Yes,Cancer,138,Senior,0,High
+53,Male,Amoxicillin,GeneD,Kidney Disease,Infection,4,None,Drugs,No,Cancer,65,Adult,1,Low
+81,Male,Amoxicillin,GeneB,Cancer,Pain relief,4,Aspirin,None,No,Heart Disease,141,Senior,1,Low
+71,Female,Aspirin,GeneE,COPD,Cholesterol,2,Latex,Alcohol,Yes,Cancer,83,Senior,0,Low
+18,Female,Metformin,GeneB,Diabetes,Fever,3,Aspirin,Drugs,No,Heart Disease,138,Adult,0,Low
+78,Male,Omeprazole,GeneA,Liver Disease,Cholesterol,3,Latex,Alcohol,No,Diabetes,165,Senior,0,Low
+52,Male,Ibuprofen,GeneB,Liver Disease,Cholesterol,1,Aspirin,Drugs,Yes,None,165,Adult,0,Low
+85,Female,Omeprazole,GeneC,Diabetes,Stomach issues,4,Penicillin,Smoking,No,None,35,Senior,1,Low
+19,Male,Paracetamol,GeneB,Hypertension,Pain relief,3,Aspirin,Drugs,Yes,Heart Disease,125,Adult,0,Low
+19,Female,Metformin,GeneA,Diabetes,Stomach issues,2,Penicillin,Smoking,Yes,Diabetes,7,Adult,0,Low
+50,Female,Metformin,GeneB,None,Pain relief,2,Aspirin,Drugs,Yes,Heart Disease,43,Adult,0,Low
+75,Male,Aspirin,GeneA,Heart Disease,Pain relief,4,Latex,None,No,Diabetes,30,Senior,1,Low
+25,Female,Ibuprofen,GeneB,Diabetes,Heart health,2,Latex,Alcohol,Yes,Cancer,137,Adult,0,Low
+20,Female,Aspirin,GeneD,Diabetes,Infection,2,Latex,None,Yes,Diabetes,74,Adult,0,Low
+73,Male,Amoxicillin,GeneE,Diabetes,Heart health,4,Peanuts,Drugs,No,Diabetes,14,Senior,1,Low
+70,Male,Metformin,GeneE,Kidney Disease,Infection,3,None,Drugs,Yes,Diabetes,164,Senior,0,Low
+33,Female,Aspirin,GeneB,Asthma,Stomach issues,3,Latex,Drugs,No,None,35,Adult,0,Low
+50,Female,Atorvastatin,GeneE,None,Infection,2,Penicillin,Smoking,No,Diabetes,50,Adult,0,Low
+86,Male,Paracetamol,GeneB,Diabetes,Stomach issues,2,Latex,Alcohol,No,Cancer,153,Senior,0,Low
+66,Female,Ibuprofen,GeneC,Diabetes,Cholesterol,3,Peanuts,Alcohol,No,Cancer,64,Senior,0,Low
+19,Female,Paracetamol,GeneC,Cancer,Cholesterol,4,Penicillin,Drugs,Yes,Cancer,39,Adult,1,Low
+63,Female,Atorvastatin,GeneE,Heart Disease,Infection,2,Peanuts,Drugs,Yes,Diabetes,101,Senior,0,High
+73,Female,Omeprazole,GeneC,Heart Disease,Infection,1,Penicillin,Smoking,Yes,Heart Disease,174,Senior,0,High
+80,Female,Aspirin,GeneA,Kidney Disease,Stomach issues,4,Aspirin,None,Yes,Heart Disease,106,Senior,1,High
+45,Male,Metformin,GeneC,COPD,Heart health,2,None,None,Yes,Cancer,37,Adult,0,High
+27,Male,Aspirin,GeneA,COPD,Stomach issues,2,None,Alcohol,No,None,103,Adult,0,Low
+25,Female,Atorvastatin,GeneE,Hypertension,Heart health,1,Peanuts,Smoking,Yes,Heart Disease,177,Adult,0,Low
+74,Female,Ibuprofen,GeneB,Liver Disease,Cholesterol,1,None,Drugs,Yes,Diabetes,133,Senior,0,High
+72,Female,Aspirin,GeneB,Heart Disease,Pain relief,3,Peanuts,Alcohol,Yes,Heart Disease,3,Senior,0,Low
+57,Female,Omeprazole,GeneD,Kidney Disease,Infection,4,Peanuts,Smoking,No,Cancer,7,Adult,1,High
+64,Female,Atorvastatin,GeneD,Liver Disease,Heart health,4,Peanuts,None,No,None,144,Senior,1,High
+36,Female,Metformin,GeneA,Kidney Disease,Stomach issues,3,None,Smoking,Yes,Heart Disease,105,Adult,0,High
+49,Male,Aspirin,GeneA,Hypertension,Cholesterol,4,Peanuts,None,No,Heart Disease,29,Adult,1,Low
+43,Female,Metformin,GeneA,Diabetes,Heart health,4,None,Smoking,Yes,Cancer,139,Adult,1,Low
+86,Male,Metformin,GeneA,Asthma,Stomach issues,4,Peanuts,Alcohol,Yes,None,17,Senior,1,Low
+53,Male,Omeprazole,GeneE,Cancer,Infection,4,Latex,None,No,None,92,Adult,1,Low
+54,Female,Metformin,GeneA,Heart Disease,Infection,4,Peanuts,Alcohol,No,Cancer,44,Adult,1,Low
+36,Female,Ibuprofen,GeneD,COPD,Fever,1,Penicillin,Alcohol,Yes,Diabetes,126,Adult,0,Low
+80,Male,Amoxicillin,GeneC,Cancer,Pain relief,4,Peanuts,None,Yes,Heart Disease,65,Senior,1,High
+38,Female,Amoxicillin,GeneD,Asthma,Fever,1,Aspirin,None,No,Diabetes,98,Adult,0,High
+84,Male,Ibuprofen,GeneA,Liver Disease,Cholesterol,4,Peanuts,Drugs,Yes,Heart Disease,54,Senior,1,Low
+70,Male,Atorvastatin,GeneE,Asthma,Heart health,3,Penicillin,Drugs,No,Heart Disease,98,Senior,0,High
+57,Female,Atorvastatin,GeneC,Kidney Disease,Cholesterol,2,Penicillin,Drugs,Yes,Diabetes,134,Adult,0,High
+89,Male,Omeprazole,GeneD,None,Stomach issues,1,None,Alcohol,No,Cancer,153,Senior,0,Low
+69,Male,Amoxicillin,GeneC,Hypertension,Infection,4,Latex,Alcohol,Yes,Cancer,145,Senior,1,High
+82,Female,Amoxicillin,GeneD,None,Fever,3,Peanuts,Drugs,Yes,Heart Disease,173,Senior,0,Low
+65,Female,Paracetamol,GeneE,Cancer,Fever,2,None,Alcohol,No,Cancer,31,Senior,0,Low
+75,Male,Ibuprofen,GeneE,Heart Disease,Fever,1,Latex,Alcohol,Yes,Heart Disease,38,Senior,0,High
+88,Female,Atorvastatin,GeneB,Asthma,Cholesterol,2,Peanuts,None,Yes,Cancer,15,Senior,0,Low
+87,Male,Ibuprofen,GeneA,Kidney Disease,Infection,3,Aspirin,None,No,Heart Disease,162,Senior,0,High
+81,Male,Omeprazole,GeneD,Cancer,Heart health,1,Peanuts,Alcohol,Yes,Cancer,73,Senior,0,Low
+71,Female,Metformin,GeneE,COPD,Stomach issues,2,Penicillin,Drugs,Yes,None,88,Senior,0,Low
+19,Female,Atorvastatin,GeneC,Asthma,Heart health,4,Penicillin,Smoking,Yes,Diabetes,30,Adult,1,Low
+49,Male,Amoxicillin,GeneE,Asthma,Cholesterol,1,Aspirin,Drugs,No,None,68,Adult,0,Low
+35,Male,Paracetamol,GeneC,Hypertension,Stomach issues,2,None,Smoking,No,Diabetes,172,Adult,0,Low
+47,Female,Amoxicillin,GeneA,Diabetes,Fever,3,Latex,Drugs,No,Diabetes,47,Adult,0,High
+28,Male,Omeprazole,GeneC,Hypertension,Pain relief,3,Peanuts,None,Yes,Heart Disease,64,Adult,0,Low
+84,Male,Aspirin,GeneB,Cancer,Cholesterol,1,Penicillin,Alcohol,Yes,Diabetes,136,Senior,0,High
+29,Male,Aspirin,GeneC,Kidney Disease,Cholesterol,2,None,Alcohol,Yes,None,30,Adult,0,High
+23,Female,Aspirin,GeneB,Kidney Disease,Infection,1,Aspirin,None,Yes,None,30,Adult,0,High
+74,Female,Paracetamol,GeneA,COPD,Heart health,1,Penicillin,Smoking,No,Cancer,110,Senior,0,High
+32,Female,Omeprazole,GeneD,COPD,Cholesterol,2,Aspirin,Smoking,Yes,None,46,Adult,0,High
+45,Male,Paracetamol,GeneB,Liver Disease,Cholesterol,2,Peanuts,Smoking,Yes,Cancer,86,Adult,0,Low
+83,Male,Amoxicillin,GeneE,None,Fever,4,Latex,None,Yes,Diabetes,32,Senior,1,Low
+20,Male,Paracetamol,GeneE,Cancer,Fever,2,Penicillin,Smoking,No,None,77,Adult,0,Low
+75,Male,Paracetamol,GeneE,Diabetes,Stomach issues,3,Penicillin,None,Yes,Diabetes,130,Senior,0,Low
+59,Female,Amoxicillin,GeneA,Heart Disease,Pain relief,1,Peanuts,Drugs,Yes,None,94,Adult,0,Low
+37,Female,Paracetamol,GeneB,Diabetes,Infection,1,None,Drugs,Yes,None,131,Adult,0,Low
+83,Female,Paracetamol,GeneA,Liver Disease,Pain relief,3,Latex,None,Yes,Cancer,123,Senior,0,High
+25,Female,Amoxicillin,GeneB,Heart Disease,Stomach issues,2,Penicillin,Alcohol,Yes,Diabetes,29,Adult,0,High
+58,Male,Ibuprofen,GeneC,Heart Disease,Fever,3,Latex,Drugs,No,None,123,Adult,0,Low
+53,Male,Paracetamol,GeneE,Cancer,Heart health,3,Penicillin,Smoking,Yes,Heart Disease,118,Adult,0,Low
+85,Female,Amoxicillin,GeneD,Heart Disease,Fever,4,Latex,None,Yes,Diabetes,5,Senior,1,High
+79,Female,Omeprazole,GeneA,Asthma,Infection,3,Aspirin,Smoking,Yes,Diabetes,105,Senior,0,Low
+70,Male,Amoxicillin,GeneB,Cancer,Fever,1,Penicillin,Smoking,Yes,Diabetes,157,Senior,0,High
+72,Female,Amoxicillin,GeneD,Kidney Disease,Infection,3,Latex,Alcohol,Yes,Cancer,139,Senior,0,High
+81,Female,Atorvastatin,GeneE,Diabetes,Infection,1,None,Smoking,Yes,Heart Disease,64,Senior,0,Low
+86,Male,Omeprazole,GeneD,Cancer,Infection,1,Aspirin,Alcohol,Yes,Diabetes,167,Senior,0,High
+33,Male,Ibuprofen,GeneB,Asthma,Stomach issues,1,Aspirin,Drugs,Yes,None,53,Adult,0,Low
+86,Female,Omeprazole,GeneA,Kidney Disease,Infection,2,None,None,Yes,None,174,Senior,0,High
+49,Male,Aspirin,GeneC,Asthma,Infection,4,Latex,Smoking,Yes,Cancer,154,Adult,1,Low
+87,Female,Atorvastatin,GeneB,COPD,Heart health,1,Peanuts,None,No,None,61,Senior,0,Low
+40,Male,Aspirin,GeneA,Asthma,Pain relief,1,None,Smoking,No,Diabetes,120,Adult,0,Low
+72,Male,Metformin,GeneB,Diabetes,Cholesterol,2,Latex,None,No,None,162,Senior,0,Low
+52,Male,Aspirin,GeneE,COPD,Pain relief,1,None,Smoking,No,Diabetes,98,Adult,0,Low
+85,Male,Amoxicillin,GeneC,Asthma,Infection,3,None,Smoking,Yes,None,115,Senior,0,Low
+58,Male,Aspirin,GeneC,COPD,Heart health,3,Penicillin,Smoking,No,Heart Disease,64,Adult,0,High
+77,Male,Paracetamol,GeneD,COPD,Fever,4,Latex,Smoking,No,Cancer,54,Senior,1,High
+33,Male,Ibuprofen,GeneD,Kidney Disease,Heart health,1,Peanuts,Smoking,Yes,Cancer,14,Adult,0,Low
+69,Female,Amoxicillin,GeneE,Liver Disease,Infection,2,Penicillin,Smoking,No,Heart Disease,41,Senior,0,High
+47,Male,Ibuprofen,GeneD,Diabetes,Heart health,3,None,Smoking,No,Heart Disease,132,Adult,0,High
+62,Female,Paracetamol,GeneC,Kidney Disease,Heart health,2,None,Smoking,Yes,Cancer,133,Senior,0,High
+76,Female,Omeprazole,GeneD,Liver Disease,Infection,2,None,Smoking,Yes,Heart Disease,115,Senior,0,High
+84,Male,Ibuprofen,GeneC,Diabetes,Stomach issues,3,Latex,None,Yes,Diabetes,103,Senior,0,Low
+45,Female,Atorvastatin,GeneA,None,Heart health,2,Latex,Alcohol,No,None,115,Adult,0,Low
+40,Male,Metformin,GeneE,Diabetes,Cholesterol,3,Penicillin,Smoking,No,Cancer,83,Adult,0,Low
+69,Female,Metformin,GeneC,Diabetes,Cholesterol,2,Peanuts,Alcohol,Yes,Heart Disease,115,Senior,0,High
+54,Male,Ibuprofen,GeneA,Heart Disease,Heart health,3,Penicillin,Smoking,Yes,Diabetes,4,Adult,0,High
+84,Female,Metformin,GeneE,COPD,Stomach issues,1,Aspirin,Smoking,No,Cancer,132,Senior,0,High
+85,Male,Omeprazole,GeneE,Asthma,Fever,4,None,None,Yes,Heart Disease,56,Senior,1,High
+78,Male,Aspirin,GeneA,Diabetes,Infection,3,None,Drugs,No,Cancer,89,Senior,0,Low
+72,Male,Metformin,GeneE,Heart Disease,Cholesterol,3,None,Drugs,Yes,Heart Disease,131,Senior,0,High
+34,Female,Amoxicillin,GeneA,Cancer,Fever,4,Penicillin,None,Yes,Cancer,149,Adult,1,Low
+52,Male,Ibuprofen,GeneC,Asthma,Heart health,3,Penicillin,Alcohol,No,Diabetes,128,Adult,0,Low
+75,Female,Amoxicillin,GeneE,Liver Disease,Fever,3,None,Drugs,Yes,Diabetes,132,Senior,0,High
+38,Male,Omeprazole,GeneB,Cancer,Pain relief,2,Penicillin,None,Yes,None,55,Adult,0,Low
+41,Male,Aspirin,GeneB,COPD,Cholesterol,4,Latex,None,Yes,Cancer,174,Adult,1,Low
+39,Female,Ibuprofen,GeneA,Cancer,Heart health,1,Latex,Drugs,No,None,162,Adult,0,Low
+60,Female,Metformin,GeneE,Diabetes,Infection,3,Penicillin,Alcohol,Yes,Cancer,162,Senior,0,Low
+32,Male,Amoxicillin,GeneC,Heart Disease,Stomach issues,4,None,None,Yes,Heart Disease,70,Adult,1,High
+34,Male,Ibuprofen,GeneA,Diabetes,Heart health,2,Penicillin,Smoking,Yes,Heart Disease,125,Adult,0,Low
+58,Female,Amoxicillin,GeneE,COPD,Infection,1,Penicillin,Alcohol,Yes,None,147,Adult,0,Low
+88,Female,Omeprazole,GeneD,Hypertension,Stomach issues,4,Penicillin,Alcohol,Yes,Cancer,40,Senior,1,High
+37,Male,Metformin,GeneD,Diabetes,Stomach issues,1,Aspirin,Drugs,Yes,None,26,Adult,0,Low
+75,Female,Amoxicillin,GeneD,COPD,Heart health,1,Latex,Drugs,No,Diabetes,71,Senior,0,Low
+57,Female,Aspirin,GeneE,COPD,Fever,1,Peanuts,Smoking,No,None,118,Adult,0,Low
+39,Male,Atorvastatin,GeneE,Kidney Disease,Fever,3,Peanuts,None,Yes,None,100,Adult,0,Low
+21,Female,Amoxicillin,GeneD,Asthma,Stomach issues,3,Aspirin,Drugs,No,Heart Disease,141,Adult,0,Low
+58,Female,Paracetamol,GeneD,Kidney Disease,Fever,2,Penicillin,Drugs,No,None,146,Adult,0,High
+89,Male,Atorvastatin,GeneD,Kidney Disease,Pain relief,2,Aspirin,Alcohol,Yes,Cancer,99,Senior,0,High
+34,Male,Atorvastatin,GeneB,Cancer,Stomach issues,4,Aspirin,Drugs,No,Heart Disease,126,Adult,1,Low
+87,Male,Omeprazole,GeneE,Cancer,Stomach issues,2,None,Drugs,No,None,72,Senior,0,Low
+30,Male,Omeprazole,GeneD,None,Infection,1,Latex,Drugs,No,Diabetes,95,Adult,0,High
+26,Female,Atorvastatin,GeneA,Hypertension,Fever,1,Peanuts,Drugs,No,None,5,Adult,0,Low
+84,Female,Omeprazole,GeneA,Heart Disease,Stomach issues,3,Penicillin,Alcohol,No,None,150,Senior,0,High
+72,Male,Aspirin,GeneC,Heart Disease,Pain relief,1,Peanuts,Smoking,No,None,166,Senior,0,High
+36,Male,Metformin,GeneA,Cancer,Infection,4,Peanuts,Smoking,No,Heart Disease,149,Adult,1,Low
+81,Male,Ibuprofen,GeneD,Asthma,Heart health,1,Latex,None,No,Cancer,92,Senior,0,Low
+51,Male,Metformin,GeneE,Hypertension,Stomach issues,1,Peanuts,Drugs,Yes,Diabetes,149,Adult,0,Low
+38,Male,Ibuprofen,GeneB,None,Pain relief,4,Peanuts,Alcohol,Yes,None,150,Adult,1,Low
+57,Female,Paracetamol,GeneB,Heart Disease,Cholesterol,2,Aspirin,None,No,Cancer,98,Adult,0,Low
+75,Female,Paracetamol,GeneC,Hypertension,Pain relief,2,Latex,None,No,Cancer,54,Senior,0,High
+77,Female,Paracetamol,GeneB,Diabetes,Pain relief,4,None,Smoking,Yes,Heart Disease,163,Senior,1,Low
+53,Female,Paracetamol,GeneB,Heart Disease,Infection,3,Penicillin,Alcohol,No,Diabetes,170,Adult,0,Low
+51,Female,Paracetamol,GeneB,None,Heart health,1,Peanuts,Alcohol,No,Heart Disease,130,Adult,0,Low
+24,Male,Metformin,GeneC,Cancer,Cholesterol,4,Penicillin,Alcohol,Yes,Cancer,41,Adult,1,Low
+43,Female,Paracetamol,GeneC,Hypertension,Fever,1,None,Smoking,Yes,Cancer,84,Adult,0,High
+64,Female,Paracetamol,GeneC,Cancer,Fever,3,Penicillin,Smoking,Yes,Cancer,106,Senior,0,Low
+66,Male,Aspirin,GeneA,Diabetes,Pain relief,1,None,Smoking,No,Heart Disease,131,Senior,0,Low
+59,Female,Atorvastatin,GeneB,Asthma,Infection,4,Aspirin,Smoking,No,Diabetes,13,Adult,1,Low
+54,Female,Omeprazole,GeneD,None,Infection,1,Peanuts,Smoking,Yes,None,153,Adult,0,High
+28,Male,Omeprazole,GeneB,Heart Disease,Fever,2,None,Drugs,Yes,Heart Disease,161,Adult,0,High
+71,Female,Atorvastatin,GeneC,Heart Disease,Cholesterol,3,Penicillin,Drugs,No,Cancer,44,Senior,0,High
+78,Female,Atorvastatin,GeneC,Liver Disease,Heart health,3,Peanuts,Alcohol,Yes,Heart Disease,101,Senior,0,High
+41,Female,Amoxicillin,GeneE,Diabetes,Cholesterol,3,Aspirin,None,No,Cancer,9,Adult,0,Low
+46,Male,Metformin,GeneB,Liver Disease,Stomach issues,4,Peanuts,Alcohol,No,None,146,Adult,1,High
+56,Female,Paracetamol,GeneB,Heart Disease,Stomach issues,3,None,None,Yes,None,92,Adult,0,Low
+30,Female,Omeprazole,GeneD,Cancer,Heart health,2,Aspirin,Smoking,Yes,Diabetes,114,Adult,0,Low
+30,Male,Ibuprofen,GeneD,Asthma,Fever,4,Penicillin,None,No,Cancer,62,Adult,1,Low
+31,Female,Aspirin,GeneB,Hypertension,Heart health,2,Aspirin,Alcohol,Yes,Diabetes,115,Adult,0,Low
+47,Female,Amoxicillin,GeneB,COPD,Infection,1,Aspirin,Alcohol,Yes,Diabetes,4,Adult,0,Low
+22,Female,Paracetamol,GeneC,Liver Disease,Stomach issues,1,Latex,None,Yes,None,131,Adult,0,High
+47,Male,Ibuprofen,GeneD,Asthma,Pain relief,1,Aspirin,Drugs,Yes,Heart Disease,50,Adult,0,Low
+89,Female,Paracetamol,GeneC,COPD,Pain relief,1,Aspirin,Smoking,No,Heart Disease,142,Senior,0,Low
+19,Male,Atorvastatin,GeneD,None,Fever,2,Peanuts,Smoking,No,Diabetes,39,Adult,0,Low
+37,Male,Omeprazole,GeneD,Hypertension,Infection,4,Penicillin,Alcohol,No,None,162,Adult,1,Low
+69,Male,Paracetamol,GeneE,Liver Disease,Cholesterol,4,Peanuts,Drugs,No,Cancer,11,Senior,1,Low
+38,Female,Ibuprofen,GeneD,None,Infection,3,Peanuts,None,Yes,Heart Disease,101,Adult,0,Low
+66,Female,Paracetamol,GeneA,COPD,Pain relief,2,None,Smoking,Yes,Diabetes,149,Senior,0,Low
+84,Male,Amoxicillin,GeneA,Cancer,Pain relief,1,Peanuts,Drugs,No,Heart Disease,50,Senior,0,Low
+84,Female,Amoxicillin,GeneC,Cancer,Stomach issues,2,Latex,Smoking,No,Heart Disease,133,Senior,0,High
+59,Female,Paracetamol,GeneD,Cancer,Infection,3,Latex,Drugs,Yes,Cancer,150,Adult,0,High
+45,Male,Amoxicillin,GeneB,Diabetes,Infection,3,None,Drugs,No,None,154,Adult,0,Low
+40,Female,Omeprazole,GeneA,Liver Disease,Pain relief,2,Penicillin,Alcohol,No,Cancer,56,Adult,0,High
+73,Female,Atorvastatin,GeneB,None,Cholesterol,2,Penicillin,Smoking,Yes,None,122,Senior,0,Low
+69,Female,Aspirin,GeneD,Diabetes,Fever,2,Peanuts,None,No,Heart Disease,163,Senior,0,High
+31,Female,Amoxicillin,GeneB,Hypertension,Fever,4,Peanuts,Alcohol,Yes,Diabetes,154,Adult,1,Low
+85,Male,Omeprazole,GeneC,Heart Disease,Infection,1,Peanuts,Alcohol,Yes,Cancer,118,Senior,0,Low
+22,Male,Paracetamol,GeneB,Diabetes,Fever,2,Penicillin,None,No,None,77,Adult,0,Low
+23,Female,Amoxicillin,GeneD,Hypertension,Pain relief,2,Aspirin,Alcohol,Yes,Heart Disease,115,Adult,0,Low
+75,Male,Amoxicillin,GeneB,Cancer,Pain relief,2,Latex,Drugs,No,None,166,Senior,0,Low
+62,Female,Metformin,GeneA,Liver Disease,Infection,3,Aspirin,Drugs,Yes,None,168,Senior,0,High
+32,Male,Ibuprofen,GeneA,None,Infection,3,Aspirin,Smoking,No,None,106,Adult,0,Low
+66,Female,Amoxicillin,GeneA,Kidney Disease,Stomach issues,4,Penicillin,Smoking,No,Heart Disease,86,Senior,1,High
+84,Female,Metformin,GeneD,Hypertension,Infection,1,Aspirin,None,No,Diabetes,114,Senior,0,High
+50,Male,Metformin,GeneC,None,Cholesterol,4,None,Smoking,Yes,Diabetes,101,Adult,1,Low
+83,Female,Metformin,GeneC,Heart Disease,Fever,1,Peanuts,Drugs,Yes,Diabetes,155,Senior,0,Low
+24,Female,Omeprazole,GeneD,Hypertension,Infection,3,None,None,No,None,95,Adult,0,Low
+67,Male,Aspirin,GeneC,Diabetes,Heart health,3,Latex,None,Yes,Heart Disease,148,Senior,0,Low
+72,Female,Amoxicillin,GeneD,Asthma,Stomach issues,3,Peanuts,Smoking,No,None,130,Senior,0,High
+37,Female,Omeprazole,GeneD,Cancer,Heart health,4,Aspirin,Drugs,No,Diabetes,112,Adult,1,High
+31,Male,Amoxicillin,GeneB,Asthma,Pain relief,2,Latex,None,Yes,Diabetes,84,Adult,0,Low
+33,Female,Aspirin,GeneB,Cancer,Fever,2,Peanuts,Drugs,No,Heart Disease,56,Adult,0,Low
+39,Female,Aspirin,GeneA,Liver Disease,Infection,3,Aspirin,Drugs,Yes,None,165,Adult,0,Low
+76,Female,Metformin,GeneB,Kidney Disease,Heart health,2,None,Drugs,No,Cancer,171,Senior,0,Low
+48,Female,Omeprazole,GeneB,Heart Disease,Fever,2,Peanuts,Smoking,Yes,Cancer,163,Adult,0,Low
+38,Female,Amoxicillin,GeneE,None,Pain relief,4,Aspirin,Alcohol,No,Diabetes,70,Adult,1,Low
+80,Male,Metformin,GeneB,Diabetes,Cholesterol,1,None,Alcohol,No,Heart Disease,35,Senior,0,Low
+39,Male,Omeprazole,GeneE,Kidney Disease,Stomach issues,3,Latex,None,Yes,None,144,Adult,0,High
+39,Female,Metformin,GeneE,Diabetes,Fever,3,Latex,Drugs,No,None,23,Adult,0,Low
+34,Male,Metformin,GeneB,None,Fever,4,Latex,Smoking,No,Diabetes,50,Adult,1,Low
+65,Male,Paracetamol,GeneB,Heart Disease,Cholesterol,4,Latex,Drugs,Yes,Diabetes,150,Senior,1,High
+22,Female,Omeprazole,GeneD,Kidney Disease,Fever,2,Penicillin,Drugs,No,None,130,Adult,0,High
+59,Male,Amoxicillin,GeneE,Asthma,Pain relief,3,Peanuts,Smoking,Yes,None,138,Adult,0,Low
+29,Female,Metformin,GeneB,Kidney Disease,Pain relief,1,Peanuts,Alcohol,No,Diabetes,137,Adult,0,Low
+59,Female,Atorvastatin,GeneE,None,Cholesterol,4,Penicillin,Drugs,Yes,None,147,Adult,1,Low
+63,Female,Omeprazole,GeneC,None,Stomach issues,1,Aspirin,Drugs,No,Cancer,130,Senior,0,Low
+68,Female,Aspirin,GeneD,Diabetes,Infection,1,Aspirin,Alcohol,No,Diabetes,35,Senior,0,Low
+69,Male,Atorvastatin,GeneD,Asthma,Heart health,3,Latex,Smoking,No,None,178,Senior,0,Low
+74,Male,Aspirin,GeneA,Cancer,Infection,3,None,None,Yes,Diabetes,117,Senior,0,Low
+36,Male,Amoxicillin,GeneD,COPD,Fever,4,Aspirin,Alcohol,Yes,Heart Disease,121,Adult,1,High
+60,Female,Metformin,GeneA,Hypertension,Heart health,3,None,None,Yes,Diabetes,24,Senior,0,Low
+22,Female,Amoxicillin,GeneA,COPD,Cholesterol,3,Peanuts,None,Yes,Diabetes,160,Adult,0,Low
+69,Male,Metformin,GeneA,Kidney Disease,Cholesterol,3,None,Alcohol,No,Heart Disease,40,Senior,0,Low
+51,Male,Paracetamol,GeneA,Heart Disease,Stomach issues,1,Peanuts,Drugs,No,Cancer,111,Adult,0,Low
+38,Female,Amoxicillin,GeneE,Asthma,Heart health,4,Penicillin,None,Yes,None,53,Adult,1,Low
+83,Female,Atorvastatin,GeneB,Heart Disease,Pain relief,2,Penicillin,None,Yes,Heart Disease,10,Senior,0,High
+74,Male,Omeprazole,GeneE,COPD,Heart health,1,Latex,Smoking,Yes,Diabetes,29,Senior,0,High
+20,Male,Aspirin,GeneA,Kidney Disease,Fever,3,Aspirin,Drugs,No,None,29,Adult,0,High
+48,Male,Atorvastatin,GeneE,None,Pain relief,1,Latex,None,Yes,Heart Disease,23,Adult,0,Low
+32,Male,Aspirin,GeneC,COPD,Cholesterol,3,Peanuts,Smoking,Yes,None,32,Adult,0,Low
+62,Female,Amoxicillin,GeneA,Kidney Disease,Heart health,3,Latex,Drugs,No,None,99,Senior,0,Low
+40,Female,Aspirin,GeneD,None,Infection,1,None,Alcohol,No,Heart Disease,30,Adult,0,High
+32,Female,Paracetamol,GeneE,Asthma,Stomach issues,4,Peanuts,Alcohol,Yes,None,113,Adult,1,Low
+61,Female,Amoxicillin,GeneE,Liver Disease,Infection,3,Penicillin,Smoking,No,Cancer,63,Senior,0,High
+25,Male,Paracetamol,GeneC,COPD,Stomach issues,4,Aspirin,Alcohol,Yes,Heart Disease,50,Adult,1,High
+41,Male,Aspirin,GeneA,Liver Disease,Fever,2,Peanuts,None,No,Cancer,149,Adult,0,High
+49,Female,Ibuprofen,GeneE,Asthma,Infection,3,Peanuts,Drugs,Yes,Diabetes,6,Adult,0,Low
+28,Male,Aspirin,GeneD,Diabetes,Heart health,4,None,None,Yes,None,37,Adult,1,High
+18,Male,Aspirin,GeneD,Heart Disease,Heart health,4,Aspirin,None,Yes,Diabetes,51,Adult,1,Low
+51,Female,Aspirin,GeneB,Kidney Disease,Infection,2,Penicillin,Alcohol,Yes,Diabetes,19,Adult,0,Low
+87,Male,Omeprazole,GeneD,Asthma,Heart health,4,Peanuts,None,No,None,174,Senior,1,High
+59,Male,Metformin,GeneA,Hypertension,Fever,4,Peanuts,Alcohol,No,Heart Disease,160,Adult,1,Low
+76,Female,Paracetamol,GeneE,Cancer,Pain relief,2,None,Drugs,No,None,48,Senior,0,Low
+47,Male,Paracetamol,GeneE,COPD,Fever,3,Latex,Drugs,No,Diabetes,119,Adult,0,Low
+32,Female,Ibuprofen,GeneA,COPD,Stomach issues,4,Penicillin,None,Yes,Diabetes,8,Adult,1,Low
+89,Female,Omeprazole,GeneC,Cancer,Fever,4,Aspirin,Smoking,Yes,Heart Disease,101,Senior,1,Low
+79,Male,Paracetamol,GeneD,Cancer,Stomach issues,4,Peanuts,Alcohol,No,None,126,Senior,1,High
+34,Female,Amoxicillin,GeneD,Kidney Disease,Heart health,1,Peanuts,Alcohol,No,Diabetes,39,Adult,0,High
+38,Male,Atorvastatin,GeneB,Cancer,Pain relief,2,Penicillin,None,No,Cancer,26,Adult,0,Low
+57,Female,Paracetamol,GeneA,Cancer,Heart health,1,Latex,Alcohol,No,Diabetes,95,Adult,0,Low
+85,Male,Atorvastatin,GeneA,Diabetes,Cholesterol,2,Peanuts,Alcohol,No,Diabetes,48,Senior,0,Low
+70,Male,Aspirin,GeneA,COPD,Heart health,3,Penicillin,Smoking,Yes,Heart Disease,97,Senior,0,High
+25,Male,Ibuprofen,GeneC,None,Stomach issues,3,None,Smoking,Yes,Cancer,101,Adult,0,High
+84,Male,Omeprazole,GeneE,Asthma,Heart health,4,Latex,None,Yes,Diabetes,118,Senior,1,High
+23,Female,Aspirin,GeneD,Kidney Disease,Heart health,2,Aspirin,Smoking,No,Diabetes,162,Adult,0,High
+67,Female,Paracetamol,GeneB,Asthma,Pain relief,3,Peanuts,None,No,Cancer,163,Senior,0,Low
+75,Female,Ibuprofen,GeneD,Cancer,Heart health,2,Penicillin,Drugs,No,None,69,Senior,0,High
+51,Female,Paracetamol,GeneA,Cancer,Pain relief,3,None,None,No,None,130,Adult,0,Low
+54,Female,Omeprazole,GeneD,COPD,Infection,1,Aspirin,Drugs,Yes,Diabetes,20,Adult,0,Low
+49,Male,Atorvastatin,GeneE,Liver Disease,Cholesterol,3,Penicillin,None,Yes,Diabetes,27,Adult,0,High
+31,Male,Ibuprofen,GeneB,Diabetes,Pain relief,1,Penicillin,Alcohol,No,None,56,Adult,0,Low
+42,Female,Paracetamol,GeneA,Liver Disease,Stomach issues,3,Aspirin,Smoking,Yes,Heart Disease,60,Adult,0,Low
+64,Male,Aspirin,GeneB,Diabetes,Infection,4,None,Drugs,Yes,Cancer,69,Senior,1,Low
+20,Male,Ibuprofen,GeneE,Cancer,Pain relief,1,None,None,No,Cancer,106,Adult,0,Low
+24,Female,Omeprazole,GeneC,COPD,Pain relief,3,Latex,Smoking,No,Heart Disease,176,Adult,0,Low
+48,Male,Atorvastatin,GeneE,Asthma,Cholesterol,4,Peanuts,None,No,Heart Disease,26,Adult,1,Low
+57,Male,Paracetamol,GeneB,None,Stomach issues,1,Aspirin,Smoking,No,Heart Disease,116,Adult,0,Low
+66,Female,Metformin,GeneC,Cancer,Fever,4,Aspirin,Smoking,No,Heart Disease,34,Senior,1,Low
+55,Female,Paracetamol,GeneD,COPD,Fever,2,Aspirin,None,No,Heart Disease,177,Adult,0,Low
+85,Female,Amoxicillin,GeneC,Asthma,Pain relief,2,None,Drugs,Yes,Heart Disease,88,Senior,0,High
+25,Male,Atorvastatin,GeneD,Liver Disease,Heart health,1,Peanuts,Drugs,Yes,Cancer,153,Adult,0,High
+21,Male,Omeprazole,GeneD,Asthma,Stomach issues,3,Latex,Alcohol,No,Heart Disease,129,Adult,0,Low
+66,Male,Amoxicillin,GeneD,COPD,Infection,1,Penicillin,Smoking,Yes,None,157,Senior,0,High
+70,Female,Paracetamol,GeneB,None,Heart health,4,Penicillin,Alcohol,No,Heart Disease,132,Senior,1,Low
+32,Male,Amoxicillin,GeneB,Liver Disease,Heart health,3,Aspirin,Alcohol,No,Heart Disease,19,Adult,0,Low
+79,Female,Metformin,GeneC,COPD,Stomach issues,2,Peanuts,None,No,Cancer,106,Senior,0,Low
+35,Female,Amoxicillin,GeneD,None,Pain relief,3,None,None,No,Cancer,163,Adult,0,Low
+28,Female,Amoxicillin,GeneD,None,Pain relief,2,Peanuts,None,Yes,Heart Disease,139,Adult,0,Low
+22,Female,Atorvastatin,GeneA,Liver Disease,Pain relief,3,Peanuts,Smoking,No,Cancer,45,Adult,0,Low
+57,Male,Omeprazole,GeneD,Heart Disease,Pain relief,3,None,None,Yes,Diabetes,178,Adult,0,High
+50,Male,Omeprazole,GeneB,Heart Disease,Fever,3,Aspirin,None,No,Cancer,41,Adult,0,High
+70,Male,Metformin,GeneE,Liver Disease,Pain relief,4,Peanuts,Smoking,No,Cancer,172,Senior,1,Low
+80,Female,Metformin,GeneD,Heart Disease,Fever,4,Penicillin,Smoking,No,Cancer,28,Senior,1,Low
+79,Male,Metformin,GeneC,COPD,Fever,1,None,Drugs,Yes,Cancer,101,Senior,0,High
+38,Female,Ibuprofen,GeneE,Heart Disease,Pain relief,1,Latex,None,No,None,52,Adult,0,Low
+46,Male,Metformin,GeneD,Hypertension,Cholesterol,2,Aspirin,None,No,None,155,Adult,0,Low
+25,Male,Omeprazole,GeneB,Liver Disease,Infection,4,None,None,No,None,154,Adult,1,Low
+33,Female,Aspirin,GeneA,Heart Disease,Heart health,2,Latex,Drugs,Yes,Heart Disease,15,Adult,0,High
+80,Male,Metformin,GeneB,Hypertension,Fever,1,Latex,None,Yes,Heart Disease,62,Senior,0,Low
+18,Female,Metformin,GeneC,None,Stomach issues,2,Peanuts,Drugs,Yes,Diabetes,137,Adult,0,Low
+49,Female,Amoxicillin,GeneB,COPD,Stomach issues,1,Peanuts,Alcohol,No,None,59,Adult,0,High
+55,Male,Aspirin,GeneD,Diabetes,Infection,4,Peanuts,Drugs,Yes,Heart Disease,38,Adult,1,Low
+56,Male,Aspirin,GeneA,None,Stomach issues,3,None,Alcohol,No,Cancer,175,Adult,0,Low
+33,Male,Metformin,GeneE,None,Cholesterol,4,None,None,Yes,Cancer,22,Adult,1,Low
+55,Female,Paracetamol,GeneA,Hypertension,Stomach issues,2,Aspirin,Alcohol,Yes,None,67,Adult,0,Low
+22,Male,Ibuprofen,GeneA,Asthma,Heart health,2,Peanuts,Drugs,No,Diabetes,10,Adult,0,Low
+72,Male,Ibuprofen,GeneC,COPD,Heart health,4,Latex,Smoking,Yes,Diabetes,146,Senior,1,Low
+28,Female,Ibuprofen,GeneD,Heart Disease,Fever,4,Penicillin,Alcohol,No,Cancer,144,Adult,1,High
+19,Female,Omeprazole,GeneA,Cancer,Pain relief,1,Aspirin,Alcohol,No,Diabetes,117,Adult,0,Low
+81,Male,Paracetamol,GeneC,Hypertension,Cholesterol,2,None,None,Yes,None,145,Senior,0,High
+52,Male,Omeprazole,GeneD,Kidney Disease,Fever,2,Aspirin,Drugs,No,Cancer,94,Adult,0,Low
+37,Female,Aspirin,GeneE,Hypertension,Cholesterol,4,Aspirin,Alcohol,No,Heart Disease,100,Adult,1,Low
+31,Female,Atorvastatin,GeneE,COPD,Pain relief,3,Aspirin,Alcohol,Yes,Heart Disease,68,Adult,0,Low
+24,Male,Atorvastatin,GeneD,Liver Disease,Stomach issues,2,Aspirin,Alcohol,Yes,Diabetes,34,Adult,0,High
+53,Female,Atorvastatin,GeneE,Kidney Disease,Stomach issues,3,Penicillin,Alcohol,No,Cancer,88,Adult,0,High
+68,Female,Omeprazole,GeneA,Hypertension,Pain relief,4,Peanuts,Smoking,Yes,Cancer,53,Senior,1,High
+39,Male,Ibuprofen,GeneB,Cancer,Fever,4,Latex,Drugs,No,Heart Disease,155,Adult,1,Low
+26,Female,Atorvastatin,GeneC,Heart Disease,Pain relief,1,Aspirin,None,No,Cancer,65,Adult,0,High
+82,Male,Atorvastatin,GeneA,Kidney Disease,Infection,2,Aspirin,None,Yes,Cancer,127,Senior,0,Low
+56,Female,Metformin,GeneA,Hypertension,Heart health,3,Aspirin,Smoking,Yes,Cancer,152,Adult,0,Low
+76,Male,Omeprazole,GeneB,Liver Disease,Fever,1,Peanuts,Drugs,Yes,Diabetes,60,Senior,0,High
+75,Male,Atorvastatin,GeneE,Heart Disease,Cholesterol,2,None,Alcohol,Yes,Cancer,60,Senior,0,Low
+34,Male,Omeprazole,GeneD,Heart Disease,Infection,1,None,Smoking,No,None,88,Adult,0,High
+24,Male,Atorvastatin,GeneC,Diabetes,Fever,4,Penicillin,Drugs,No,Diabetes,51,Adult,1,Low
+23,Male,Atorvastatin,GeneE,COPD,Pain relief,2,None,Alcohol,Yes,Cancer,172,Adult,0,Low
+75,Female,Ibuprofen,GeneA,Hypertension,Pain relief,1,Aspirin,Smoking,Yes,Cancer,72,Senior,0,High
+39,Female,Aspirin,GeneC,COPD,Pain relief,1,Aspirin,Drugs,No,None,17,Adult,0,High
+41,Female,Amoxicillin,GeneA,Cancer,Pain relief,3,Aspirin,None,No,Diabetes,56,Adult,0,High
+26,Female,Metformin,GeneC,Hypertension,Cholesterol,1,Penicillin,None,No,Heart Disease,103,Adult,0,Low
+18,Female,Atorvastatin,GeneC,Hypertension,Infection,2,Aspirin,Drugs,No,Heart Disease,10,Adult,0,Low
+20,Female,Amoxicillin,GeneA,Diabetes,Stomach issues,2,None,None,Yes,Diabetes,55,Adult,0,High
+19,Female,Aspirin,GeneC,Diabetes,Heart health,3,Peanuts,Drugs,No,Cancer,62,Adult,0,High
+66,Male,Omeprazole,GeneB,Asthma,Cholesterol,2,Peanuts,Alcohol,No,Cancer,110,Senior,0,Low
+22,Female,Omeprazole,GeneA,Kidney Disease,Cholesterol,4,Latex,Drugs,Yes,Heart Disease,7,Adult,1,High
+41,Female,Paracetamol,GeneB,Hypertension,Stomach issues,2,None,Alcohol,No,Heart Disease,105,Adult,0,Low
+51,Male,Atorvastatin,GeneC,Kidney Disease,Stomach issues,2,Aspirin,Smoking,No,Heart Disease,8,Adult,0,High
+85,Female,Omeprazole,GeneD,Kidney Disease,Heart health,1,Peanuts,Drugs,Yes,None,111,Senior,0,High
+73,Male,Amoxicillin,GeneE,Hypertension,Heart health,1,None,Smoking,Yes,Heart Disease,118,Senior,0,Low
+50,Male,Metformin,GeneB,Hypertension,Stomach issues,2,Peanuts,None,Yes,None,96,Adult,0,Low
+82,Female,Omeprazole,GeneB,Heart Disease,Pain relief,3,Aspirin,Alcohol,No,Diabetes,49,Senior,0,Low
+71,Male,Atorvastatin,GeneD,Asthma,Cholesterol,1,Peanuts,Drugs,No,Cancer,101,Senior,0,High
+39,Female,Atorvastatin,GeneD,Kidney Disease,Fever,3,Latex,Smoking,Yes,Heart Disease,57,Adult,0,High
+19,Female,Metformin,GeneE,COPD,Heart health,2,Latex,Alcohol,Yes,Cancer,170,Adult,0,Low
+82,Male,Amoxicillin,GeneC,Diabetes,Heart health,2,Peanuts,Alcohol,No,Cancer,54,Senior,0,Low
+46,Female,Ibuprofen,GeneC,None,Stomach issues,4,None,None,Yes,Heart Disease,146,Adult,1,Low
+68,Male,Amoxicillin,GeneA,Kidney Disease,Infection,1,None,None,Yes,Heart Disease,15,Senior,0,Low
+44,Male,Aspirin,GeneB,Liver Disease,Fever,2,None,Alcohol,Yes,Diabetes,116,Adult,0,High
+84,Female,Atorvastatin,GeneE,Kidney Disease,Fever,4,Peanuts,Alcohol,No,None,126,Senior,1,Low
+33,Male,Atorvastatin,GeneD,Liver Disease,Heart health,1,None,Drugs,No,None,108,Adult,0,High
+29,Female,Aspirin,GeneE,Liver Disease,Pain relief,2,Aspirin,Alcohol,No,Cancer,160,Adult,0,Low
+18,Male,Paracetamol,GeneE,None,Infection,2,Latex,Drugs,No,Heart Disease,149,Adult,0,Low
+35,Female,Omeprazole,GeneB,COPD,Fever,1,Aspirin,Alcohol,No,Diabetes,147,Adult,0,Low
+43,Female,Paracetamol,GeneA,Diabetes,Heart health,1,None,None,No,Diabetes,122,Adult,0,Low
+72,Female,Metformin,GeneC,Liver Disease,Fever,1,Aspirin,Drugs,Yes,Diabetes,65,Senior,0,Low
+45,Male,Metformin,GeneE,Asthma,Infection,2,None,Smoking,No,Diabetes,21,Adult,0,Low
+31,Female,Amoxicillin,GeneD,Asthma,Infection,2,Peanuts,None,No,Diabetes,94,Adult,0,Low
+57,Male,Omeprazole,GeneC,COPD,Cholesterol,4,Aspirin,Drugs,Yes,None,60,Adult,1,Low
+29,Female,Paracetamol,GeneA,Heart Disease,Stomach issues,3,Peanuts,Drugs,No,None,92,Adult,0,High
+79,Male,Ibuprofen,GeneC,Asthma,Stomach issues,1,Peanuts,Smoking,No,None,119,Senior,0,High
+79,Female,Ibuprofen,GeneD,None,Heart health,2,Penicillin,Drugs,Yes,Heart Disease,64,Senior,0,Low
+37,Female,Ibuprofen,GeneC,Diabetes,Infection,2,None,Alcohol,Yes,Cancer,25,Adult,0,Low
+32,Female,Metformin,GeneB,None,Cholesterol,1,Latex,Smoking,Yes,Diabetes,129,Adult,0,High
+88,Male,Ibuprofen,GeneC,Cancer,Cholesterol,3,None,None,No,Heart Disease,139,Senior,0,High
+47,Female,Omeprazole,GeneC,Heart Disease,Fever,1,Latex,None,Yes,Diabetes,142,Adult,0,High
+88,Male,Atorvastatin,GeneD,Kidney Disease,Fever,3,None,Alcohol,No,None,131,Senior,0,High
+89,Female,Atorvastatin,GeneB,Cancer,Cholesterol,2,Peanuts,None,No,Heart Disease,60,Senior,0,Low
+52,Male,Paracetamol,GeneC,Kidney Disease,Fever,3,Aspirin,Drugs,No,None,124,Adult,0,Low
+45,Male,Omeprazole,GeneC,Heart Disease,Infection,4,Aspirin,Drugs,No,Diabetes,3,Adult,1,Low
+55,Female,Omeprazole,GeneC,Hypertension,Pain relief,2,Penicillin,Alcohol,Yes,Diabetes,36,Adult,0,Low
+42,Female,Paracetamol,GeneD,Heart Disease,Infection,4,Latex,None,Yes,Cancer,98,Adult,1,High
+19,Male,Atorvastatin,GeneB,Kidney Disease,Cholesterol,1,Latex,None,No,Diabetes,128,Adult,0,Low
+21,Male,Omeprazole,GeneC,Liver Disease,Cholesterol,1,Latex,Alcohol,Yes,None,120,Adult,0,High
+48,Male,Paracetamol,GeneD,Asthma,Infection,1,Peanuts,Smoking,No,Diabetes,50,Adult,0,High
+39,Male,Omeprazole,GeneC,Liver Disease,Fever,3,Latex,None,No,Cancer,91,Adult,0,Low
+18,Male,Aspirin,GeneD,Liver Disease,Fever,2,Aspirin,Smoking,No,Cancer,119,Adult,0,High
+50,Female,Omeprazole,GeneC,None,Stomach issues,1,Peanuts,None,Yes,None,131,Adult,0,Low
+47,Female,Atorvastatin,GeneE,Liver Disease,Cholesterol,1,None,None,No,Heart Disease,18,Adult,0,Low
+88,Male,Metformin,GeneA,COPD,Heart health,2,Latex,None,No,Diabetes,71,Senior,0,Low
+35,Male,Amoxicillin,GeneC,Cancer,Stomach issues,1,Latex,None,Yes,Cancer,24,Adult,0,High
+64,Female,Atorvastatin,GeneA,Diabetes,Fever,4,None,Drugs,Yes,Diabetes,95,Senior,1,Low
+58,Female,Omeprazole,GeneA,COPD,Infection,2,Latex,Smoking,Yes,Diabetes,78,Adult,0,Low
+59,Male,Atorvastatin,GeneC,Kidney Disease,Fever,2,None,Smoking,Yes,Heart Disease,156,Adult,0,High
+55,Female,Atorvastatin,GeneE,Kidney Disease,Infection,2,Peanuts,None,No,Cancer,146,Adult,0,High
+75,Male,Ibuprofen,GeneA,Kidney Disease,Stomach issues,4,Aspirin,None,Yes,Diabetes,88,Senior,1,High
+88,Female,Atorvastatin,GeneA,None,Cholesterol,2,None,Smoking,No,Cancer,31,Senior,0,Low
+58,Male,Omeprazole,GeneB,Diabetes,Fever,4,Penicillin,Drugs,Yes,None,71,Adult,1,Low
+29,Female,Ibuprofen,GeneA,None,Infection,2,None,Alcohol,Yes,None,49,Adult,0,Low
+82,Male,Metformin,GeneC,None,Cholesterol,3,Latex,Alcohol,Yes,Diabetes,96,Senior,0,Low
+40,Male,Ibuprofen,GeneA,Kidney Disease,Heart health,1,Peanuts,Smoking,Yes,Cancer,146,Adult,0,Low
+76,Male,Ibuprofen,GeneC,Diabetes,Infection,3,Peanuts,None,Yes,Diabetes,178,Senior,0,High
+27,Female,Paracetamol,GeneB,Hypertension,Stomach issues,1,None,None,Yes,Cancer,87,Adult,0,Low
+42,Male,Paracetamol,GeneB,COPD,Heart health,4,Aspirin,Drugs,No,Cancer,41,Adult,1,Low
+39,Female,Atorvastatin,GeneE,COPD,Heart health,3,Penicillin,Alcohol,Yes,Heart Disease,102,Adult,0,Low
+84,Female,Metformin,GeneA,Hypertension,Pain relief,2,Peanuts,Drugs,Yes,Heart Disease,35,Senior,0,High
+27,Female,Omeprazole,GeneD,Asthma,Fever,1,Latex,Alcohol,Yes,Heart Disease,103,Adult,0,Low
+19,Male,Omeprazole,GeneA,Heart Disease,Infection,1,Latex,Smoking,Yes,Diabetes,25,Adult,0,Low
+40,Male,Omeprazole,GeneA,Diabetes,Heart health,3,Aspirin,Alcohol,No,Heart Disease,12,Adult,0,Low
+84,Male,Amoxicillin,GeneE,Asthma,Pain relief,4,Peanuts,Drugs,Yes,Heart Disease,71,Senior,1,Low
+32,Male,Atorvastatin,GeneB,Hypertension,Stomach issues,3,None,Drugs,Yes,None,102,Adult,0,Low
+52,Male,Metformin,GeneE,Hypertension,Cholesterol,4,Latex,Drugs,Yes,Cancer,36,Adult,1,Low
+30,Male,Omeprazole,GeneE,Heart Disease,Infection,4,Aspirin,Smoking,Yes,Cancer,140,Adult,1,Low
+69,Male,Atorvastatin,GeneE,Liver Disease,Heart health,1,Peanuts,Alcohol,No,Heart Disease,149,Senior,0,Low
+57,Female,Amoxicillin,GeneE,Diabetes,Fever,3,Peanuts,Alcohol,Yes,Cancer,98,Adult,0,Low
+48,Female,Omeprazole,GeneE,Liver Disease,Pain relief,3,Peanuts,Drugs,No,None,3,Adult,0,Low
+21,Male,Amoxicillin,GeneE,Heart Disease,Heart health,4,Peanuts,Alcohol,Yes,None,71,Adult,1,High
+45,Male,Atorvastatin,GeneA,Diabetes,Fever,3,Peanuts,None,No,Heart Disease,6,Adult,0,Low
+18,Female,Aspirin,GeneC,Diabetes,Heart health,2,Latex,None,No,None,18,Adult,0,Low
+73,Male,Metformin,GeneA,Cancer,Infection,2,Aspirin,None,Yes,Cancer,26,Senior,0,Low
+19,Male,Amoxicillin,GeneD,Asthma,Infection,3,Peanuts,Alcohol,Yes,Diabetes,82,Adult,0,High
+19,Male,Atorvastatin,GeneC,Cancer,Infection,3,Penicillin,Smoking,No,Cancer,4,Adult,0,Low
+53,Male,Ibuprofen,GeneD,COPD,Stomach issues,4,Penicillin,Smoking,No,Diabetes,130,Adult,1,Low
+66,Female,Omeprazole,GeneC,Kidney Disease,Stomach issues,2,Aspirin,Smoking,Yes,Heart Disease,162,Senior,0,High
+50,Male,Ibuprofen,GeneD,Asthma,Pain relief,2,None,Smoking,No,Diabetes,86,Adult,0,Low
+45,Male,Ibuprofen,GeneC,Kidney Disease,Infection,1,None,None,No,None,154,Adult,0,High
+28,Female,Paracetamol,GeneD,COPD,Fever,4,None,None,No,Cancer,142,Adult,1,High
+66,Female,Omeprazole,GeneB,Kidney Disease,Heart health,1,Penicillin,Drugs,Yes,Diabetes,165,Senior,0,High
+87,Female,Ibuprofen,GeneB,Diabetes,Cholesterol,2,None,Alcohol,No,Cancer,126,Senior,0,Low
+55,Male,Metformin,GeneC,Cancer,Fever,4,Latex,Alcohol,No,Heart Disease,35,Adult,1,High
+32,Female,Paracetamol,GeneE,COPD,Stomach issues,3,Peanuts,Smoking,No,Heart Disease,163,Adult,0,High
+52,Male,Amoxicillin,GeneE,Liver Disease,Stomach issues,4,Penicillin,None,Yes,None,173,Adult,1,Low
+67,Male,Amoxicillin,GeneD,Heart Disease,Fever,3,Aspirin,Smoking,Yes,Heart Disease,103,Senior,0,High
+54,Female,Paracetamol,GeneA,Cancer,Stomach issues,3,Aspirin,Drugs,No,Diabetes,14,Adult,0,Low
+78,Male,Atorvastatin,GeneB,None,Infection,4,Peanuts,Alcohol,Yes,Heart Disease,69,Senior,1,Low
+88,Female,Metformin,GeneD,COPD,Pain relief,3,Penicillin,Alcohol,No,None,67,Senior,0,Low
+21,Female,Metformin,GeneA,Hypertension,Heart health,1,None,Smoking,Yes,Cancer,163,Adult,0,Low
+46,Female,Paracetamol,GeneD,Asthma,Pain relief,2,None,Drugs,Yes,Cancer,170,Adult,0,Low
+67,Female,Amoxicillin,GeneA,Hypertension,Heart health,3,Latex,Alcohol,No,Heart Disease,76,Senior,0,High
+56,Male,Aspirin,GeneD,Cancer,Heart health,1,Latex,Drugs,Yes,Diabetes,45,Adult,0,Low
+62,Male,Omeprazole,GeneC,None,Pain relief,3,None,Drugs,Yes,None,46,Senior,0,Low
+36,Male,Atorvastatin,GeneE,Cancer,Fever,2,Aspirin,Smoking,Yes,Diabetes,31,Adult,0,Low
+88,Male,Atorvastatin,GeneE,COPD,Heart health,1,Aspirin,None,No,None,143,Senior,0,Low
+71,Female,Amoxicillin,GeneB,Cancer,Pain relief,2,Latex,Smoking,Yes,Heart Disease,14,Senior,0,High
+59,Female,Atorvastatin,GeneE,None,Heart health,2,Peanuts,None,Yes,None,97,Adult,0,High
+57,Female,Atorvastatin,GeneD,Heart Disease,Cholesterol,1,None,Drugs,No,None,48,Adult,0,Low
+20,Male,Paracetamol,GeneA,Kidney Disease,Fever,1,Latex,None,Yes,Heart Disease,132,Adult,0,Low
+45,Female,Metformin,GeneB,Diabetes,Infection,1,Latex,Drugs,Yes,Diabetes,37,Adult,0,Low
+60,Female,Amoxicillin,GeneA,Asthma,Heart health,4,None,Alcohol,Yes,Heart Disease,83,Senior,1,Low
+74,Male,Paracetamol,GeneE,Kidney Disease,Cholesterol,1,None,Alcohol,Yes,None,92,Senior,0,Low
+87,Male,Ibuprofen,GeneC,Heart Disease,Infection,1,Aspirin,Alcohol,Yes,Heart Disease,10,Senior,0,High
+58,Male,Metformin,GeneE,Kidney Disease,Infection,1,Peanuts,Smoking,No,None,95,Adult,0,Low
+38,Female,Metformin,GeneE,Heart Disease,Heart health,1,Peanuts,Smoking,No,Heart Disease,156,Adult,0,Low
+87,Female,Amoxicillin,GeneA,Hypertension,Pain relief,3,None,Drugs,Yes,Cancer,92,Senior,0,High
+57,Female,Amoxicillin,GeneD,Cancer,Heart health,4,Penicillin,Alcohol,Yes,Cancer,164,Adult,1,Low
+78,Male,Metformin,GeneB,Diabetes,Cholesterol,2,Latex,Smoking,Yes,Heart Disease,117,Senior,0,Low
+40,Female,Omeprazole,GeneD,None,Infection,1,Latex,Alcohol,No,Diabetes,107,Adult,0,Low
+82,Female,Atorvastatin,GeneA,Cancer,Heart health,3,None,Smoking,No,None,137,Senior,0,Low
+76,Female,Atorvastatin,GeneA,None,Pain relief,3,Penicillin,None,Yes,Cancer,60,Senior,0,Low
+83,Male,Atorvastatin,GeneA,Liver Disease,Heart health,3,Aspirin,None,Yes,Diabetes,116,Senior,0,Low
+83,Female,Paracetamol,GeneB,Hypertension,Fever,2,None,Alcohol,No,None,77,Senior,0,Low
+86,Female,Omeprazole,GeneA,Heart Disease,Pain relief,1,None,Drugs,Yes,Cancer,159,Senior,0,High
+68,Female,Atorvastatin,GeneB,COPD,Cholesterol,4,Latex,Smoking,No,Cancer,122,Senior,1,Low
+50,Female,Ibuprofen,GeneA,Liver Disease,Infection,4,None,Smoking,No,Heart Disease,166,Adult,1,High
+35,Male,Paracetamol,GeneC,Kidney Disease,Heart health,3,None,None,Yes,None,23,Adult,0,Low
+29,Male,Paracetamol,GeneD,Asthma,Pain relief,2,None,None,No,Diabetes,166,Adult,0,Low
+79,Female,Metformin,GeneD,Kidney Disease,Fever,2,Latex,Drugs,Yes,Diabetes,140,Senior,0,High
+30,Female,Paracetamol,GeneD,Diabetes,Pain relief,2,Aspirin,Drugs,Yes,Diabetes,103,Adult,0,High
+73,Female,Atorvastatin,GeneA,Cancer,Stomach issues,4,Aspirin,Drugs,Yes,None,154,Senior,1,Low
+49,Male,Omeprazole,GeneD,Heart Disease,Fever,3,None,Alcohol,Yes,Diabetes,179,Adult,0,High
+49,Female,Metformin,GeneB,Heart Disease,Cholesterol,1,Latex,None,Yes,Diabetes,101,Adult,0,Low
+55,Female,Atorvastatin,GeneA,Asthma,Infection,4,Aspirin,Alcohol,Yes,Diabetes,38,Adult,1,Low
+86,Male,Paracetamol,GeneD,None,Cholesterol,3,Aspirin,None,No,Heart Disease,98,Senior,0,Low
+18,Female,Metformin,GeneD,Hypertension,Heart health,3,Aspirin,None,No,Heart Disease,154,Adult,0,Low
+46,Male,Ibuprofen,GeneE,Kidney Disease,Pain relief,1,Latex,Smoking,No,None,153,Adult,0,High
+39,Male,Omeprazole,GeneE,COPD,Stomach issues,1,Latex,None,No,None,39,Adult,0,Low
+71,Female,Aspirin,GeneD,Liver Disease,Fever,1,None,None,Yes,Diabetes,14,Senior,0,High
+19,Female,Aspirin,GeneC,None,Fever,2,Peanuts,Alcohol,No,Heart Disease,115,Adult,0,Low
+51,Male,Ibuprofen,GeneC,None,Pain relief,1,Aspirin,None,No,Cancer,15,Adult,0,Low
+33,Female,Paracetamol,GeneB,Diabetes,Stomach issues,3,Peanuts,Alcohol,No,Cancer,25,Adult,0,Low
+37,Male,Paracetamol,GeneB,Heart Disease,Pain relief,1,Latex,Drugs,Yes,Diabetes,101,Adult,0,Low
+42,Female,Metformin,GeneE,Cancer,Heart health,3,Latex,None,No,Diabetes,107,Adult,0,Low
+69,Male,Omeprazole,GeneA,Hypertension,Cholesterol,4,Latex,None,Yes,Heart Disease,32,Senior,1,Low
+33,Female,Ibuprofen,GeneB,COPD,Fever,2,Peanuts,Alcohol,No,Heart Disease,19,Adult,0,Low
+69,Female,Metformin,GeneA,Liver Disease,Heart health,4,Latex,Drugs,Yes,Heart Disease,115,Senior,1,Low
+73,Female,Aspirin,GeneC,Cancer,Cholesterol,4,None,Smoking,Yes,None,64,Senior,1,High
+43,Male,Atorvastatin,GeneD,Diabetes,Heart health,3,Latex,Drugs,No,None,86,Adult,0,Low
+59,Female,Metformin,GeneE,Hypertension,Stomach issues,4,Penicillin,Alcohol,Yes,Diabetes,114,Adult,1,Low
+57,Male,Atorvastatin,GeneC,Cancer,Fever,3,Peanuts,Drugs,Yes,None,88,Adult,0,Low
+33,Male,Omeprazole,GeneB,Liver Disease,Pain relief,1,Penicillin,Alcohol,No,Heart Disease,143,Adult,0,Low
+42,Female,Paracetamol,GeneA,Cancer,Pain relief,1,Latex,Alcohol,No,Heart Disease,21,Adult,0,High
+88,Female,Ibuprofen,GeneB,Asthma,Cholesterol,3,None,Smoking,No,None,179,Senior,0,Low
+23,Female,Atorvastatin,GeneA,COPD,Infection,1,Aspirin,None,Yes,Cancer,102,Adult,0,High
+19,Male,Metformin,GeneB,Heart Disease,Stomach issues,2,Latex,Alcohol,Yes,Diabetes,142,Adult,0,Low
+76,Female,Omeprazole,GeneC,COPD,Cholesterol,4,None,Alcohol,Yes,Cancer,149,Senior,1,Low
+35,Female,Metformin,GeneC,Diabetes,Infection,2,Peanuts,Smoking,No,Diabetes,78,Adult,0,Low
+22,Male,Omeprazole,GeneD,Diabetes,Heart health,4,Penicillin,Alcohol,Yes,Cancer,11,Adult,1,High
+53,Male,Paracetamol,GeneB,Hypertension,Stomach issues,1,Penicillin,None,Yes,None,30,Adult,0,Low
+40,Male,Aspirin,GeneD,Hypertension,Heart health,2,Penicillin,Smoking,Yes,Diabetes,130,Adult,0,Low
+26,Male,Atorvastatin,GeneC,Asthma,Fever,1,Peanuts,None,Yes,Diabetes,54,Adult,0,High
+57,Male,Metformin,GeneA,COPD,Stomach issues,4,None,None,Yes,Diabetes,85,Adult,1,Low
+61,Male,Metformin,GeneB,Liver Disease,Infection,3,Peanuts,Smoking,Yes,Heart Disease,113,Senior,0,Low
+42,Female,Metformin,GeneB,Kidney Disease,Fever,3,Penicillin,Alcohol,Yes,Heart Disease,146,Adult,0,High
+39,Female,Ibuprofen,GeneC,Kidney Disease,Pain relief,2,Latex,None,No,Cancer,119,Adult,0,High
+23,Female,Aspirin,GeneB,COPD,Infection,1,Aspirin,None,No,None,71,Adult,0,Low
+57,Male,Amoxicillin,GeneB,Liver Disease,Cholesterol,1,Peanuts,None,No,Heart Disease,101,Adult,0,High
+82,Female,Atorvastatin,GeneB,Asthma,Pain relief,2,Peanuts,None,Yes,Diabetes,142,Senior,0,Low
+84,Male,Atorvastatin,GeneE,Liver Disease,Pain relief,3,None,Smoking,Yes,Heart Disease,27,Senior,0,High
+86,Male,Aspirin,GeneC,Hypertension,Cholesterol,4,None,Smoking,No,None,125,Senior,1,High
+20,Male,Atorvastatin,GeneD,COPD,Stomach issues,2,Peanuts,Drugs,Yes,Heart Disease,55,Adult,0,Low
+79,Female,Atorvastatin,GeneB,Hypertension,Pain relief,4,Penicillin,Drugs,No,Diabetes,153,Senior,1,Low
+44,Female,Metformin,GeneB,Diabetes,Infection,3,Aspirin,None,Yes,Cancer,146,Adult,0,Low
+52,Male,Atorvastatin,GeneE,COPD,Fever,1,None,Alcohol,Yes,Diabetes,59,Adult,0,Low
+78,Female,Ibuprofen,GeneA,Hypertension,Pain relief,3,Penicillin,None,No,None,41,Senior,0,Low
+73,Female,Atorvastatin,GeneD,None,Infection,2,Latex,Alcohol,No,Cancer,111,Senior,0,Low
+89,Male,Paracetamol,GeneD,Hypertension,Heart health,1,None,None,No,Heart Disease,44,Senior,0,High
+63,Female,Aspirin,GeneE,Asthma,Infection,2,Penicillin,Drugs,No,Heart Disease,169,Senior,0,Low
+64,Female,Omeprazole,GeneB,COPD,Fever,2,Penicillin,Drugs,No,Heart Disease,144,Senior,0,Low
+69,Male,Aspirin,GeneA,Cancer,Infection,3,Aspirin,Alcohol,Yes,Cancer,124,Senior,0,Low
+21,Female,Atorvastatin,GeneB,COPD,Cholesterol,2,Aspirin,None,Yes,Diabetes,135,Adult,0,Low
+61,Male,Amoxicillin,GeneC,Cancer,Fever,3,Latex,Alcohol,Yes,Cancer,165,Senior,0,High
+55,Male,Omeprazole,GeneE,COPD,Stomach issues,1,Penicillin,Drugs,No,Cancer,77,Adult,0,Low
+41,Male,Omeprazole,GeneE,Kidney Disease,Heart health,3,Penicillin,None,No,None,148,Adult,0,Low
+79,Male,Paracetamol,GeneB,Diabetes,Cholesterol,1,Aspirin,None,No,Cancer,78,Senior,0,Low
+58,Male,Amoxicillin,GeneD,Liver Disease,Stomach issues,3,None,Alcohol,No,Heart Disease,11,Adult,0,High
+81,Male,Amoxicillin,GeneE,Diabetes,Infection,4,None,Smoking,No,Diabetes,76,Senior,1,High
+48,Female,Amoxicillin,GeneC,Hypertension,Fever,4,Peanuts,Alcohol,No,Diabetes,147,Adult,1,Low
+32,Male,Amoxicillin,GeneE,Cancer,Heart health,2,Aspirin,Drugs,Yes,Diabetes,9,Adult,0,High
+39,Male,Aspirin,GeneE,Kidney Disease,Cholesterol,3,Peanuts,Drugs,Yes,Heart Disease,176,Adult,0,Low
+52,Male,Aspirin,GeneD,Liver Disease,Stomach issues,3,Aspirin,Drugs,Yes,Heart Disease,143,Adult,0,High
+36,Male,Omeprazole,GeneA,Heart Disease,Stomach issues,1,Latex,Drugs,Yes,Heart Disease,170,Adult,0,Low
+37,Male,Amoxicillin,GeneE,Hypertension,Heart health,2,Penicillin,Drugs,Yes,Heart Disease,172,Adult,0,High
+66,Male,Atorvastatin,GeneC,None,Infection,3,Latex,Smoking,No,Heart Disease,139,Senior,0,Low
+88,Male,Ibuprofen,GeneD,Cancer,Heart health,2,Aspirin,None,No,Cancer,29,Senior,0,High
+86,Male,Metformin,GeneE,Cancer,Stomach issues,4,Penicillin,Alcohol,No,Heart Disease,124,Senior,1,Low
+53,Male,Amoxicillin,GeneC,Liver Disease,Pain relief,3,None,Alcohol,No,Heart Disease,7,Adult,0,High
+57,Female,Metformin,GeneA,COPD,Cholesterol,3,None,Drugs,No,Heart Disease,31,Adult,0,Low
+33,Female,Atorvastatin,GeneE,Kidney Disease,Heart health,2,Peanuts,Alcohol,No,Heart Disease,167,Adult,0,High
+34,Female,Aspirin,GeneD,Heart Disease,Stomach issues,3,Aspirin,Drugs,Yes,Diabetes,168,Adult,0,High
+29,Female,Atorvastatin,GeneB,Cancer,Infection,2,Aspirin,Smoking,No,Heart Disease,85,Adult,0,Low
+30,Male,Metformin,GeneE,Hypertension,Stomach issues,3,None,Smoking,No,Cancer,138,Adult,0,Low
+82,Male,Aspirin,GeneA,COPD,Infection,1,Latex,None,No,Cancer,111,Senior,0,High
+19,Male,Atorvastatin,GeneC,Cancer,Heart health,2,Penicillin,Smoking,No,Cancer,67,Adult,0,Low
+37,Female,Metformin,GeneC,Liver Disease,Infection,3,Latex,Smoking,Yes,None,88,Adult,0,Low
+43,Male,Ibuprofen,GeneE,Cancer,Fever,4,Latex,None,Yes,Diabetes,147,Adult,1,Low
+52,Male,Ibuprofen,GeneE,None,Fever,3,None,Alcohol,No,Heart Disease,73,Adult,0,Low
+50,Male,Omeprazole,GeneB,COPD,Fever,4,None,Drugs,Yes,None,47,Adult,1,Low
+67,Male,Aspirin,GeneD,Liver Disease,Pain relief,4,None,Drugs,Yes,Heart Disease,134,Senior,1,High
+26,Female,Amoxicillin,GeneC,Asthma,Heart health,1,Peanuts,Alcohol,No,None,38,Adult,0,Low
+27,Female,Metformin,GeneD,COPD,Stomach issues,2,Latex,None,No,None,72,Adult,0,High
+74,Female,Paracetamol,GeneB,Cancer,Stomach issues,3,Aspirin,Alcohol,No,Cancer,161,Senior,0,Low
+46,Female,Paracetamol,GeneC,Asthma,Pain relief,1,Penicillin,Smoking,No,Cancer,21,Adult,0,High
+35,Female,Omeprazole,GeneC,Diabetes,Infection,3,Peanuts,None,No,None,110,Adult,0,High
+75,Female,Atorvastatin,GeneB,Hypertension,Pain relief,4,Aspirin,None,Yes,Cancer,169,Senior,1,Low
+66,Male,Omeprazole,GeneA,None,Infection,2,Latex,None,No,None,93,Senior,0,Low
+38,Female,Ibuprofen,GeneE,Hypertension,Infection,3,None,Drugs,No,Diabetes,92,Adult,0,Low
+43,Female,Metformin,GeneB,Cancer,Cholesterol,3,Latex,Alcohol,No,Cancer,21,Adult,0,Low
+22,Female,Aspirin,GeneE,COPD,Stomach issues,4,Penicillin,None,Yes,Cancer,41,Adult,1,Low
+89,Male,Paracetamol,GeneA,Asthma,Fever,3,Peanuts,None,No,Cancer,128,Senior,0,High
+63,Male,Metformin,GeneE,Liver Disease,Infection,3,Peanuts,None,No,Diabetes,175,Senior,0,Low
+35,Female,Metformin,GeneA,None,Cholesterol,4,Penicillin,Alcohol,No,None,143,Adult,1,Low
+81,Female,Ibuprofen,GeneE,Cancer,Stomach issues,1,Aspirin,Drugs,Yes,Heart Disease,128,Senior,0,Low
+26,Male,Atorvastatin,GeneE,Heart Disease,Fever,4,Aspirin,Smoking,No,Cancer,60,Adult,1,High
+44,Female,Omeprazole,GeneB,Liver Disease,Infection,1,Peanuts,Drugs,No,None,150,Adult,0,Low
+52,Male,Ibuprofen,GeneE,Cancer,Infection,2,Peanuts,None,No,Diabetes,63,Adult,0,Low
+33,Male,Omeprazole,GeneB,COPD,Pain relief,1,None,Drugs,Yes,Heart Disease,129,Adult,0,Low
+20,Female,Aspirin,GeneC,Heart Disease,Pain relief,1,Aspirin,Drugs,No,Cancer,107,Adult,0,High
+79,Male,Metformin,GeneA,None,Stomach issues,2,Penicillin,Smoking,No,Diabetes,169,Senior,0,Low
+25,Female,Amoxicillin,GeneC,Hypertension,Fever,1,Aspirin,Alcohol,No,Diabetes,3,Adult,0,Low
+85,Female,Ibuprofen,GeneB,Asthma,Infection,4,None,Alcohol,Yes,Heart Disease,133,Senior,1,Low
+25,Male,Omeprazole,GeneA,Kidney Disease,Stomach issues,1,Peanuts,Drugs,No,None,94,Adult,0,Low
+68,Female,Aspirin,GeneE,Diabetes,Stomach issues,2,Peanuts,Drugs,No,Cancer,115,Senior,0,Low
+31,Male,Aspirin,GeneB,Kidney Disease,Heart health,4,None,Alcohol,No,Cancer,155,Adult,1,Low
+48,Female,Atorvastatin,GeneC,Kidney Disease,Pain relief,2,Penicillin,Alcohol,Yes,None,58,Adult,0,High
+59,Female,Atorvastatin,GeneC,Kidney Disease,Fever,2,Peanuts,Smoking,Yes,None,163,Adult,0,High
+54,Female,Omeprazole,GeneE,Asthma,Infection,3,Latex,None,No,None,168,Adult,0,Low
+68,Male,Ibuprofen,GeneE,Asthma,Stomach issues,3,Peanuts,Drugs,Yes,Heart Disease,119,Senior,0,Low
+43,Male,Ibuprofen,GeneA,COPD,Infection,2,Latex,Alcohol,Yes,Heart Disease,136,Adult,0,Low
+84,Female,Amoxicillin,GeneE,Kidney Disease,Heart health,2,None,Drugs,Yes,Cancer,60,Senior,0,Low
+78,Male,Paracetamol,GeneC,Heart Disease,Fever,2,None,Drugs,No,Heart Disease,46,Senior,0,High
+30,Female,Amoxicillin,GeneC,Diabetes,Stomach issues,3,Peanuts,Alcohol,No,Diabetes,175,Adult,0,Low
+73,Female,Omeprazole,GeneD,Hypertension,Infection,3,Aspirin,Smoking,Yes,Cancer,162,Senior,0,High
+83,Female,Amoxicillin,GeneC,Liver Disease,Pain relief,1,Latex,Drugs,Yes,Heart Disease,175,Senior,0,High
+35,Female,Atorvastatin,GeneB,COPD,Heart health,1,Penicillin,Smoking,Yes,None,63,Adult,0,Low
+40,Female,Amoxicillin,GeneD,Asthma,Fever,2,Peanuts,Alcohol,No,Diabetes,49,Adult,0,High
+23,Female,Metformin,GeneD,Hypertension,Heart health,4,Penicillin,None,No,None,151,Adult,1,Low
+21,Female,Aspirin,GeneE,Heart Disease,Pain relief,4,Peanuts,None,Yes,Cancer,82,Adult,1,High
+65,Female,Omeprazole,GeneD,Diabetes,Fever,3,Aspirin,Drugs,Yes,None,120,Senior,0,High
+28,Male,Metformin,GeneC,None,Heart health,3,Aspirin,Alcohol,Yes,Heart Disease,166,Adult,0,High
+42,Female,Atorvastatin,GeneB,Hypertension,Cholesterol,3,Aspirin,Smoking,Yes,Heart Disease,149,Adult,0,Low
+61,Male,Paracetamol,GeneD,Liver Disease,Pain relief,2,Aspirin,Drugs,No,Cancer,22,Senior,0,High
+72,Male,Aspirin,GeneE,Cancer,Pain relief,4,None,Alcohol,Yes,None,148,Senior,1,Low
+72,Male,Metformin,GeneB,Diabetes,Pain relief,1,None,Alcohol,No,Cancer,49,Senior,0,Low
+72,Male,Aspirin,GeneE,Kidney Disease,Cholesterol,2,Latex,Smoking,Yes,None,51,Senior,0,High
+81,Female,Metformin,GeneC,None,Cholesterol,1,Penicillin,Drugs,Yes,Diabetes,16,Senior,0,Low
+26,Female,Amoxicillin,GeneD,Liver Disease,Infection,1,Peanuts,Alcohol,Yes,Heart Disease,145,Adult,0,High
+35,Female,Omeprazole,GeneC,Diabetes,Stomach issues,2,Peanuts,Alcohol,Yes,Cancer,161,Adult,0,Low
+26,Female,Ibuprofen,GeneD,Diabetes,Heart health,1,None,Alcohol,Yes,Diabetes,3,Adult,0,Low
+75,Male,Aspirin,GeneD,Heart Disease,Infection,4,Peanuts,Smoking,No,Diabetes,119,Senior,1,High
+37,Female,Aspirin,GeneE,Heart Disease,Heart health,1,None,Drugs,Yes,Cancer,56,Adult,0,Low
+64,Female,Atorvastatin,GeneD,Hypertension,Stomach issues,4,Latex,Drugs,Yes,Cancer,120,Senior,1,High
+45,Female,Atorvastatin,GeneB,Asthma,Cholesterol,4,Penicillin,Drugs,Yes,Diabetes,5,Adult,1,Low
+47,Male,Paracetamol,GeneB,Liver Disease,Stomach issues,4,Latex,Drugs,No,None,146,Adult,1,Low
+32,Female,Atorvastatin,GeneA,Asthma,Cholesterol,3,Aspirin,None,No,Diabetes,14,Adult,0,Low
+27,Female,Atorvastatin,GeneE,Heart Disease,Stomach issues,1,Aspirin,None,No,Cancer,76,Adult,0,Low
+79,Male,Amoxicillin,GeneA,Heart Disease,Infection,2,Aspirin,Drugs,No,Diabetes,18,Senior,0,Low
+26,Female,Atorvastatin,GeneA,Diabetes,Fever,2,Latex,Smoking,Yes,None,104,Adult,0,Low
+42,Male,Atorvastatin,GeneE,Hypertension,Infection,1,Peanuts,None,Yes,Heart Disease,154,Adult,0,Low
+78,Male,Amoxicillin,GeneA,Hypertension,Heart health,3,Penicillin,Alcohol,Yes,Heart Disease,158,Senior,0,Low
+70,Female,Ibuprofen,GeneE,None,Infection,3,Aspirin,None,No,Diabetes,119,Senior,0,High
+29,Male,Amoxicillin,GeneD,None,Pain relief,4,Aspirin,Alcohol,Yes,None,10,Adult,1,Low
+39,Female,Aspirin,GeneD,None,Heart health,1,Aspirin,Drugs,Yes,Heart Disease,124,Adult,0,High
+32,Male,Omeprazole,GeneE,Liver Disease,Stomach issues,1,Penicillin,None,No,Diabetes,94,Adult,0,Low
+52,Female,Metformin,GeneB,Kidney Disease,Heart health,2,Aspirin,Smoking,No,Diabetes,166,Adult,0,Low
+31,Female,Atorvastatin,GeneD,Liver Disease,Fever,1,Penicillin,None,No,None,92,Adult,0,High
+89,Male,Atorvastatin,GeneA,Hypertension,Cholesterol,3,Aspirin,None,Yes,Cancer,138,Senior,0,Low
+44,Female,Atorvastatin,GeneA,Liver Disease,Stomach issues,1,Latex,None,Yes,Diabetes,62,Adult,0,High
+41,Female,Amoxicillin,GeneB,Liver Disease,Heart health,2,Latex,Drugs,No,Cancer,30,Adult,0,Low
+81,Male,Amoxicillin,GeneB,Cancer,Stomach issues,4,Penicillin,Smoking,Yes,Cancer,103,Senior,1,Low
+29,Male,Amoxicillin,GeneD,Diabetes,Stomach issues,2,Latex,None,No,Heart Disease,43,Adult,0,Low
+70,Male,Aspirin,GeneE,Cancer,Stomach issues,2,Penicillin,Smoking,No,Cancer,157,Senior,0,Low
+42,Female,Omeprazole,GeneB,COPD,Cholesterol,4,Latex,Drugs,Yes,None,147,Adult,1,Low
+57,Female,Ibuprofen,GeneC,Diabetes,Infection,2,Latex,Alcohol,No,Heart Disease,163,Adult,0,Low
+40,Female,Paracetamol,GeneB,None,Stomach issues,2,Penicillin,None,No,Heart Disease,159,Adult,0,Low
+75,Female,Amoxicillin,GeneD,Heart Disease,Pain relief,1,Peanuts,Smoking,No,Heart Disease,143,Senior,0,High
+76,Male,Aspirin,GeneD,Kidney Disease,Fever,1,Latex,Smoking,Yes,Diabetes,48,Senior,0,High
+65,Female,Atorvastatin,GeneD,COPD,Cholesterol,4,Aspirin,Drugs,No,Diabetes,37,Senior,1,Low
+65,Female,Paracetamol,GeneE,Heart Disease,Heart health,1,Peanuts,None,No,Cancer,136,Senior,0,Low
+21,Male,Ibuprofen,GeneD,Diabetes,Cholesterol,1,Penicillin,Alcohol,No,Heart Disease,84,Adult,0,Low
+39,Female,Atorvastatin,GeneC,Cancer,Heart health,2,Peanuts,Smoking,No,Heart Disease,117,Adult,0,High
+25,Male,Omeprazole,GeneC,Cancer,Cholesterol,3,None,None,No,None,49,Adult,0,Low
+66,Female,Paracetamol,GeneE,Kidney Disease,Heart health,1,None,Alcohol,No,Cancer,155,Senior,0,High
+40,Female,Ibuprofen,GeneD,None,Stomach issues,3,Latex,Smoking,No,None,12,Adult,0,High
+25,Female,Paracetamol,GeneD,Heart Disease,Infection,1,Latex,Smoking,Yes,Cancer,58,Adult,0,Low
+73,Female,Aspirin,GeneE,COPD,Heart health,1,Aspirin,Alcohol,Yes,Cancer,32,Senior,0,High
+89,Female,Omeprazole,GeneC,COPD,Heart health,4,Peanuts,Alcohol,No,Diabetes,111,Senior,1,Low
+54,Male,Amoxicillin,GeneA,Cancer,Pain relief,4,None,Drugs,Yes,Diabetes,7,Adult,1,Low
+72,Female,Metformin,GeneB,Cancer,Heart health,4,Latex,None,Yes,None,121,Senior,1,Low
+66,Male,Metformin,GeneE,Liver Disease,Pain relief,3,Peanuts,None,No,Cancer,35,Senior,0,Low
+81,Female,Aspirin,GeneD,Cancer,Fever,2,Latex,Drugs,Yes,Heart Disease,120,Senior,0,Low
+61,Male,Omeprazole,GeneA,Liver Disease,Stomach issues,1,Latex,Smoking,No,Diabetes,67,Senior,0,Low
+43,Female,Paracetamol,GeneC,Heart Disease,Pain relief,1,None,Alcohol,No,Heart Disease,148,Adult,0,Low
+21,Female,Atorvastatin,GeneD,Heart Disease,Infection,1,None,Alcohol,No,None,179,Adult,0,High
+35,Female,Atorvastatin,GeneE,None,Stomach issues,3,Latex,Alcohol,No,Diabetes,13,Adult,0,Low
+42,Female,Paracetamol,GeneC,Diabetes,Pain relief,4,Penicillin,Smoking,No,Diabetes,87,Adult,1,Low
+38,Male,Paracetamol,GeneD,Kidney Disease,Stomach issues,2,Latex,Alcohol,Yes,Cancer,28,Adult,0,Low
+85,Female,Aspirin,GeneD,Asthma,Stomach issues,3,Latex,Alcohol,No,None,65,Senior,0,Low
+85,Female,Aspirin,GeneD,Heart Disease,Stomach issues,4,Aspirin,Drugs,Yes,Cancer,88,Senior,1,High
+38,Female,Ibuprofen,GeneB,Cancer,Fever,3,Aspirin,Smoking,No,Diabetes,61,Adult,0,High
+72,Female,Metformin,GeneD,Cancer,Infection,2,Aspirin,None,No,None,29,Senior,0,Low
+71,Male,Ibuprofen,GeneB,Hypertension,Cholesterol,4,Penicillin,Drugs,No,Diabetes,179,Senior,1,Low
+88,Female,Paracetamol,GeneE,None,Cholesterol,3,Penicillin,Drugs,Yes,None,163,Senior,0,Low
+72,Female,Paracetamol,GeneE,Cancer,Pain relief,2,Latex,None,No,Diabetes,100,Senior,0,Low
+40,Female,Paracetamol,GeneA,Heart Disease,Stomach issues,1,Aspirin,Drugs,No,Heart Disease,107,Adult,0,High
+61,Male,Omeprazole,GeneC,Hypertension,Pain relief,2,Penicillin,Smoking,No,Heart Disease,101,Senior,0,Low
+81,Female,Paracetamol,GeneC,Asthma,Fever,1,None,Alcohol,No,Cancer,131,Senior,0,High
+26,Female,Paracetamol,GeneE,Diabetes,Fever,3,Latex,Smoking,Yes,Heart Disease,151,Adult,0,Low
+36,Female,Aspirin,GeneA,Hypertension,Heart health,4,Peanuts,None,No,Diabetes,57,Adult,1,Low
+67,Male,Omeprazole,GeneC,Liver Disease,Fever,4,Latex,None,Yes,Diabetes,8,Senior,1,High
+45,Female,Atorvastatin,GeneB,Liver Disease,Heart health,3,Peanuts,Drugs,No,Heart Disease,97,Adult,0,High
+61,Male,Aspirin,GeneD,None,Infection,4,Aspirin,Smoking,Yes,Cancer,135,Senior,1,Low
+48,Male,Ibuprofen,GeneB,COPD,Pain relief,4,Peanuts,Smoking,Yes,Heart Disease,104,Adult,1,Low
+84,Male,Metformin,GeneB,Kidney Disease,Infection,1,Aspirin,None,No,None,5,Senior,0,High
+64,Female,Aspirin,GeneB,COPD,Fever,3,None,Smoking,No,None,25,Senior,0,Low
+45,Female,Amoxicillin,GeneD,Diabetes,Infection,2,Peanuts,None,Yes,None,55,Adult,0,Low
+71,Male,Ibuprofen,GeneB,Asthma,Infection,1,Latex,Smoking,No,Heart Disease,167,Senior,0,Low
+51,Female,Atorvastatin,GeneA,COPD,Infection,3,Aspirin,Smoking,No,Heart Disease,85,Adult,0,Low
+47,Female,Paracetamol,GeneD,Asthma,Fever,1,Latex,Smoking,No,Heart Disease,147,Adult,0,Low
+59,Female,Ibuprofen,GeneD,Liver Disease,Stomach issues,2,Penicillin,None,Yes,None,87,Adult,0,Low
+56,Female,Omeprazole,GeneE,COPD,Infection,2,Aspirin,Drugs,No,Cancer,80,Adult,0,Low
+80,Female,Ibuprofen,GeneD,Kidney Disease,Heart health,3,Peanuts,Smoking,No,Diabetes,112,Senior,0,High
+84,Male,Atorvastatin,GeneD,Diabetes,Fever,2,Aspirin,None,No,Heart Disease,3,Senior,0,Low
+82,Male,Omeprazole,GeneC,COPD,Infection,1,Latex,None,Yes,Cancer,53,Senior,0,Low
+49,Female,Ibuprofen,GeneD,Hypertension,Stomach issues,2,None,Smoking,No,Diabetes,175,Adult,0,Low
+70,Male,Ibuprofen,GeneA,Asthma,Fever,1,Aspirin,Smoking,Yes,Diabetes,6,Senior,0,Low
+23,Female,Amoxicillin,GeneC,Hypertension,Cholesterol,1,Peanuts,Drugs,No,Diabetes,115,Adult,0,High
+69,Female,Metformin,GeneB,Kidney Disease,Stomach issues,2,Penicillin,None,Yes,Cancer,34,Senior,0,Low
+46,Female,Atorvastatin,GeneA,COPD,Heart health,3,None,None,No,Cancer,36,Adult,0,Low
+85,Female,Ibuprofen,GeneE,None,Infection,4,Penicillin,Alcohol,No,None,94,Senior,1,Low
+89,Male,Aspirin,GeneB,Heart Disease,Cholesterol,2,Aspirin,None,Yes,Cancer,97,Senior,0,Low
+40,Male,Amoxicillin,GeneE,Liver Disease,Cholesterol,1,Latex,Drugs,Yes,Cancer,74,Adult,0,Low
+26,Female,Amoxicillin,GeneA,Asthma,Fever,1,Latex,Alcohol,Yes,Cancer,41,Adult,0,Low
+61,Female,Omeprazole,GeneB,None,Cholesterol,2,Peanuts,Alcohol,No,Diabetes,156,Senior,0,High
+66,Male,Paracetamol,GeneA,None,Heart health,3,Latex,Alcohol,No,Heart Disease,164,Senior,0,Low
+57,Female,Paracetamol,GeneC,Hypertension,Heart health,3,None,Smoking,No,None,120,Adult,0,Low
+30,Female,Omeprazole,GeneD,COPD,Pain relief,1,Latex,Smoking,No,Heart Disease,5,Adult,0,Low
+84,Male,Aspirin,GeneE,Kidney Disease,Heart health,1,Peanuts,None,Yes,Heart Disease,125,Senior,0,Low
+18,Female,Atorvastatin,GeneC,Kidney Disease,Stomach issues,3,Aspirin,Alcohol,No,Cancer,52,Adult,0,High
+18,Female,Ibuprofen,GeneC,Kidney Disease,Cholesterol,4,Aspirin,Drugs,No,None,14,Adult,1,High
+64,Female,Metformin,GeneE,COPD,Heart health,2,Latex,Smoking,No,Heart Disease,56,Senior,0,Low
+20,Female,Omeprazole,GeneB,None,Fever,1,Penicillin,Drugs,No,Heart Disease,135,Adult,0,Low
+20,Female,Omeprazole,GeneA,Kidney Disease,Pain relief,1,Aspirin,Drugs,No,None,59,Adult,0,Low
+35,Female,Metformin,GeneB,None,Cholesterol,3,Latex,Smoking,No,Cancer,147,Adult,0,Low
+24,Female,Paracetamol,GeneA,Heart Disease,Pain relief,2,Peanuts,Smoking,No,Heart Disease,114,Adult,0,Low
+71,Female,Metformin,GeneB,Heart Disease,Cholesterol,3,Latex,Smoking,Yes,Diabetes,49,Senior,0,High
+51,Female,Atorvastatin,GeneA,Asthma,Fever,2,Aspirin,Smoking,No,Heart Disease,153,Adult,0,High
+35,Female,Amoxicillin,GeneD,COPD,Pain relief,2,Peanuts,Alcohol,No,Diabetes,87,Adult,0,Low
+74,Male,Paracetamol,GeneD,Heart Disease,Infection,2,Latex,Alcohol,No,Cancer,144,Senior,0,High
+54,Male,Omeprazole,GeneA,Cancer,Stomach issues,1,None,Alcohol,No,Heart Disease,68,Adult,0,Low
+89,Female,Paracetamol,GeneB,Hypertension,Stomach issues,4,Peanuts,Alcohol,Yes,None,77,Senior,1,Low
+71,Male,Aspirin,GeneD,Heart Disease,Cholesterol,3,None,None,Yes,None,105,Senior,0,High
+44,Male,Metformin,GeneA,COPD,Infection,4,Penicillin,Alcohol,Yes,Heart Disease,168,Adult,1,Low
+88,Female,Atorvastatin,GeneC,Hypertension,Pain relief,3,Peanuts,Smoking,Yes,Cancer,40,Senior,0,Low
+59,Female,Atorvastatin,GeneC,Asthma,Infection,2,None,Drugs,Yes,Cancer,52,Adult,0,Low
+72,Female,Omeprazole,GeneB,None,Infection,1,Aspirin,Alcohol,Yes,None,100,Senior,0,Low
+82,Female,Metformin,GeneB,COPD,Pain relief,4,Aspirin,None,No,Heart Disease,84,Senior,1,Low
+56,Male,Omeprazole,GeneD,Diabetes,Fever,1,Penicillin,Smoking,Yes,Cancer,32,Adult,0,Low
+29,Male,Metformin,GeneC,Kidney Disease,Infection,3,Peanuts,Drugs,Yes,None,81,Adult,0,Low
+83,Female,Paracetamol,GeneB,COPD,Infection,1,Peanuts,Drugs,No,Diabetes,93,Senior,0,High
+65,Female,Atorvastatin,GeneD,Cancer,Fever,1,Peanuts,Alcohol,Yes,Heart Disease,54,Senior,0,High
+22,Female,Atorvastatin,GeneD,Kidney Disease,Infection,4,Penicillin,Drugs,No,Diabetes,168,Adult,1,High
+43,Male,Metformin,GeneA,COPD,Infection,2,Peanuts,Alcohol,No,Diabetes,81,Adult,0,Low
+67,Female,Paracetamol,GeneB,Asthma,Infection,1,Aspirin,Alcohol,Yes,Cancer,32,Senior,0,High
+77,Male,Omeprazole,GeneD,Liver Disease,Stomach issues,2,None,Smoking,No,Cancer,108,Senior,0,Low
+60,Female,Ibuprofen,GeneE,Kidney Disease,Heart health,3,Aspirin,Smoking,Yes,Cancer,53,Senior,0,Low
+53,Female,Amoxicillin,GeneD,Asthma,Fever,1,Aspirin,None,Yes,Heart Disease,83,Adult,0,High
+86,Female,Aspirin,GeneE,Cancer,Infection,4,None,Smoking,No,Diabetes,135,Senior,1,Low
+69,Female,Amoxicillin,GeneC,Asthma,Stomach issues,3,Aspirin,Smoking,No,Heart Disease,31,Senior,0,High
+62,Female,Amoxicillin,GeneB,Cancer,Fever,3,Penicillin,Alcohol,Yes,Cancer,134,Senior,0,Low
+27,Female,Aspirin,GeneB,Kidney Disease,Cholesterol,4,None,Smoking,No,Diabetes,140,Adult,1,Low
+73,Male,Omeprazole,GeneC,Asthma,Cholesterol,1,Aspirin,Alcohol,No,Heart Disease,147,Senior,0,Low
+54,Female,Omeprazole,GeneE,Liver Disease,Infection,1,Latex,Alcohol,Yes,Heart Disease,76,Adult,0,Low
+80,Male,Aspirin,GeneE,Diabetes,Stomach issues,3,Aspirin,Smoking,Yes,None,19,Senior,0,High
+18,Female,Paracetamol,GeneE,Diabetes,Stomach issues,1,Penicillin,None,No,Heart Disease,86,Adult,0,Low
+80,Male,Omeprazole,GeneC,Kidney Disease,Fever,2,Peanuts,None,Yes,Cancer,71,Senior,0,Low
+45,Female,Ibuprofen,GeneD,COPD,Fever,4,Aspirin,Drugs,Yes,Heart Disease,36,Adult,1,Low
+49,Female,Aspirin,GeneD,Liver Disease,Stomach issues,2,Peanuts,Drugs,Yes,Diabetes,8,Adult,0,High
+32,Female,Omeprazole,GeneC,Kidney Disease,Fever,1,Latex,Smoking,Yes,Heart Disease,55,Adult,0,High
+52,Female,Paracetamol,GeneC,COPD,Stomach issues,3,Aspirin,None,Yes,None,128,Adult,0,High
+87,Male,Aspirin,GeneC,Cancer,Heart health,4,None,Alcohol,Yes,Diabetes,45,Senior,1,Low
+21,Male,Metformin,GeneE,COPD,Stomach issues,1,Peanuts,Drugs,Yes,Diabetes,117,Adult,0,Low
+25,Female,Omeprazole,GeneA,Hypertension,Cholesterol,1,Latex,Alcohol,No,None,113,Adult,0,Low
+65,Female,Omeprazole,GeneB,Diabetes,Fever,3,None,Drugs,Yes,Cancer,153,Senior,0,Low
+51,Female,Atorvastatin,GeneC,Cancer,Stomach issues,3,None,Smoking,No,Diabetes,82,Adult,0,Low
+79,Female,Aspirin,GeneE,None,Stomach issues,2,None,None,No,Cancer,97,Senior,0,Low
+64,Male,Aspirin,GeneA,Hypertension,Fever,4,None,Drugs,No,Diabetes,120,Senior,1,Low
+47,Male,Omeprazole,GeneD,Cancer,Heart health,4,Aspirin,None,Yes,Diabetes,146,Adult,1,Low
+69,Female,Ibuprofen,GeneE,Liver Disease,Heart health,3,Aspirin,Alcohol,Yes,Cancer,10,Senior,0,High
+32,Female,Amoxicillin,GeneD,Diabetes,Fever,2,Aspirin,Smoking,No,Diabetes,134,Adult,0,Low
+34,Female,Atorvastatin,GeneC,Hypertension,Pain relief,4,Latex,None,Yes,Cancer,106,Adult,1,Low
+63,Female,Paracetamol,GeneC,Kidney Disease,Fever,3,Latex,Smoking,No,None,134,Senior,0,High
+56,Male,Metformin,GeneD,Liver Disease,Fever,1,Latex,None,Yes,Cancer,27,Adult,0,High
+25,Female,Omeprazole,GeneE,Hypertension,Heart health,4,Penicillin,Alcohol,Yes,None,98,Adult,1,Low
+28,Male,Ibuprofen,GeneD,Cancer,Heart health,2,Latex,Alcohol,No,Diabetes,157,Adult,0,High
+52,Male,Omeprazole,GeneD,Diabetes,Fever,2,Aspirin,Smoking,No,Cancer,95,Adult,0,Low
+83,Male,Amoxicillin,GeneA,Asthma,Fever,2,Aspirin,Alcohol,No,Diabetes,162,Senior,0,High
+60,Female,Metformin,GeneB,Asthma,Fever,1,Penicillin,Drugs,Yes,Cancer,63,Senior,0,Low
+51,Male,Ibuprofen,GeneC,COPD,Heart health,4,Penicillin,None,No,None,124,Adult,1,High
+19,Male,Metformin,GeneD,Heart Disease,Fever,4,Latex,Alcohol,Yes,None,53,Adult,1,Low
+68,Female,Aspirin,GeneA,Heart Disease,Fever,1,Peanuts,Drugs,Yes,Cancer,149,Senior,0,Low
+32,Female,Omeprazole,GeneE,Diabetes,Infection,4,Penicillin,Smoking,Yes,None,23,Adult,1,Low
+31,Female,Amoxicillin,GeneB,Cancer,Pain relief,1,None,Drugs,No,Diabetes,7,Adult,0,Low
+83,Male,Metformin,GeneD,Heart Disease,Cholesterol,1,Aspirin,Smoking,No,Diabetes,94,Senior,0,High
+62,Female,Amoxicillin,GeneB,Kidney Disease,Pain relief,1,None,Smoking,No,Heart Disease,172,Senior,0,High
+73,Male,Metformin,GeneB,Hypertension,Infection,2,Aspirin,None,Yes,None,63,Senior,0,High
+29,Male,Amoxicillin,GeneB,Cancer,Cholesterol,4,Aspirin,None,Yes,Diabetes,24,Adult,1,Low
+20,Male,Aspirin,GeneA,Diabetes,Fever,1,Penicillin,Drugs,No,Cancer,151,Adult,0,Low
+76,Male,Ibuprofen,GeneB,COPD,Infection,4,Penicillin,None,Yes,None,72,Senior,1,Low
+87,Female,Amoxicillin,GeneC,Cancer,Fever,2,None,None,Yes,Diabetes,3,Senior,0,High
+74,Female,Omeprazole,GeneB,Liver Disease,Heart health,1,Aspirin,None,No,None,135,Senior,0,High
+64,Male,Amoxicillin,GeneA,Diabetes,Stomach issues,3,None,Drugs,No,Cancer,14,Senior,0,Low
+46,Female,Aspirin,GeneB,Cancer,Infection,2,Peanuts,Alcohol,No,Diabetes,92,Adult,0,Low
+41,Male,Paracetamol,GeneD,Liver Disease,Heart health,3,None,None,Yes,Heart Disease,48,Adult,0,High
+69,Male,Paracetamol,GeneC,Kidney Disease,Infection,4,Latex,None,Yes,Heart Disease,36,Senior,1,Low
+74,Female,Atorvastatin,GeneB,Hypertension,Infection,4,None,Drugs,Yes,None,179,Senior,1,Low
+53,Female,Omeprazole,GeneA,Kidney Disease,Heart health,2,Latex,Alcohol,Yes,Cancer,80,Adult,0,High
+30,Male,Paracetamol,GeneD,None,Cholesterol,4,Latex,None,Yes,Diabetes,47,Adult,1,Low
+73,Female,Metformin,GeneA,Hypertension,Pain relief,3,Latex,Smoking,No,Cancer,157,Senior,0,Low
+29,Female,Omeprazole,GeneE,Hypertension,Fever,1,Peanuts,Drugs,Yes,Diabetes,75,Adult,0,Low
+25,Female,Amoxicillin,GeneB,None,Infection,1,None,None,Yes,None,28,Adult,0,Low
+51,Female,Ibuprofen,GeneA,Heart Disease,Fever,1,None,None,Yes,Diabetes,49,Adult,0,High
+53,Female,Metformin,GeneB,Liver Disease,Stomach issues,2,Peanuts,Smoking,No,Cancer,123,Adult,0,High
+78,Male,Ibuprofen,GeneB,Liver Disease,Heart health,4,Aspirin,Smoking,No,Cancer,58,Senior,1,High
+18,Male,Amoxicillin,GeneA,None,Fever,3,Penicillin,Drugs,No,None,96,Adult,0,Low
+36,Male,Paracetamol,GeneB,Heart Disease,Heart health,4,None,Drugs,Yes,Cancer,109,Adult,1,High
+25,Female,Aspirin,GeneD,Kidney Disease,Fever,4,Penicillin,Smoking,No,Diabetes,65,Adult,1,Low
+38,Female,Aspirin,GeneE,Liver Disease,Pain relief,4,Peanuts,Drugs,No,None,50,Adult,1,High
+88,Male,Atorvastatin,GeneD,Kidney Disease,Pain relief,1,Aspirin,Smoking,No,Diabetes,63,Senior,0,High
+28,Male,Atorvastatin,GeneE,Hypertension,Pain relief,3,Aspirin,None,Yes,Cancer,83,Adult,0,Low
+70,Male,Atorvastatin,GeneD,COPD,Pain relief,3,Aspirin,Smoking,No,None,28,Senior,0,High
+61,Female,Atorvastatin,GeneC,Asthma,Pain relief,4,Peanuts,Smoking,Yes,Diabetes,38,Senior,1,Low
+54,Female,Paracetamol,GeneE,Heart Disease,Pain relief,1,Latex,Alcohol,Yes,Cancer,3,Adult,0,Low
+86,Male,Amoxicillin,GeneC,COPD,Heart health,1,Latex,Smoking,No,Cancer,10,Senior,0,High
+74,Male,Paracetamol,GeneE,Diabetes,Infection,3,Penicillin,Smoking,Yes,Heart Disease,115,Senior,0,High
+39,Male,Omeprazole,GeneA,Kidney Disease,Fever,1,Latex,Alcohol,No,Cancer,101,Adult,0,Low
+45,Female,Metformin,GeneA,Asthma,Pain relief,1,Latex,Drugs,Yes,Diabetes,49,Adult,0,Low
+37,Female,Omeprazole,GeneD,Hypertension,Heart health,1,Aspirin,Alcohol,No,None,129,Adult,0,High
+76,Male,Omeprazole,GeneD,Asthma,Heart health,2,Aspirin,None,No,Heart Disease,58,Senior,0,High
+67,Female,Omeprazole,GeneE,COPD,Heart health,4,Penicillin,Alcohol,No,Cancer,16,Senior,1,Low
+48,Female,Atorvastatin,GeneA,Hypertension,Infection,3,None,None,Yes,Cancer,30,Adult,0,High
+47,Male,Amoxicillin,GeneC,Hypertension,Fever,3,Penicillin,Drugs,No,Cancer,80,Adult,0,High
+60,Female,Metformin,GeneA,COPD,Infection,2,Penicillin,Alcohol,Yes,Diabetes,132,Senior,0,Low
+40,Female,Aspirin,GeneB,Cancer,Cholesterol,4,Peanuts,Alcohol,No,Heart Disease,111,Adult,1,Low
+89,Female,Atorvastatin,GeneD,COPD,Heart health,3,Peanuts,Drugs,Yes,Diabetes,156,Senior,0,Low
+74,Male,Metformin,GeneC,Diabetes,Cholesterol,1,Penicillin,None,Yes,Heart Disease,16,Senior,0,Low
+41,Female,Ibuprofen,GeneD,Cancer,Stomach issues,3,Penicillin,Alcohol,No,None,58,Adult,0,Low
+63,Male,Omeprazole,GeneE,Liver Disease,Pain relief,1,Penicillin,None,No,Diabetes,117,Senior,0,High
+89,Female,Omeprazole,GeneC,COPD,Pain relief,2,Latex,Alcohol,No,Diabetes,9,Senior,0,High
+50,Female,Ibuprofen,GeneE,Heart Disease,Infection,1,Peanuts,Smoking,No,None,5,Adult,0,High
+49,Female,Amoxicillin,GeneD,Cancer,Fever,3,Penicillin,Alcohol,No,Heart Disease,113,Adult,0,Low
+33,Male,Metformin,GeneD,Liver Disease,Cholesterol,3,Aspirin,Drugs,Yes,Cancer,153,Adult,0,High
+64,Male,Atorvastatin,GeneC,None,Fever,3,Aspirin,Drugs,No,None,109,Senior,0,Low
+39,Female,Metformin,GeneA,Diabetes,Infection,2,Latex,None,No,Cancer,20,Adult,0,Low
+40,Male,Omeprazole,GeneC,Cancer,Pain relief,2,Latex,Alcohol,Yes,Cancer,40,Adult,0,Low
+44,Male,Atorvastatin,GeneB,Liver Disease,Fever,4,None,None,No,None,117,Adult,1,High
+87,Female,Aspirin,GeneE,COPD,Fever,3,None,None,No,Heart Disease,17,Senior,0,High
+54,Female,Omeprazole,GeneB,Cancer,Pain relief,1,None,Smoking,Yes,Cancer,121,Adult,0,Low
+58,Female,Atorvastatin,GeneD,Cancer,Cholesterol,2,Latex,Smoking,No,None,30,Adult,0,Low
+72,Male,Atorvastatin,GeneD,COPD,Pain relief,3,Latex,Drugs,No,Diabetes,41,Senior,0,High
+60,Male,Ibuprofen,GeneE,Asthma,Fever,3,Latex,None,No,Diabetes,19,Senior,0,Low
+85,Female,Metformin,GeneE,Heart Disease,Cholesterol,2,Aspirin,Drugs,Yes,Diabetes,88,Senior,0,Low
+49,Female,Atorvastatin,GeneE,Kidney Disease,Cholesterol,4,Latex,Alcohol,No,None,128,Adult,1,High
+45,Male,Metformin,GeneC,Hypertension,Pain relief,2,Aspirin,None,Yes,Diabetes,46,Adult,0,Low
+42,Female,Aspirin,GeneE,Cancer,Fever,2,None,None,No,Cancer,27,Adult,0,High
+52,Male,Omeprazole,GeneB,COPD,Infection,1,None,Alcohol,Yes,Diabetes,147,Adult,0,Low
+36,Female,Paracetamol,GeneB,COPD,Fever,1,None,Alcohol,No,Diabetes,15,Adult,0,Low
+80,Male,Aspirin,GeneD,Liver Disease,Heart health,4,Penicillin,Drugs,Yes,Cancer,27,Senior,1,High
+45,Female,Metformin,GeneE,Kidney Disease,Stomach issues,3,Penicillin,Drugs,Yes,Diabetes,70,Adult,0,Low
+69,Female,Aspirin,GeneD,Diabetes,Infection,2,Peanuts,Alcohol,Yes,Cancer,140,Senior,0,High
+74,Female,Omeprazole,GeneB,None,Cholesterol,4,Peanuts,Drugs,Yes,Diabetes,69,Senior,1,Low
+34,Female,Metformin,GeneB,None,Infection,1,Peanuts,Alcohol,Yes,Cancer,111,Adult,0,Low
+47,Male,Omeprazole,GeneB,Kidney Disease,Cholesterol,2,Penicillin,None,Yes,Diabetes,148,Adult,0,Low
+62,Male,Metformin,GeneC,Diabetes,Cholesterol,3,Penicillin,None,No,Cancer,113,Senior,0,Low
+46,Female,Ibuprofen,GeneA,Hypertension,Infection,1,Peanuts,Smoking,No,None,113,Adult,0,Low
+58,Female,Atorvastatin,GeneB,Cancer,Cholesterol,1,Peanuts,None,Yes,Cancer,36,Adult,0,Low
+75,Female,Omeprazole,GeneB,Diabetes,Cholesterol,1,Latex,Alcohol,Yes,Diabetes,113,Senior,0,High
+75,Female,Ibuprofen,GeneE,Liver Disease,Heart health,4,Peanuts,Drugs,Yes,Diabetes,10,Senior,1,High
+87,Male,Atorvastatin,GeneA,Cancer,Fever,3,Latex,Smoking,Yes,Heart Disease,170,Senior,0,Low
+49,Male,Metformin,GeneC,Kidney Disease,Fever,2,Aspirin,Drugs,No,Cancer,115,Adult,0,High
+70,Female,Paracetamol,GeneE,Diabetes,Stomach issues,4,Penicillin,Alcohol,Yes,None,85,Senior,1,Low
+45,Female,Paracetamol,GeneA,None,Stomach issues,4,Peanuts,None,No,Cancer,44,Adult,1,Low
+35,Female,Aspirin,GeneB,Liver Disease,Heart health,4,Penicillin,Smoking,No,Cancer,171,Adult,1,Low
+77,Male,Amoxicillin,GeneB,Heart Disease,Stomach issues,1,Penicillin,Alcohol,Yes,None,103,Senior,0,Low
+19,Male,Metformin,GeneA,Asthma,Infection,3,Penicillin,Smoking,Yes,Cancer,8,Adult,0,Low
+82,Female,Omeprazole,GeneB,COPD,Pain relief,4,Aspirin,Smoking,No,None,28,Senior,1,High
+89,Male,Metformin,GeneC,COPD,Pain relief,2,None,None,No,None,66,Senior,0,Low
+23,Female,Metformin,GeneA,Asthma,Pain relief,3,Peanuts,Alcohol,Yes,Cancer,61,Adult,0,Low
+77,Female,Ibuprofen,GeneA,Cancer,Heart health,2,None,Drugs,Yes,Cancer,111,Senior,0,Low
+60,Male,Ibuprofen,GeneE,None,Heart health,3,None,Smoking,Yes,Diabetes,123,Senior,0,Low
+73,Female,Omeprazole,GeneA,Kidney Disease,Cholesterol,2,None,Smoking,No,Diabetes,35,Senior,0,High
+65,Female,Paracetamol,GeneE,Diabetes,Pain relief,1,Penicillin,Drugs,No,Heart Disease,152,Senior,0,Low
+30,Male,Metformin,GeneE,Hypertension,Infection,4,Latex,Alcohol,Yes,Heart Disease,23,Adult,1,Low
+20,Male,Ibuprofen,GeneD,Hypertension,Stomach issues,2,Penicillin,Smoking,No,Cancer,72,Adult,0,High
+59,Male,Atorvastatin,GeneC,Cancer,Infection,3,Penicillin,Smoking,No,None,114,Adult,0,Low
+61,Male,Ibuprofen,GeneA,Kidney Disease,Stomach issues,4,None,Smoking,Yes,Heart Disease,6,Senior,1,High
+62,Male,Atorvastatin,GeneD,Diabetes,Pain relief,4,Penicillin,Alcohol,Yes,Cancer,96,Senior,1,Low
+45,Female,Omeprazole,GeneB,COPD,Pain relief,3,None,Alcohol,No,Heart Disease,77,Adult,0,Low
+74,Female,Ibuprofen,GeneA,Hypertension,Pain relief,2,Latex,Drugs,No,None,64,Senior,0,Low
+52,Female,Aspirin,GeneC,Liver Disease,Heart health,1,Peanuts,Alcohol,Yes,Cancer,96,Adult,0,High
+58,Female,Ibuprofen,GeneB,Kidney Disease,Stomach issues,1,None,Alcohol,Yes,None,97,Adult,0,Low
+58,Male,Paracetamol,GeneA,None,Heart health,2,Latex,None,Yes,Cancer,154,Adult,0,Low
+47,Male,Amoxicillin,GeneE,Asthma,Heart health,4,Peanuts,Drugs,Yes,Heart Disease,57,Adult,1,Low
+38,Female,Atorvastatin,GeneB,Cancer,Fever,4,Aspirin,Smoking,Yes,Diabetes,139,Adult,1,Low
+41,Male,Omeprazole,GeneA,Diabetes,Infection,4,None,Alcohol,No,Heart Disease,133,Adult,1,Low
+72,Male,Aspirin,GeneD,Liver Disease,Infection,4,None,Smoking,No,Heart Disease,33,Senior,1,Low
+66,Female,Ibuprofen,GeneE,Cancer,Cholesterol,2,Aspirin,Smoking,No,Diabetes,42,Senior,0,High
+88,Male,Atorvastatin,GeneB,COPD,Heart health,4,Aspirin,None,No,Diabetes,38,Senior,1,Low
+73,Male,Atorvastatin,GeneD,None,Stomach issues,3,None,Alcohol,Yes,Cancer,154,Senior,0,Low
+27,Female,Amoxicillin,GeneC,Cancer,Fever,4,Aspirin,Drugs,Yes,Cancer,8,Adult,1,High
+46,Female,Aspirin,GeneB,Hypertension,Fever,1,Penicillin,Alcohol,Yes,None,68,Adult,0,Low
+70,Male,Aspirin,GeneC,Cancer,Infection,4,Peanuts,Smoking,No,None,77,Senior,1,High
+69,Male,Ibuprofen,GeneD,Asthma,Heart health,2,Peanuts,Drugs,No,Heart Disease,6,Senior,0,High
+74,Female,Metformin,GeneC,Diabetes,Cholesterol,1,Peanuts,Alcohol,No,Diabetes,81,Senior,0,Low
+72,Female,Aspirin,GeneA,Kidney Disease,Heart health,2,Penicillin,Smoking,Yes,None,136,Senior,0,High
+30,Female,Aspirin,GeneD,Cancer,Pain relief,2,Aspirin,Smoking,No,Heart Disease,120,Adult,0,High
+45,Female,Paracetamol,GeneE,Heart Disease,Heart health,1,Latex,None,Yes,Diabetes,115,Adult,0,High
+54,Male,Omeprazole,GeneD,Asthma,Pain relief,2,Aspirin,None,Yes,Cancer,96,Adult,0,Low
+75,Female,Amoxicillin,GeneC,Heart Disease,Pain relief,2,None,None,Yes,Heart Disease,64,Senior,0,High
+36,Male,Omeprazole,GeneE,Hypertension,Cholesterol,4,Peanuts,Smoking,Yes,Cancer,81,Adult,1,Low
+21,Male,Amoxicillin,GeneC,Diabetes,Stomach issues,3,Aspirin,Alcohol,Yes,None,138,Adult,0,Low
+45,Male,Omeprazole,GeneB,Diabetes,Infection,2,Latex,None,Yes,None,28,Adult,0,Low
+22,Female,Metformin,GeneE,Liver Disease,Heart health,2,None,Alcohol,No,Diabetes,175,Adult,0,Low
+50,Female,Paracetamol,GeneE,Cancer,Pain relief,2,Penicillin,None,Yes,Heart Disease,46,Adult,0,Low
+21,Female,Omeprazole,GeneB,COPD,Heart health,4,Penicillin,Drugs,Yes,Cancer,135,Adult,1,Low
+28,Male,Amoxicillin,GeneE,None,Stomach issues,3,Latex,Drugs,No,Diabetes,72,Adult,0,Low
+89,Male,Amoxicillin,GeneD,None,Infection,1,None,None,Yes,None,156,Senior,0,Low
+60,Female,Omeprazole,GeneA,Hypertension,Stomach issues,4,Peanuts,Smoking,No,None,120,Senior,1,Low
+62,Female,Ibuprofen,GeneB,Kidney Disease,Infection,4,Aspirin,None,No,Heart Disease,70,Senior,1,Low
+52,Female,Omeprazole,GeneD,COPD,Fever,3,None,None,No,Cancer,21,Adult,0,Low
+43,Female,Ibuprofen,GeneB,Heart Disease,Infection,3,Penicillin,Smoking,Yes,Heart Disease,22,Adult,0,Low
+57,Male,Atorvastatin,GeneD,Hypertension,Cholesterol,4,Latex,Drugs,Yes,Cancer,115,Adult,1,High
+48,Male,Ibuprofen,GeneB,Liver Disease,Stomach issues,1,Latex,Alcohol,No,Cancer,142,Adult,0,Low
+63,Male,Amoxicillin,GeneC,None,Pain relief,4,Aspirin,None,Yes,Heart Disease,49,Senior,1,Low
+50,Male,Metformin,GeneD,Asthma,Fever,3,Latex,Smoking,Yes,Diabetes,3,Adult,0,High
+72,Male,Amoxicillin,GeneD,Hypertension,Cholesterol,1,Latex,None,No,Heart Disease,92,Senior,0,Low
+47,Female,Paracetamol,GeneB,Cancer,Heart health,3,None,Smoking,No,Heart Disease,144,Adult,0,Low
+60,Female,Ibuprofen,GeneE,Diabetes,Stomach issues,1,Peanuts,Alcohol,Yes,None,66,Senior,0,Low
+69,Male,Paracetamol,GeneD,Kidney Disease,Pain relief,2,Aspirin,Alcohol,No,None,40,Senior,0,High
+50,Female,Amoxicillin,GeneA,Heart Disease,Infection,3,None,Drugs,No,Heart Disease,39,Adult,0,Low
+48,Female,Aspirin,GeneC,Diabetes,Pain relief,3,Peanuts,Smoking,No,Heart Disease,128,Adult,0,Low
+42,Female,Aspirin,GeneD,Cancer,Heart health,4,None,Smoking,Yes,None,141,Adult,1,High
+79,Female,Omeprazole,GeneD,Diabetes,Fever,3,None,Drugs,Yes,Cancer,102,Senior,0,High
+64,Female,Amoxicillin,GeneE,COPD,Fever,3,Latex,Drugs,Yes,Heart Disease,79,Senior,0,High
+37,Male,Aspirin,GeneB,Diabetes,Stomach issues,2,Peanuts,Smoking,No,Diabetes,5,Adult,0,Low
+44,Male,Ibuprofen,GeneC,Hypertension,Fever,3,Aspirin,Drugs,Yes,Diabetes,163,Adult,0,Low
+37,Male,Metformin,GeneB,Diabetes,Stomach issues,2,Aspirin,Alcohol,No,Diabetes,136,Adult,0,Low
+27,Female,Omeprazole,GeneB,Hypertension,Stomach issues,2,Peanuts,None,Yes,Heart Disease,12,Adult,0,Low
+33,Female,Omeprazole,GeneE,Hypertension,Stomach issues,2,Latex,Alcohol,Yes,Cancer,7,Adult,0,Low
+24,Male,Aspirin,GeneB,None,Infection,2,Penicillin,Drugs,No,Cancer,153,Adult,0,Low
+72,Male,Aspirin,GeneE,Cancer,Cholesterol,1,None,Smoking,Yes,None,140,Senior,0,High
+68,Male,Amoxicillin,GeneD,COPD,Stomach issues,4,Latex,Smoking,No,Heart Disease,174,Senior,1,Low
+67,Female,Omeprazole,GeneE,Heart Disease,Stomach issues,1,Peanuts,Alcohol,Yes,Cancer,132,Senior,0,High
+51,Male,Aspirin,GeneB,Heart Disease,Cholesterol,3,None,Smoking,Yes,Heart Disease,15,Adult,0,Low
+32,Male,Paracetamol,GeneD,Liver Disease,Pain relief,1,Aspirin,Drugs,No,None,170,Adult,0,Low
+28,Male,Aspirin,GeneD,Liver Disease,Stomach issues,1,Penicillin,Alcohol,No,None,132,Adult,0,Low
+73,Female,Paracetamol,GeneC,COPD,Infection,3,Aspirin,Smoking,No,None,86,Senior,0,High
+48,Female,Metformin,GeneA,None,Fever,3,Peanuts,None,Yes,Diabetes,67,Adult,0,Low
+34,Female,Ibuprofen,GeneB,Kidney Disease,Fever,3,None,None,Yes,Heart Disease,65,Adult,0,Low
+33,Female,Ibuprofen,GeneA,COPD,Heart health,1,Peanuts,Drugs,Yes,None,103,Adult,0,Low
+73,Female,Aspirin,GeneA,Kidney Disease,Heart health,1,None,Smoking,No,Heart Disease,75,Senior,0,Low
+71,Female,Omeprazole,GeneB,Diabetes,Fever,3,Latex,Drugs,No,Diabetes,19,Senior,0,Low
+51,Female,Metformin,GeneA,Diabetes,Fever,4,Penicillin,Alcohol,No,Diabetes,11,Adult,1,Low
+43,Male,Omeprazole,GeneA,Asthma,Infection,4,Latex,None,Yes,None,145,Adult,1,Low
+50,Female,Omeprazole,GeneC,Diabetes,Cholesterol,2,Latex,Alcohol,Yes,None,154,Adult,0,High
+61,Male,Amoxicillin,GeneE,Liver Disease,Heart health,3,Peanuts,Smoking,No,Cancer,40,Senior,0,Low
+75,Male,Atorvastatin,GeneC,Cancer,Cholesterol,2,Penicillin,Drugs,Yes,Heart Disease,165,Senior,0,High
+46,Male,Ibuprofen,GeneA,Asthma,Infection,4,None,Drugs,No,None,96,Adult,1,Low
+33,Female,Atorvastatin,GeneE,Kidney Disease,Fever,2,None,Drugs,Yes,Cancer,97,Adult,0,High
+61,Male,Metformin,GeneC,Liver Disease,Stomach issues,3,Aspirin,Alcohol,Yes,Heart Disease,51,Senior,0,Low
+50,Male,Atorvastatin,GeneB,Heart Disease,Cholesterol,3,None,None,No,None,71,Adult,0,Low
+73,Female,Metformin,GeneB,Liver Disease,Fever,3,Peanuts,Alcohol,Yes,Cancer,64,Senior,0,High
+37,Male,Paracetamol,GeneC,Liver Disease,Fever,1,Latex,Alcohol,Yes,Cancer,80,Adult,0,Low
+73,Male,Metformin,GeneA,Hypertension,Pain relief,2,Latex,Smoking,No,Heart Disease,119,Senior,0,High
+33,Male,Amoxicillin,GeneA,Diabetes,Cholesterol,4,Latex,Smoking,No,Cancer,122,Adult,1,Low
+42,Female,Aspirin,GeneC,Cancer,Stomach issues,4,Penicillin,Smoking,Yes,Heart Disease,139,Adult,1,High
+36,Male,Aspirin,GeneA,Hypertension,Cholesterol,4,None,None,No,Heart Disease,164,Adult,1,Low
+78,Female,Metformin,GeneC,Heart Disease,Fever,1,Peanuts,None,Yes,Heart Disease,78,Senior,0,High
+65,Male,Metformin,GeneC,Asthma,Stomach issues,1,Penicillin,Smoking,No,Diabetes,37,Senior,0,Low
+63,Male,Atorvastatin,GeneB,Kidney Disease,Infection,3,Aspirin,Smoking,Yes,Cancer,3,Senior,0,Low
+33,Female,Atorvastatin,GeneC,Liver Disease,Pain relief,4,Peanuts,None,Yes,Heart Disease,42,Adult,1,High
+38,Male,Omeprazole,GeneB,COPD,Fever,1,Peanuts,Drugs,No,None,66,Adult,0,Low
+26,Male,Omeprazole,GeneC,Cancer,Heart health,3,Peanuts,None,Yes,Diabetes,152,Adult,0,Low
+81,Male,Aspirin,GeneA,Kidney Disease,Heart health,4,Latex,None,Yes,Diabetes,62,Senior,1,High
+58,Male,Aspirin,GeneC,Hypertension,Pain relief,2,Peanuts,None,No,Cancer,66,Adult,0,Low
+75,Male,Paracetamol,GeneE,Heart Disease,Infection,3,None,Smoking,No,Heart Disease,95,Senior,0,Low
+26,Male,Ibuprofen,GeneB,Heart Disease,Fever,1,Peanuts,Drugs,Yes,Cancer,74,Adult,0,Low
+63,Female,Ibuprofen,GeneD,None,Cholesterol,1,Latex,None,No,Diabetes,13,Senior,0,High
+72,Female,Metformin,GeneE,None,Pain relief,3,Peanuts,Smoking,No,Heart Disease,107,Senior,0,High
+38,Male,Ibuprofen,GeneB,Hypertension,Infection,3,Aspirin,Alcohol,Yes,None,16,Adult,0,Low
+77,Female,Ibuprofen,GeneE,Cancer,Cholesterol,1,Aspirin,Alcohol,Yes,Heart Disease,62,Senior,0,Low
+84,Female,Metformin,GeneD,Diabetes,Heart health,2,Latex,None,No,Diabetes,32,Senior,0,High
+34,Male,Aspirin,GeneD,None,Heart health,4,None,Alcohol,No,None,37,Adult,1,Low
+69,Male,Ibuprofen,GeneB,Diabetes,Cholesterol,2,None,Drugs,No,Heart Disease,167,Senior,0,Low
+83,Female,Omeprazole,GeneA,Kidney Disease,Pain relief,3,Penicillin,Alcohol,Yes,None,7,Senior,0,Low
+87,Female,Paracetamol,GeneB,Heart Disease,Heart health,2,Latex,Alcohol,Yes,None,85,Senior,0,High
+22,Male,Omeprazole,GeneA,Asthma,Fever,1,Peanuts,Drugs,Yes,Diabetes,125,Adult,0,Low
+50,Male,Paracetamol,GeneB,Diabetes,Stomach issues,3,Latex,None,Yes,None,80,Adult,0,Low
+85,Male,Amoxicillin,GeneE,Liver Disease,Cholesterol,4,Penicillin,None,Yes,Cancer,156,Senior,1,Low
