@@ -73,6 +73,3 @@ You’ll get a form to:
 - Connect to a live EHR system via API
 - Replace Streamlit with Gradio or Flask
 
-## 👩‍⚕️ Disclaimer
-
-This is a simulated research project and **not intended for real medical decision-making**.
